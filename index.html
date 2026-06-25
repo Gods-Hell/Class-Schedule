@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IIM Trichy — Term IV Schedule</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ct:#1a1a1a;--cs:#6b7280;--cb:#f9fafb;--cp:#ffffff;
+  --bd:rgba(0,0,0,0.1);--bs:rgba(0,0,0,0.18);--bp:rgba(0,0,0,0.28);
+  --rm:8px;--rl:12px;
+  --font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+}
+@media(prefers-color-scheme:dark){:root{
+  --ct:#f0f0f0;--cs:#9ca3af;--cb:#2c2c2e;--cp:#1c1c1e;
+  --bd:rgba(255,255,255,0.1);--bs:rgba(255,255,255,0.18);--bp:rgba(255,255,255,0.28);
+}}
+body{font-family:var(--font);color:var(--ct);background:var(--cp);padding:1.5rem;max-width:1200px;margin:0 auto}
+.screen{display:none}.screen.active{display:block}
+
+/* SETUP */
+.sh1{font-size:20px;font-weight:500;margin-bottom:4px}
+.sh2{font-size:12px;color:var(--cs);margin-bottom:1.5rem}
+.slbl{font-size:10px;font-weight:500;color:var(--cs);letter-spacing:.07em;text-transform:uppercase;margin-bottom:8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:1.5rem}
+.chip{display:inline-flex;align-items:center;gap:5px;padding:5px 12px;border-radius:999px;border:0.5px solid var(--bs);font-size:12px;cursor:pointer;background:var(--cp);color:var(--cs);transition:background .12s,border-color .12s,color .12s;user-select:none;white-space:nowrap}
+.chip:hover{background:var(--cb);border-color:var(--bp)}
+.chip.on{background:#EEEDFE;border-color:#AFA9EC;color:#3C3489}
+.chip .dot{width:6px;height:6px;border-radius:50%;background:currentColor;opacity:.45;display:inline-block;flex-shrink:0}
+.chip.on .dot{opacity:1}
+.chip select{border:none;background:transparent;font-size:11px;color:inherit;cursor:pointer;outline:none;padding:0;margin-left:2px}
+.sf{display:flex;align-items:center;gap:10px;padding-top:1rem;border-top:0.5px solid var(--bd)}
+.btn-p{display:inline-flex;align-items:center;gap:6px;padding:7px 18px;border-radius:var(--rm);border:none;font-size:13px;cursor:pointer;background:#534AB7;color:#fff;font-weight:500;transition:opacity .12s}
+.btn-p:hover{opacity:.88}.btn-p:disabled{opacity:.4;cursor:not-allowed}
+.scnt{font-size:12px;color:var(--cs)}
+
+/* MAIN */
+.top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:1.25rem;gap:1rem;flex-wrap:wrap}
+.top-l .eyebrow{font-size:10px;font-weight:500;color:var(--cs);letter-spacing:.05em;text-transform:uppercase;margin-bottom:3px}
+.top-l .title{font-size:18px;font-weight:500}
+.stats{display:flex;gap:8px}
+.stat{background:var(--cb);border-radius:var(--rm);padding:8px 14px;text-align:center}
+.stat-n{font-size:18px;font-weight:500;line-height:1}
+.stat-l{font-size:10px;color:var(--cs);margin-top:2px;white-space:nowrap}
+.sbar{display:flex;align-items:center;gap:8px;background:var(--cb);border-radius:var(--rm);padding:7px 12px;border:0.5px solid var(--bd);cursor:pointer;margin-bottom:10px;transition:border-color .12s}
+.sbar:hover{border-color:var(--bs)}
+.sbar-txt{font-size:12px;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sbar-edit{font-size:11px;color:#534AB7;white-space:nowrap;display:flex;align-items:center;gap:3px;flex-shrink:0}
+.toolbar{display:flex;align-items:center;gap:6px;margin-bottom:1rem;flex-wrap:wrap}
+.wc{padding:4px 11px;border-radius:var(--rm);border:0.5px solid var(--bs);font-size:11px;cursor:pointer;background:var(--cp);color:var(--cs);transition:all .12s}
+.wc:hover{background:var(--cb)}.wc.on{background:#EEEDFE;border-color:#AFA9EC;color:#3C3489;font-weight:500}
+.upbtn{margin-left:auto;display:inline-flex;align-items:center;gap:6px;padding:5px 13px;border-radius:var(--rm);border:0.5px solid var(--bs);font-size:12px;cursor:pointer;background:var(--cp);color:var(--cs);transition:all .12s}
+.upbtn:hover{background:var(--cb)}
+
+/* TABLE */
+.tw{overflow-x:auto;border-radius:var(--rl);border:0.5px solid var(--bd)}
+table{width:100%;border-collapse:collapse;font-size:12px;min-width:680px;table-layout:fixed}
+colgroup col:first-child{width:100px}colgroup col:nth-child(2){width:36px}
+thead tr{background:var(--cb)}
+th{padding:8px 6px;font-size:10px;font-weight:500;color:var(--cs);text-align:center;border-bottom:0.5px solid var(--bd);white-space:nowrap;letter-spacing:.03em}
+th:first-child{text-align:left;padding-left:12px}
+tbody tr{border-bottom:0.5px solid var(--bd)}
+tbody tr:last-child{border-bottom:none}
+tbody tr:hover td{background:var(--cb)}
+td{padding:5px;vertical-align:top}
+td.dc{padding:5px 12px;white-space:nowrap;font-size:11px;font-weight:500}
+td.dy{font-size:10px;color:var(--cs);text-align:center;padding:5px 3px;font-weight:500}
+tr.tr-today{background:#EEEDFE!important}
+tr.tr-today td.dc{color:#3C3489}
+tr.tr-today:hover td{background:#CECBF6}
+.pill{display:block;border-radius:5px;padding:3px 6px;margin:2px 0;font-size:11px;line-height:1.3;word-break:break-word}
+.cls{background:#E6F1FB;color:#0C447C}
+.cls.my{border:1.5px solid #534AB7;background:#EEEDFE;color:#3C3489}
+.exam{background:#FCEBEB;color:#791F1F}
+.hol{background:#FAEEDA;color:#633806}
+.gs{background:#F1EFE8;color:#444441}
+.ev{background:#EAF3DE;color:#27500A}
+.ps{font-weight:500;display:block}.pr{font-size:10px;opacity:.7}
+.em{color:var(--bd);font-size:11px;text-align:center;display:block;padding:5px 0}
+.remark-cell{font-size:10px;color:var(--cs);padding:5px 6px;vertical-align:top;width:140px;min-width:100px;word-break:break-word;font-style:italic;line-height:1.4} .remark-cell ol{list-style-type:decimal} .remark-cell li{margin-bottom:2px}
+
+/* MODAL */
+.mbg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:100;align-items:center;justify-content:center}
+.mbg.open{display:flex}
+.modal{background:var(--cp);border-radius:var(--rl);border:0.5px solid var(--bs);padding:1.5rem;width:400px;max-width:92vw}
+.modal h2{font-size:15px;font-weight:500;margin-bottom:6px}
+.modal .mdesc{font-size:12px;color:var(--cs);margin-bottom:1.25rem;line-height:1.5}
+.dz{border:1.5px dashed var(--bs);border-radius:var(--rm);padding:2rem 1rem;text-align:center;cursor:pointer;transition:border-color .12s;margin-bottom:1rem}
+.dz:hover,.dz.over{border-color:#534AB7}
+.dz i{font-size:26px;color:var(--cs);display:block;margin-bottom:8px}
+.dz p{font-size:12px;color:var(--cs);margin:0}
+.dz .hint{font-size:11px;opacity:.55;margin-top:5px}
+.mf{display:flex;gap:8px;justify-content:flex-end}
+.btn-c{padding:6px 14px;border-radius:var(--rm);border:0.5px solid var(--bs);font-size:12px;cursor:pointer;background:var(--cp);color:var(--cs)}
+.ust{font-size:12px;margin-bottom:1rem;padding:8px 12px;border-radius:var(--rm);display:none}
+.ust.ok{display:block;background:#E1F5EE;color:#085041;border:0.5px solid #5DCAA5}
+.ust.err{display:block;background:#FCEBEB;color:#791F1F;border:0.5px solid #F09595}
+#fi{display:none}
+</style>
+</head>
+<body>
+
+<!-- SETUP SCREEN -->
+<div class="screen active" id="sSetup">
+  <p class="sh1">Set up your schedule</p>
+  <p class="sh2">Select the subjects you attend and pick your group for each one</p>
+  <div class="slbl">Your subjects</div>
+  <div class="chips" id="setupChips"></div>
+  <div class="sf">
+    <button class="btn-p" id="setupBtn" disabled onclick="goMain()">
+      <i class="ti ti-check" aria-hidden="true" style="font-size:14px"></i> View my timetable
+    </button>
+    <span class="scnt" id="scnt">Select at least one subject</span>
+  </div>
+</div>
+
+<!-- MAIN SCREEN -->
+<div class="screen" id="sMain">
+  <div class="top">
+    <div class="top-l">
+      <div class="eyebrow">IIM Trichy &middot; PGPM 2025&ndash;27 &middot; Term IV</div>
+      <div class="title">My schedule</div>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="stat-n" id="sSes">0</div><div class="stat-l">sessions</div></div>
+      <div class="stat"><div class="stat-n" id="sWks">–</div><div class="stat-l">weeks left</div></div>
+    </div>
+  </div>
+
+  <div class="sbar" onclick="goSetup()" title="Edit subjects">
+    <span class="sbar-txt" id="sbarTxt">–</span>
+    <span class="sbar-edit"><i class="ti ti-edit" aria-hidden="true" style="font-size:12px"></i> Edit</span>
+  </div>
+
+  <div class="toolbar" id="toolbar"></div>
+
+  <div class="tw">
+    <table>
+      <colgroup><col><col><col style="width:140px"><col><col><col><col><col><col><col></colgroup>
+      <thead>
+        <tr>
+          <th style="text-align:left">Date</th><th>Day</th><th>Remarks</th>
+          <th>9:00&ndash;10:30</th><th>10:45&ndash;12:15</th><th>2:15&ndash;3:45</th>
+          <th>4:00&ndash;5:30</th><th>6:00&ndash;7:30</th><th>7:45&ndash;9:15</th><th>9:45&ndash;11:15</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- UPLOAD MODAL -->
+<div class="mbg" id="modal">
+  <div class="modal">
+    <h2>Update timetable</h2>
+    <p class="mdesc">Download the updated schedule from the college portal as a complete HTML file (File → Download → Web page), then upload it here. Your subject selections stay saved.</p>
+    <div class="ust" id="ust"></div>
+    <div class="dz" id="dz"
+      onclick="document.getElementById('fi').click()"
+      ondragover="event.preventDefault();this.classList.add('over')"
+      ondragleave="this.classList.remove('over')"
+      ondrop="onDrop(event)">
+      <i class="ti ti-file-upload" aria-hidden="true"></i>
+      <p>Click to choose or drag &amp; drop</p>
+      <div class="hint">sheet.html — the complete HTML export</div>
+    </div>
+    <input type="file" id="fi" accept=".html,.htm" onchange="onFile(this.files[0])">
+    <div class="mf">
+      <button class="btn-c" onclick="closeModal()">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const STORE='iimt_v4';
+let sel={},activeWk='all',parsed=null,allSubs=null;
+
+const RAW=[
+["Mon / 08-Jun-2026", "-", "Registration", "Registration", "DVM Gr.1 [VCT] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "-", "-", "-"],
+["Mon / 08-Jun-2026", "-", "Registration", "Registration", "DM Gr.1 [SMS] {CR-015}", "DM Gr.2 [SMS] {CR-015}", "DM Gr.3 [SMS] {CR-015}", "-", "-"],
+["Mon / 08-Jun-2026", "-", "Registration", "Registration", "PRM Gr.1 [MMS&AP] {CR-017}", "PRM Gr.2 [MMS&AP] {CR-017}", "-", "-", "-"],
+["Mon / 08-Jun-2026", "-", "Registration", "Registration", "MDT Gr.1 [AVP&ST,VF] {CR-115}", "MDT Gr.2 [AVP&ST,VF] {CR-115}", "-", "-", "-"],
+["Tue / 09-Jun-2026", "-", "DAM Gr.1 [GMS] {CR-001}", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-001}", "BADM Gr.1 [JBS&VCT] {CR-014}", "BADM Gr.2 [JBS&VCT] {CR-014}", "-", "-"],
+["Tue / 09-Jun-2026", "-", "PPBM Gr.1 [SPA] {CR-115}", "PPBM Gr.2 [SPA] {CR-115}", "NEME [SPC] {CR-114}", "CB Gr.1 [HSK] {CR-015}", "CB Gr.2 [HSK] {CR-015}", "PPBM Gr.3 [SPA] {CR-115}", "-"],
+["Tue / 09-Jun-2026", "-", "IAPM Gr.1 [PSN] {CR-017}", "IAPM Gr.2 [PSN] {CR-017}", "IAPM Gr.3 [PSN] {CR-017}", "-", "-", "-", "-"],
+["Tue / 09-Jun-2026", "-", "LDSC Gr.1 [GT] {CR-013}", "LDSC Gr.2 [GT] {CR-013}", "FIS [KS] {CR-015}", "-", "-", "-", "-"],
+["Wed / 10-Jun-2026", "-", "FSA Gr.2 [VG] {CR-014}", "FSA Gr.1 [VG] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "DVM Gr.1 [VCT] {CR-014}", "FSA Gr.3 [VG] {CR-014}", "-", "-"],
+["Wed / 10-Jun-2026", "-", "MS Gr.2 [MN] {CR-015}", "MS Gr.1 [MN] {CR-015}", "DM Gr.2 [SMS] {CR-015}", "DM Gr.1 [SMS] {CR-015}", "DM Gr.3 [SMS] {CR-015}", "-", "-"],
+["Wed / 10-Jun-2026", "-", "-", "-", "PRM Gr.2 [MMS&AP] {CR-017}", "PRM Gr.1 [MMS&AP] {CR-017}", "-", "-", "-"],
+["Wed / 10-Jun-2026", "-", "DFES Gr.2 [KD] {CR-115}", "DFES Gr.1 [KD] {CR-115}", "MDT Gr.2 [AVP&ST,VF] {CR-115}", "MDT Gr.1 [AVP&ST,VF] {CR-115}", "-", "-", "-"],
+["Thu / 11-Jun-2026", "-", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.1 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-001}", "BADM Gr.2 [JBS&VCT] {CR-014}", "BADM Gr.1 [JBS&VCT] {CR-014}", "-", "-"],
+["Thu / 11-Jun-2026", "-", "PPBM Gr.2 [SPA] {CR-115}", "PPBM Gr.1 [SPA] {CR-115}", "NEME [SPC] {CR-114}", "CB Gr.2 [HSK] {CR-015}", "CB Gr.1 [HSK] {CR-015}", "-", "-"],
+["Thu / 11-Jun-2026", "DG Venue-CR-002", "IAPM Gr.2 [PSN] {CR-017}", "IAPM Gr.1 [PSN] {CR-017}", "IAPM Gr.3 [PSN] {CR-017}", "-", "DG Gr.1 [KSM] {CR-017}", "DG Gr.1 [KSM] {CR-017}", "-"],
+["Thu / 11-Jun-2026", "-", "LDSC Gr.2 [GT] {CR-013}", "LDSC Gr.1 [GT] {CR-013}", "FIS [KS] {CR-015}", "-", "-", "-", "-"],
+["Fri / 12-Jun-2026", "DG Venue-CR-002", "DG Gr.2 [KSM] {CR-017}", "DG Gr.2 [KSM] {CR-017}", "-", "-", "-", "PPBM Gr.3 [SPA] {CR-115}", "-"],
+["Fri / 12-Jun-2026", "-", "-", "-", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Fri / 12-Jun-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Fri / 12-Jun-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Sat / 13-Jun-2026", "-", "-", "-", "DPM Gr.2 [RP&ASI,VF] {CR-014}", "DPM Gr.1 [RP&ASI,VF] {CR-014}", "DPM Gr.3 [RP&ASI,VF] {CR-014}", "-", "-"],
+["Sat / 13-Jun-2026", "-", "-", "-", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Sat / 13-Jun-2026", "-", "MFS Gr.2 [BLR,VF] {CR-017}", "MFS Gr.1 [BLR,VF] {CR-017}", "-", "-", "MFS Gr.1 [BLR,VF] {CR-017}", "MFS Gr.2 [BLR,VF] {CR-017}", "-"],
+["Sat / 13-Jun-2026", "-", "-", "-", "-", "-", "CPN [AD,VF] {CR-115}", "CPN [AD,VF] {CR-115}", "-"],
+["Sun / 14-Jun-2026", "NGS Venue CR-002", "-", "-", "DPM Gr.1 [RP&ASI,VF] {CR-014}", "DPM Gr.2 [RP&ASI,VF] {CR-014}", "DPM Gr.3 [RP&ASI,VF] {CR-014}", "-", "-"],
+["Sun / 14-Jun-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Sun / 14-Jun-2026", "-", "MFS Gr.2 [BLR,VF] {CR-017}", "MFS Gr.1 [BLR,VF] {CR-017}", "NGS Gr.1 [SP, MG,VF] {CR-017}", "NGS Gr.2 [SP, MG,VF] {CR-017}", "MFS Gr.1 [BLR,VF] {CR-017}", "MFS Gr.2 [BLR,VF] {CR-017}", "-"],
+["Sun / 14-Jun-2026", "-", "CPN [AD,VF] {CR-115}", "CPN [AD,VF] {CR-115}", "-", "-", "-", "-", "-"],
+["Mon / 15-Jun-2026", "-", "FSA Gr.1 [VG] {CR-014}", "FSA Gr.2 [VG] {CR-014}", "DVM Gr.1 [VCT] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "FSA Gr.3 [VG] {CR-014}", "-", "-"],
+["Mon / 15-Jun-2026", "-", "MS Gr.1 [MN] {CR-015}", "MS Gr.2 [MN] {CR-015}", "DM Gr.1 [SMS] {CR-015}", "DM Gr.2 [SMS] {CR-015}", "DM Gr.3 [SMS] {CR-015}", "-", "-"],
+["Mon / 15-Jun-2026", "-", "-", "-", "PRM Gr.1 [MMS&AP] {CR-017}", "PRM Gr.2 [MMS&AP] {CR-017}", "-", "-", "-"],
+["Mon / 15-Jun-2026", "-", "DFES Gr.1 [KD] {CR-115}", "DFES Gr.2 [KD] {CR-115}", "MDT Gr.1 [AVP&ST,VF] {CR-115}", "MDT Gr.2 [AVP&ST,VF] {CR-115}", "-", "-", "-"],
+["Tue / 16-Jun-2026", "-", "DAM Gr.1 [GMS] {CR-001}", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-001}", "BADM Gr.1 [JBS&VCT] {CR-014}", "BADM Gr.2 [JBS&VCT] {CR-014}", "-", "-"],
+["Tue / 16-Jun-2026", "-", "PPBM Gr.1 [SPA] {CR-115}", "PPBM Gr.2 [SPA] {CR-115}", "NEME [SPC] {CR-114}", "CB Gr.1 [HSK] {CR-015}", "CB Gr.2 [HSK] {CR-015}", "PPBM Gr.3 [SPA] {CR-115}", "-"],
+["Tue / 16-Jun-2026", "-", "IAPM Gr.1 [PSN] {CR-017}", "IAPM Gr.2 [PSN] {CR-017}", "IAPM Gr.3 [PSN] {CR-017}", "DG Gr.1 [KSM] {CR-017}", "DG Gr.2 [KSM] {CR-017}", "-", "-"],
+["Tue / 16-Jun-2026", "-", "LDSC Gr.1 [GT] {CR-013}", "LDSC Gr.2 [GT] {CR-013}", "FIS [KS] {CR-015}", "-", "-", "-", "-"],
+["Wed / 17-Jun-2026", "-", "FSA Gr.2 [VG] {CR-014}", "FSA Gr.1 [VG] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "DVM Gr.1 [VCT] {CR-014}", "FSA Gr.3 [VG] {CR-014}", "", "-"],
+["Wed / 17-Jun-2026", "-", "MS Gr.2 [MN] {CR-015}", "MS Gr.1 [MN] {CR-015}", "DM Gr.2 [SMS] {CR-015}", "DM Gr.1 [SMS] {CR-015}", "DM Gr.3 [SMS] {CR-015}", "", "-"],
+["Wed / 17-Jun-2026", "-", "-", "-", "PRM Gr.2 [MMS&AP] {CR-017}", "PRM Gr.1 [MMS&AP] {CR-017}", "-", "", "-"],
+["Wed / 17-Jun-2026", "-", "DFES Gr.2 [KD] {CR-115}", "DFES Gr.1 [KD] {CR-115}", "MDT Gr.2 [AVP&ST,VF] {CR-115}", "MDT Gr.1 [AVP&ST,VF] {CR-115}", "-", "", "-"],
+["Thu / 18-Jun-2026", "-", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.1 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-001}", "BADM Gr.2 [JBS&VCT] {CR-014}", "BADM Gr.1 [JBS&VCT] {CR-014}", "-", "-"],
+["Thu / 18-Jun-2026", "-", "PPBM Gr.2 [SPA] {CR-115}", "PPBM Gr.1 [SPA] {CR-115}", "NEME [SPC] {CR-114}", "CB Gr.2 [HSK] {CR-015}", "CB Gr.1 [HSK] {CR-015}", "PPBM Gr.3 [SPA] {CR-115}", "-"],
+["Thu / 18-Jun-2026", "-", "IAPM Gr.2 [PSN] {CR-017}", "IAPM Gr.1 [PSN] {CR-017}", "IAPM Gr.3 [PSN] {CR-017}", "DG Gr.2 [KSM] {CR-017}", "DG Gr.1 [KSM] {CR-017}", "-", "-"],
+["Thu / 18-Jun-2026", "-", "LDSC Gr.2 [GT] {CR-013}", "LDSC Gr.1 [GT] {CR-013}", "-", "-", "-", "-", "-"],
+["Fri / 19-Jun-2026", "MFS Quiz-1 12.40 pm to 01.00 pm", "LEAP Gr.1 [SP] {CR-017}", "LEAP Gr.2 [SP] {CR-017}", "-", "-", "-", "-", "-"],
+["Fri / 19-Jun-2026", "FSA Cancelled", "-", "-", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Fri / 19-Jun-2026", "-", "-", "-", "NGS Gr.1 [SP, MG,VF] {CR-017}", "NGS Gr.2 [SP, MG,VF] {CR-017}", "-", "-", "-"],
+["Fri / 19-Jun-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Sat / 20-Jun-2026", "-", "-", "-", "DPM Gr.2 [RP&ASI,VF] {CR-014}", "DPM Gr.1 [RP&ASI,VF] {CR-014}", "DPM Gr.3 [RP&ASI,VF] {CR-014}", "-", "-"],
+["Sat / 20-Jun-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Sat / 20-Jun-2026", "-", "MFS Gr.2 [BLR,VF] {CR-017}", "MFS Gr.1 [BLR,VF] {CR-017}", "NGS Gr.2 [SP, MG,VF] {CR-017}", "NGS Gr.1 [SP, MG,VF] {CR-017}", "MFS Gr.1 [BLR,VF] {CR-017}", "MFS Gr.2 [BLR,VF] {CR-017}", "-"],
+["Sat / 20-Jun-2026", "-", "-", "-", "-", "-", "CPN [AD,VF] {CR-115}", "CPN [AD,VF] {CR-115}", "-"],
+["Sun / 21-Jun-2026", "-", "-", "-", "DPM Gr.1 [RP&ASI,VF] {CR-014}", "DPM Gr.2 [RP&ASI,VF] {CR-014}", "DPM Gr.3 [RP&ASI,VF] {CR-014}", "-", "-"],
+["Sun / 21-Jun-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Sun / 21-Jun-2026", "-", "MFS Gr.2 [BLR,VF] {CR-017}", "MFS Gr.1 [BLR,VF] {CR-017}", "-", "-", "MFS Gr.1 [BLR,VF] {CR-017}", "MFS Gr.2 [BLR,VF] {CR-017}", "-"],
+["Sun / 21-Jun-2026", "-", "CPN [AD,VF] {CR-115}", "CPN [AD,VF] {CR-115}", "-", "-", "-", "-", "-"],
+["Mon / 22-Jun-2026", "CR-015 Classroom sessions changed to CR-101", "FSA Gr.1 [VG] {CR-014}", "FSA Gr.2 [VG] {CR-014}", "DVM Gr.1 [VCT] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "FSA Gr.3 [VG] {CR-014}", "DG Gr.1 [KSM] {CR-017}", "-"],
+["Mon / 22-Jun-2026", "DM Cancelled", "MS Gr.1 [MN] {CR-015}", "MS Gr.2 [MN] {CR-015}", "-", "-", "-", "-", "-"],
+["Mon / 22-Jun-2026", "-", "LEAP Gr.1 [SP] {CR-017}", "LEAP Gr.2 [SP] {CR-017}", "PRM Gr.1 [MMS&AP] {CR-017}", "PRM Gr.2 [MMS&AP] {CR-017}", "-", "-", "-"],
+["Mon / 22-Jun-2026", "-", "DFES Gr.1 [KD] {CR-115}", "DFES Gr.2 [KD] {CR-115}", "MDT Gr.1 [AVP&ST,VF] {CR-115}", "MDT Gr.2 [AVP&ST,VF] {CR-115}", "-", "-", "-"],
+["Tue / 23-Jun-2026", "CR-015 Classroom sessions changed to CR-101", "DAM Gr.1 [GMS] {CR-001}", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-001}", "BADM Gr.1 [JBS&VCT] {CR-014}", "BADM Gr.2 [JBS&VCT] {CR-014}", "-", "-"],
+["Tue / 23-Jun-2026", "-", "PPBM Gr.1 [SPA] {CR-115}", "PPBM Gr.2 [SPA] {CR-115}", "NEME [SPC] {CR-114}", "CB Gr.1 [HSK] {CR-015}", "CB Gr.2 [HSK] {CR-015}", "PPBM Gr.3 [SPA] {CR-115}", "-"],
+["Tue / 23-Jun-2026", "-", "IAPM Gr.1 [PSN] {CR-017}", "IAPM Gr.2 [PSN] {CR-017}", "IAPM Gr.3 [PSN] {CR-017}", "DG Gr.1 [KSM] {CR-017}", "DG Gr.2 [KSM] {CR-017}", "-", "-"],
+["Tue / 23-Jun-2026", "-", "LDSC Gr.1 [GT] {CR-013}", "LDSC Gr.2 [GT] {CR-013}", "FIS [KS] {CR-015}", "-", "-", "-", "-"],
+["Wed / 24-Jun-2026", "-", "FSA Gr.2 [VG] {CR-014}", "FSA Gr.1 [VG] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "DVM Gr.1 [VCT] {CR-014}", "FSA Gr.3 [VG] {CR-014}", "DG Gr.2 [KSM] {CR-017}", "-"],
+["Wed / 24-Jun-2026", "-", "MS Gr.2 [MN] {CR-015}", "MS Gr.1 [MN] {CR-015}", "DM Gr.2 [SMS] {CR-015}", "DM Gr.1 [SMS] {CR-015}", "DM Gr.3 [SMS] {CR-015}", "-", "-"],
+["Wed / 24-Jun-2026", "-", "LEAP Gr.2 [SP] {CR-017}", "LEAP Gr.1 [SP] {CR-017}", "PRM Gr.2 [MMS&AP] {CR-017}", "PRM Gr.1 [MMS&AP] {CR-017}", "-", "-", "-"],
+["Wed / 24-Jun-2026", "-", "DFES Gr.2 [KD] {CR-115}", "DFES Gr.1 [KD] {CR-115}", "MDT Gr.2 [AVP&ST,VF] {CR-115}", "MDT Gr.1 [AVP&ST,VF] {CR-115}", "-", "-", "-"],
+["Thu / 25-Jun-2026", "PRM Quiz-1", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.1 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-101}", "BADM Gr.2 [JBS&VCT] {CR-014}", "BADM Gr.1 [JBS&VCT] {CR-014}", "-", "-"],
+["Thu / 25-Jun-2026", "DAM Gr-3 Venue CR-101", "PPBM Gr.2 [SPA] {CR-115}", "PPBM Gr.1 [SPA] {CR-115}", "NEME [SPC] {CR-114}", "CB Gr.2 [HSK] {CR-015}", "CB Gr.1 [HSK] {CR-015}", "PPBM Gr.3 [SPA] {CR-115}", "-"],
+["Thu / 25-Jun-2026", "Term-V, Elective Presentation From 04.00 pm to 05.30 pm", "IAPM Gr.2 [PSN] {CR-017}", "IAPM Gr.1 [PSN] {CR-017}", "IAPM Gr.3 [PSN] {CR-017}", "-", "-", "LEAP Gr.1 [SP] {CR-017}", "-"],
+["Thu / 25-Jun-2026", "-", "LDSC Gr.2 [GT] {CR-013}", "LDSC Gr.1 [GT] {CR-013}", "FIS [KS] {CR-015}", "-", "-", "-", "-"],
+["Fri / 26-Jun-2026", "-", "Quiz/Guest Speaker", "PPBM GS CR-009", "DPM Gr.1 [RP&ASI,VF] {CR-014}", "DPM Gr.2 [RP&ASI,VF] {CR-014}", "DPM Gr.3 [RP&ASI,VF] {CR-014}", "LEAP Gr.2 [SP] {CR-017}", "-"],
+["Fri / 26-Jun-2026", "PPBM GS CR-009", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Fri / 26-Jun-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "NGS Gr.1 [SP, MG,VF] {CR-017}", "NGS Gr.2 [SP, MG,VF] {CR-017}", "-", "-", "-"],
+["Fri / 26-Jun-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "-", "-", "-", "-", "-"],
+["Sat / 27-Jun-2026", "Term-V, Elective Presentation From 09.00 am to 01.00 pm", "-", "-", "DPM Gr.2 [RP&ASI,VF] {CR-014}", "DPM Gr.1 [RP&ASI,VF] {CR-014}", "DPM Gr.3 [RP&ASI,VF] {CR-014}", "-", "-"],
+["Sat / 27-Jun-2026", "-", "-", "-", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Sat / 27-Jun-2026", "-", "MFS Gr.2 [BLR,VF] {CR-017}", "MFS Gr.1 [BLR,VF] {CR-017}", "NGS Gr.2 [SP, MG,VF] {CR-017}", "NGS Gr.1 [SP, MG,VF] {CR-017}", "MFS Gr.1 [BLR,VF] {CR-017}", "MFS Gr.2 [BLR,VF] {CR-017}", "-"],
+["Sat / 27-Jun-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Sun / 28-Jun-2026", "-", "-", "-", "DPM Gr.1 [RP&ASI,VF] {CR-014}", "DPM Gr.2 [RP&ASI,VF] {CR-014}", "DPM Gr.3 [RP&ASI,VF] {CR-014}", "-", "-"],
+["Sun / 28-Jun-2026", "-", "-", "-", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Sun / 28-Jun-2026", "-", "MFS Gr.2 [BLR,VF] {CR-017}", "MFS Gr.1 [BLR,VF] {CR-017}", "NGS Gr.1 [SP, MG,VF] {CR-017}", "NGS Gr.2 [SP, MG,VF] {CR-017}", "MFS Gr.1 [BLR,VF] {CR-017}", "MFS Gr.2 [BLR,VF] {CR-017}", "-"],
+["Sun / 28-Jun-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Mon / 29-Jun-2026", "NEME Quiz 12.30 pm 01.10 pm", "FSA Gr.1 [VG] {CR-014}", "FSA Gr.2 [VG] {CR-014}", "DVM Gr.1 [VCT] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "FSA Gr.3 [VG] {CR-014}", "-", "-"],
+["Mon / 29-Jun-2026", "-", "MS Gr.1 [MN] {CR-015}", "MS Gr.2 [MN] {CR-015}", "DM Gr.1 [SMS] {CR-015}", "DM Gr.2 [SMS] {CR-015}", "DM Gr.3 [SMS] {CR-015}", "-", "-"],
+["Mon / 29-Jun-2026", "-", "LEAP Gr.1 [SP] {CR-017}", "LEAP Gr.2 [SP] {CR-017}", "PRM Gr.1 [MMS&AP] {CR-017}", "PRM Gr.2 [MMS&AP] {CR-017}", "-", "-", "-"],
+["Mon / 29-Jun-2026", "-", "DFES Gr.1 [KD] {CR-115}", "DFES Gr.2 [KD] {CR-115}", "MDT Gr.1 [AVP&ST,VF] {CR-115}", "MDT Gr.2 [AVP&ST,VF] {CR-115}", "-", "-", "-"],
+["Tue / 30-Jun-2026", "-", "DAM Gr.1 [GMS] {CR-001}", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-001}", "BADM Gr.1 [JBS&VCT] {CR-014}", "BADM Gr.2 [JBS&VCT] {CR-014}", "-", "-"],
+["Tue / 30-Jun-2026", "-", "PPBM Gr.1 [SPA] {CR-115}", "PPBM Gr.2 [SPA] {CR-115}", "NEME [SPC] {CR-114}", "CB Gr.1 [HSK] {CR-015}", "CB Gr.2 [HSK] {CR-015}", "PPBM Gr.3 [SPA] {CR-115}", "-"],
+["Tue / 30-Jun-2026", "-", "IAPM Gr.1 [PSN] {CR-017}", "IAPM Gr.2 [PSN] {CR-017}", "IAPM Gr.3 [PSN] {CR-017}", "-", "-", "-", "-"],
+["Tue / 30-Jun-2026", "-", "LDSC Gr.1 [GT] {CR-013}", "LDSC Gr.2 [GT] {CR-013}", "FIS [KS] {CR-015}", "-", "-", "-", "-"],
+["Wed / 01-Jul-2026", "Placement Full Day 06:00 PM to 11:00 PM", "FSA Gr.2 [VG] {CR-014}", "FSA Gr.1 [VG] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "DVM Gr.1 [VCT] {CR-014}", "FSA Gr.3 [VG] {CR-014}", "-", "-"],
+["Wed / 01-Jul-2026", "-", "MS Gr.2 [MN] {CR-015}", "MS Gr.1 [MN] {CR-015}", "DM Gr.2 [SMS] {CR-015}", "DM Gr.1 [SMS] {CR-015}", "DM Gr.3 [SMS] {CR-015}", "-", "-"],
+["Wed / 01-Jul-2026", "-", "-", "-", "PRM Gr.2 [MMS&AP] {CR-017}", "PRM Gr.1 [MMS&AP] {CR-017}", "-", "-", "-"],
+["Wed / 01-Jul-2026", "-", "DFES Gr.2 [KD] {CR-115}", "DFES Gr.1 [KD] {CR-115}", "MDT Gr.2 [AVP&ST,VF] {CR-115}", "MDT Gr.1 [AVP&ST,VF] {CR-115}", "-", "-", "-"],
+["Thu / 02-Jul-2026", "LDSC Quiz 12.30 pm to 01.30 pm", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.1 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-001}", "BADM Gr.2 [JBS&VCT] {CR-014}", "BADM Gr.1 [JBS&VCT] {CR-014}", "-", "DVM GS"],
+["Thu / 02-Jul-2026", "-", "PPBM Gr.2 [SPA] {CR-115}", "PPBM Gr.1 [SPA] {CR-115}", "NEME [SPC] {CR-114}", "CB Gr.2 [HSK] {CR-015}", "CB Gr.1 [HSK] {CR-015}", "PPBM Gr.3 [SPA] {CR-115}", "-"],
+["Thu / 02-Jul-2026", "-", "IAPM Gr.2 [PSN] {CR-017}", "IAPM Gr.1 [PSN] {CR-017}", "IAPM Gr.3 [PSN] {CR-017}", "DG Gr.2 [KSM] {CR-017}", "DG Gr.1 [KSM] {CR-017}", "-", "-"],
+["Thu / 02-Jul-2026", "-", "LDSC Gr.2 [GT] {CR-013}", "LDSC Gr.1 [GT] {CR-013}", "FIS [KS] {CR-015}", "-", "-", "-", "-"],
+["Fri / 03-Jul-2026", "MS Quiz-1 12.30 pm to 01.00 pm", "DVM GS", "DVM GS", "DPM Gr.1 [RP&ASI,VF] {CR-014}", "DPM Gr.2 [RP&ASI,VF] {CR-014}", "DPM Gr.3 [RP&ASI,VF] {CR-014}", "DAM Gr.1 [GMS] {CR-001}", "-"],
+["Fri / 03-Jul-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Fri / 03-Jul-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "NGS Gr.1 [SP, MG,VF] {CR-017}", "NGS Gr.2 [SP, MG,VF] {CR-017}", "-", "-", "-"],
+["Fri / 03-Jul-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "-", "-", "-", "-", "-"],
+["Sat / 04-Jul-2026", "Placement Full Day", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-001}", "DPM Gr.2 [RP&ASI,VF] {CR-001}", "DPM Gr.1 [RP&ASI,VF] {CR-014}", "DPM Gr.3 [RP&ASI,VF] {CR-014}", "-", "-"],
+["Sat / 04-Jul-2026", "-", "-", "-", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Sat / 04-Jul-2026", "-", "-", "-", "NGS Gr.2 [SP, MG,VF] {CR-017}", "NGS Gr.1 [SP, MG,VF] {CR-017}", "-", "-", "-"],
+["Sat / 04-Jul-2026", "-", "-", "-", "-", "-", "CPN [AD,VF] {CR-115}", "CPN [AD,VF] {CR-115}", "-"],
+["Sun / 05-Jul-2026", "-", "-", "-", "LEAP GS", "-", "-", "-", "-"],
+["Sun / 05-Jul-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Sun / 05-Jul-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Sun / 05-Jul-2026", "-", "CPN [AD,VF] {CR-115}", "CPN [AD,VF] {CR-115}", "-", "MDT Gr.1 [AVP&ST,VF] {CR-115}", "MDT Gr.2 [AVP&ST,VF] {CR-115}", "MDT Gr.1 [AVP&ST,VF] {CR-115}", "MDT Gr.2 [AVP&ST,VF] {CR-115}"],
+["Mon / 06-Jul-2026", "Term-V Elective Bidding Tentatively", "FSA Gr.1 [VG] {CR-014}", "FSA Gr.2 [VG] {CR-014}", "DVM Gr.1 [VCT] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "FSA Gr.3 [VG] {CR-014}", "-", "-"],
+["Mon / 06-Jul-2026", "-", "MS Gr.1 [MN] {CR-015}", "MS Gr.2 [MN] {CR-015}", "DM Gr.1 [SMS] {CR-015}", "DM Gr.2 [SMS] {CR-015}", "DM Gr.3 [SMS] {CR-015}", "-", "-"],
+["Mon / 06-Jul-2026", "-", "LEAP Gr.1 [SP] {CR-017}", "LEAP Gr.2 [SP] {CR-017}", "PRM Gr.1 [MMS&AP] {CR-017}", "PRM Gr.2 [MMS&AP] {CR-017}", "-", "-", "-"],
+["Mon / 06-Jul-2026", "-", "DFES Gr.1 [KD] {CR-115}", "DFES Gr.2 [KD] {CR-115}", "MDT Gr.1 [AVP&ST,VF] {CR-115}", "MDT Gr.2 [AVP&ST,VF] {CR-115}", "-", "MDT Gr.1 [AVP&ST,VF] {CR-115}", "MDT Gr.2 [AVP&ST,VF] {CR-115}"],
+["Tue / 07-Jul-2026", "-", "DAM Gr.1 [GMS] {CR-001}", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-001}", "BADM Gr.1 [JBS&VCT] {CR-014}", "BADM Gr.2 [JBS&VCT] {CR-014}", "-", "-"],
+["Tue / 07-Jul-2026", "-", "PPBM Gr.1 [SPA] {CR-115}", "PPBM Gr.2 [SPA] {CR-115}", "NEME [SPC] {CR-114}", "CB Gr.1 [HSK] {CR-015}", "CB Gr.2 [HSK] {CR-015}", "PPBM Gr.3 [SPA] {CR-115}", "-"],
+["Tue / 07-Jul-2026", "-", "IAPM Gr.1 [PSN] {CR-017}", "IAPM Gr.2 [PSN] {CR-017}", "IAPM Gr.3 [PSN] {CR-017}", "DG Gr.1 [KSM] {CR-017}", "DG Gr.2 [KSM] {CR-017}", "-", "-"],
+["Tue / 07-Jul-2026", "-", "LDSC Gr.1 [GT] {CR-013}", "LDSC Gr.2 [GT] {CR-013}", "FIS [KS] {CR-015}", "-", "-", "-", "-"],
+["Wed / 08-Jul-2026", "-", "FSA Gr.2 [VG] {CR-014}", "FSA Gr.1 [VG] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "DVM Gr.1 [VCT] {CR-014}", "FSA Gr.3 [VG] {CR-014}", "LEAP GS", "-"],
+["Wed / 08-Jul-2026", "-", "MS Gr.2 [MN] {CR-015}", "MS Gr.1 [MN] {CR-015}", "DM Gr.2 [SMS] {CR-015}", "DM Gr.1 [SMS] {CR-015}", "DM Gr.3 [SMS] {CR-015}", "-", "-"],
+["Wed / 08-Jul-2026", "-", "LEAP Gr.2 [SP] {CR-017}", "LEAP Gr.1 [SP] {CR-017}", "PRM Gr.2 [MMS&AP] {CR-017}", "PRM Gr.1 [MMS&AP] {CR-017}", "-", "-", "-"],
+["Wed / 08-Jul-2026", "-", "DFES Gr.2 [KD] {CR-115}", "DFES Gr.1 [KD] {CR-115}", "-", "-", "-", "-", "-"],
+["Thu / 09-Jul-2026", "-", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.1 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-001}", "BADM Gr.2 [JBS&VCT] {CR-014}", "BADM Gr.1 [JBS&VCT] {CR-014}", "-", "-"],
+["Thu / 09-Jul-2026", "-", "PPBM Gr.2 [SPA] {CR-115}", "PPBM Gr.1 [SPA] {CR-115}", "NEME [SPC] {CR-114}", "CB Gr.2 [HSK] {CR-015}", "CB Gr.1 [HSK] {CR-015}", "PPBM Gr.3 [SPA] {CR-115}", "-"],
+["Thu / 09-Jul-2026", "-", "IAPM Gr.2 [PSN] {CR-017}", "IAPM Gr.1 [PSN] {CR-017}", "IAPM Gr.3 [PSN] {CR-017}", "DG Gr.2 [KSM] {CR-017}", "DG Gr.1 [KSM] {CR-017}", "-", "-"],
+["Thu / 09-Jul-2026", "-", "LDSC Gr.2 [GT] {CR-013}", "LDSC Gr.1 [GT] {CR-013}", "FIS [KS] {CR-015}", "-", "-", "-", "-"],
+["Fri / 10-Jul-2026", "-", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term"],
+["Fri / 10-Jul-2026", "-", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term"],
+["Fri / 10-Jul-2026", "-", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term"],
+["Fri / 10-Jul-2026", "-", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term"],
+["Sat / 11-Jul-2026", "-", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term"],
+["Sat / 11-Jul-2026", "-", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term"],
+["Sat / 11-Jul-2026", "-", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term"],
+["Sat / 11-Jul-2026", "-", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term", "Mid-Term"],
+["Sun / 12-Jul-2026", "-", "Mid-Term", "Mid-Term", "VAL GS", "VAL GS", "-", "-", "-"],
+["Sun / 12-Jul-2026", "-", "Mid-Term", "Mid-Term", "-", "-", "-", "-", "-"],
+["Sun / 12-Jul-2026", "-", "Mid-Term", "Mid-Term", "-", "-", "-", "-", "-"],
+["Sun / 12-Jul-2026", "-", "Mid-Term", "Mid-Term", "-", "-", "-", "-", "-"],
+["Mon / 13-Jul-2026", "-", "IAPM Gr.1 [PSN] {CR-017}", "IAPM Gr.2 [PSN] {CR-017}", "IAPM Gr.3 [PSN] {CR-017}", "-", "-", "-", "-"],
+["Mon / 13-Jul-2026", "FIS will be Rescheduled", "-", "-", "FIS [KS] {CR-015}", "-", "-", "-", "-"],
+["Mon / 13-Jul-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Mon / 13-Jul-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Tue / 14-Jul-2026", "-", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit"],
+["Tue / 14-Jul-2026", "-", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit"],
+["Tue / 14-Jul-2026", "-", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit"],
+["Tue / 14-Jul-2026", "-", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit"],
+["Wed / 15-Jul-2026", "-", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit"],
+["Wed / 15-Jul-2026", "-", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit"],
+["Wed / 15-Jul-2026", "-", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit"],
+["Wed / 15-Jul-2026", "-", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit", "Field Visit"],
+["Thu / 16-Jul-2026", "-", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.1 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-001}", "BADM Gr.2 [JBS&VCT] {CR-014}", "BADM Gr.1 [JBS&VCT] {CR-014}", "-", "-"],
+["Thu / 16-Jul-2026", "-", "-", "-", "NEME [SPC] {CR-114}", "CB Gr.2 [HSK] {CR-015}", "CB Gr.1 [HSK] {CR-015}", "-", "-"],
+["Thu / 16-Jul-2026", "-", "IAPM Gr.2 [PSN] {CR-017}", "IAPM Gr.1 [PSN] {CR-017}", "IAPM Gr.3 [PSN] {CR-017}", "DG Gr.2 [KSM] {CR-017}", "DG Gr.1 [KSM] {CR-017}", "-", "-"],
+["Thu / 16-Jul-2026", "-", "-", "-", "FIS [KS] {CR-015}", "-", "-", "-", "-"],
+["Fri / 17-Jul-2026", "NEME GS", "NEME GS", "NEME GS", "DPM Gr.1 [RP&ASI,VF] {CR-014}", "DPM Gr.2 [RP&ASI,VF] {CR-014}", "DPM Gr.3 [RP&ASI,VF] {CR-014}", "CB GS", "-"],
+["Fri / 17-Jul-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Fri / 17-Jul-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "NGS Gr.1 [SP, MG,VF] {CR-017}", "NGS Gr.2 [SP, MG,VF] {CR-017}", "-", "-", "-"],
+["Fri / 17-Jul-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "-", "-", "-", "-", "-"],
+["Sat / 18-Jul-2026", "-", "-", "-", "DPM Gr.2 [RP&ASI,VF] {CR-014}", "DPM Gr.1 [RP&ASI,VF] {CR-014}", "DPM Gr.3 [RP&ASI,VF] {CR-014}", "-", "-"],
+["Sat / 18-Jul-2026", "-", "-", "-", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Sat / 18-Jul-2026", "-", "MFS Gr.2 [BLR,VF] {CR-017}", "MFS Gr.1 [BLR,VF] {CR-017}", "NGS Gr.2 [SP, MG,VF] {CR-017}", "NGS Gr.1 [SP, MG,VF] {CR-017}", "MFS Gr.1 [BLR,VF] {CR-017}", "MFS Gr.2 [BLR,VF] {CR-017}", "-"],
+["Sat / 18-Jul-2026", "-", "-", "-", "-", "-", "CPN [AD,VF] {CR-115}", "CPN [AD,VF] {CR-115}", "-"],
+["Sun / 19-Jul-2026", "PPBM GS", "-", "-", "-", "-", "-", "-", "PPBM GS"],
+["Sun / 19-Jul-2026", "-", "-", "-", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Sun / 19-Jul-2026", "-", "MFS Gr.2 [BLR,VF] {CR-017}", "MFS Gr.1 [BLR,VF] {CR-017}", "NGS Gr.1 [SP, MG,VF] {CR-017}", "NGS Gr.2 [SP, MG,VF] {CR-017}", "MFS Gr.1 [BLR,VF] {CR-017}", "MFS Gr.2 [BLR,VF] {CR-017}", "-"],
+["Sun / 19-Jul-2026", "-", "CPN [AD,VF] {CR-115}", "CPN [AD,VF] {CR-115}", "-", "-", "-", "-", "-"],
+["Mon / 20-Jul-2026", "-", "FSA Gr.1 [VG] {CR-014}", "FSA Gr.2 [VG] {CR-014}", "DVM Gr.1 [VCT] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "FSA Gr.3 [VG] {CR-014}", "-", "-"],
+["Mon / 20-Jul-2026", "-", "MS Gr.1 [MN] {CR-015}", "MS Gr.2 [MN] {CR-015}", "DM Gr.1 [SMS] {CR-015}", "DM Gr.2 [SMS] {CR-015}", "DM Gr.3 [SMS] {CR-015}", "-", "-"],
+["Mon / 20-Jul-2026", "-", "LEAP Gr.1 [SP] {CR-017}", "LEAP Gr.2 [SP] {CR-017}", "PRM Gr.1 [MMS&AP] {CR-017}", "PRM Gr.2 [MMS&AP] {CR-017}", "-", "-", "-"],
+["Mon / 20-Jul-2026", "-", "DFES Gr.1 [KD] {CR-115}", "DFES Gr.2 [KD] {CR-115}", "-", "-", "-", "-", "-"],
+["Tue / 21-Jul-2026", "-", "DAM Gr.1 [GMS] {CR-001}", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-001}", "BADM Gr.1 [JBS&VCT] {CR-014}", "BADM Gr.2 [JBS&VCT] {CR-014}", "-", "-"],
+["Tue / 21-Jul-2026", "-", "PPBM Gr.1 [SPA] {CR-115}", "PPBM Gr.2 [SPA] {CR-115}", "NEME [SPC] {CR-114}", "CB Gr.1 [HSK] {CR-015}", "CB Gr.2 [HSK] {CR-015}", "PPBM Gr.3 [SPA] {CR-115}", "-"],
+["Tue / 21-Jul-2026", "-", "IAPM Gr.1 [PSN] {CR-017}", "IAPM Gr.2 [PSN] {CR-017}", "IAPM Gr.3 [PSN] {CR-017}", "DG Gr.1 [KSM] {CR-017}", "DG Gr.2 [KSM] {CR-017}", "-", "-"],
+["Tue / 21-Jul-2026", "-", "LDSC Gr.1 [GT] {CR-013}", "LDSC Gr.2 [GT] {CR-013}", "FIS [KS] {CR-015}", "-", "-", "-", "-"],
+["Wed / 22-Jul-2026", "-", "FSA Gr.2 [VG] {CR-014}", "FSA Gr.1 [VG] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "DVM Gr.1 [VCT] {CR-014}", "FSA Gr.3 [VG] {CR-014}", "", "-"],
+["Wed / 22-Jul-2026", "-", "MS Gr.2 [MN] {CR-015}", "MS Gr.1 [MN] {CR-015}", "DM Gr.2 [SMS] {CR-015}", "DM Gr.1 [SMS] {CR-015}", "DM Gr.3 [SMS] {CR-015}", "", "-"],
+["Wed / 22-Jul-2026", "-", "LEAP Gr.2 [SP] {CR-017}", "LEAP Gr.1 [SP] {CR-017}", "PRM Gr.2 [MMS&AP] {CR-017}", "PRM Gr.1 [MMS&AP] {CR-017}", "-", "", "-"],
+["Wed / 22-Jul-2026", "-", "DFES Gr.2 [KD] {CR-115}", "DFES Gr.1 [KD] {CR-115}", "-", "-", "-", "MDT Gr.2 [AVP&ST,VF] {CR-115}", "MDT Gr.1 [AVP&ST,VF] {CR-115}"],
+["Thu / 23-Jul-2026", "-", "DAM Gr.1 [GMS] {CR-001}", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-001}", "BADM Gr.1 [JBS&VCT] {CR-014}", "BADM Gr.2 [JBS&VCT] {CR-014}", "-", "-"],
+["Thu / 23-Jul-2026", "-", "PPBM Gr.1 [SPA] {CR-115}", "PPBM Gr.2 [SPA] {CR-115}", "NEME [SPC] {CR-114}", "CB Gr.1 [HSK] {CR-015}", "CB Gr.2 [HSK] {CR-015}", "PPBM Gr.3 [SPA] {CR-115}", "-"],
+["Thu / 23-Jul-2026", "-", "IAPM Gr.1 [PSN] {CR-017}", "IAPM Gr.2 [PSN] {CR-017}", "IAPM Gr.3 [PSN] {CR-017}", "DG Gr.1 [KSM] {CR-017}", "DG Gr.2 [KSM] {CR-017}", "-", "-"],
+["Thu / 23-Jul-2026", "-", "LDSC Gr.1 [GT] {CR-013}", "LDSC Gr.2 [GT] {CR-013}", "FIS [KS] {CR-015}", "-", "-", "MDT Gr.2 [AVP&ST,VF] {CR-115}", "MDT Gr.1 [AVP&ST,VF] {CR-115}"],
+["Fri / 24-Jul-2026", "-", "FSA Gr.2 [VG] {CR-014}", "FSA Gr.1 [VG] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "DVM Gr.1 [VCT] {CR-014}", "FSA Gr.3 [VG] {CR-014}", "-", "-"],
+["Fri / 24-Jul-2026", "-", "MS Gr.2 [MN] {CR-015}", "MS Gr.1 [MN] {CR-015}", "DM Gr.2 [SMS] {CR-015}", "DM Gr.1 [SMS] {CR-015}", "DM Gr.3 [SMS] {CR-015}", "-", "-"],
+["Fri / 24-Jul-2026", "-", "LEAP Gr.2 [SP] {CR-017}", "LEAP Gr.1 [SP] {CR-017}", "PRM Gr.2 [MMS&AP] {CR-017}", "PRM Gr.1 [MMS&AP] {CR-017}", "-", "-", "-"],
+["Fri / 24-Jul-2026", "-", "DFES Gr.2 [KD] {CR-115}", "DFES Gr.1 [KD] {CR-115}", "MDT Gr.2 [AVP&ST,VF] {CR-115}", "MDT Gr.1 [AVP&ST,VF] {CR-115}", "-", "MDT Gr.2 [AVP&ST,VF] {CR-115}", "MDT Gr.1 [AVP&ST,VF] {CR-115}"],
+["Sat / 25-Jul-2026", "-", "-", "-", "DPM Gr.2 [RP&ASI,VF] {CR-014}", "DPM Gr.1 [RP&ASI,VF] {CR-014}", "DPM Gr.3 [RP&ASI,VF] {CR-014}", "-", "-"],
+["Sat / 25-Jul-2026", "-", "-", "-", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Sat / 25-Jul-2026", "-", "MFS Gr.2 [BLR,VF] {CR-017}", "MFS Gr.1 [BLR,VF] {CR-017}", "NGS Gr.2 [SP, MG,VF] {CR-017}", "NGS Gr.1 [SP, MG,VF] {CR-017}", "MFS Gr.1 [BLR,VF] {CR-017}", "MFS Gr.2 [BLR,VF] {CR-017}", "-"],
+["Sat / 25-Jul-2026", "-", "-", "-", "-", "-", "CPN [AD,VF] {CR-115}", "CPN [AD,VF] {CR-115}", "-"],
+["Sun / 26-Jul-2026", "-", "-", "-", "DPM Gr.1 [RP&ASI,VF] {CR-014}", "DPM Gr.2 [RP&ASI,VF] {CR-014}", "DPM Gr.3 [RP&ASI,VF] {CR-014}", "-", "-"],
+["Sun / 26-Jul-2026", "-", "-", "-", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Sun / 26-Jul-2026", "-", "MFS Gr.2 [BLR,VF] {CR-017}", "MFS Gr.1 [BLR,VF] {CR-017}", "NGS Gr.1 [SP, MG,VF] {CR-017}", "NGS Gr.2 [SP, MG,VF] {CR-017}", "MFS Gr.1 [BLR,VF] {CR-017}", "MFS Gr.2 [BLR,VF] {CR-017}", "-"],
+["Sun / 26-Jul-2026", "-", "CPN [AD,VF] {CR-115}", "CPN [AD,VF] {CR-115}", "-", "-", "-", "-", "-"],
+["Mon / 27-Jul-2026", "-", "FSA Gr.1 [VG] {CR-014}", "FSA Gr.2 [VG] {CR-014}", "DVM Gr.1 [VCT] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "FSA Gr.3 [VG] {CR-014}", "DG Gr.1 [KSM] {CR-017}", "-"],
+["Mon / 27-Jul-2026", "-", "MS Gr.1 [MN] {CR-015}", "MS Gr.2 [MN] {CR-015}", "DM Gr.1 [SMS] {CR-015}", "DM Gr.2 [SMS] {CR-015}", "DM Gr.3 [SMS] {CR-015}", "-", "-"],
+["Mon / 27-Jul-2026", "-", "LEAP Gr.1 [SP] {CR-017}", "LEAP Gr.2 [SP] {CR-017}", "PRM Gr.1 [MMS&AP] {CR-017}", "PRM Gr.2 [MMS&AP] {CR-017}", "-", "-", "-"],
+["Mon / 27-Jul-2026", "-", "DFES Gr.1 [KD] {CR-115}", "DFES Gr.2 [KD] {CR-115}", "-", "-", "-", "-", "-"],
+["Tue / 28-Jul-2026", "-", "DAM Gr.1 [GMS] {CR-001}", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-001}", "BADM Gr.1 [JBS&VCT] {CR-014}", "BADM Gr.2 [JBS&VCT] {CR-014}", "-", "-"],
+["Tue / 28-Jul-2026", "-", "PPBM Gr.1 [SPA] {CR-115}", "PPBM Gr.2 [SPA] {CR-115}", "NEME [SPC] {CR-114}", "CB Gr.1 [HSK] {CR-015}", "CB Gr.2 [HSK] {CR-015}", "PPBM Gr.3 [SPA] {CR-115}", "-"],
+["Tue / 28-Jul-2026", "-", "IAPM Gr.1 [PSN] {CR-017}", "IAPM Gr.2 [PSN] {CR-017}", "IAPM Gr.3 [PSN] {CR-017}", "DG Gr.1 [KSM] {CR-017}", "DG Gr.2 [KSM] {CR-017}", "-", "-"],
+["Tue / 28-Jul-2026", "-", "LDSC Gr.1 [GT] {CR-013}", "LDSC Gr.2 [GT] {CR-013}", "FIS [KS] {CR-015}", "-", "-", "-", "-"],
+["Wed / 29-Jul-2026", "-", "FSA Gr.2 [VG] {CR-014}", "FSA Gr.1 [VG] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "DVM Gr.1 [VCT] {CR-014}", "FSA Gr.3 [VG] {CR-014}", "DG Gr.2 [KSM] {CR-017}", "-"],
+["Wed / 29-Jul-2026", "-", "MS Gr.2 [MN] {CR-015}", "MS Gr.1 [MN] {CR-015}", "DM Gr.2 [SMS] {CR-015}", "DM Gr.1 [SMS] {CR-015}", "DM Gr.3 [SMS] {CR-015}", "", "-"],
+["Wed / 29-Jul-2026", "-", "LEAP Gr.2 [SP] {CR-017}", "LEAP Gr.1 [SP] {CR-017}", "PRM Gr.2 [MMS&AP] {CR-017}", "PRM Gr.1 [MMS&AP] {CR-017}", "-", "", "-"],
+["Wed / 29-Jul-2026", "-", "DFES Gr.2 [KD] {CR-115}", "DFES Gr.1 [KD] {CR-115}", "-", "-", "-", "", "-"],
+["Thu / 30-Jul-2026", "PRM Quiz-2", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.1 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-001}", "BADM Gr.2 [JBS&VCT] {CR-014}", "BADM Gr.1 [JBS&VCT] {CR-014}", "-", "-"],
+["Thu / 30-Jul-2026", "-", "PPBM Gr.2 [SPA] {CR-115}", "PPBM Gr.1 [SPA] {CR-115}", "NEME [SPC] {CR-114}", "CB Gr.2 [HSK] {CR-015}", "CB Gr.1 [HSK] {CR-015}", "PPBM Gr.3 [SPA] {CR-115}", "-"],
+["Thu / 30-Jul-2026", "-", "IAPM Gr.2 [PSN] {CR-017}", "IAPM Gr.1 [PSN] {CR-017}", "IAPM Gr.3 [PSN] {CR-017}", "DG Gr.2 [KSM] {CR-017}", "DG Gr.1 [KSM] {CR-017}", "-", "-"],
+["Thu / 30-Jul-2026", "-", "LDSC Gr.2 [GT] {CR-013}", "LDSC Gr.1 [GT] {CR-013}", "FIS [KS] {CR-015}", "-", "-", "-", "-"],
+["Fri / 31-Jul-2026", "DPM GS", "DPM GS", "DPM GS", "DPM Gr.1 [RP&ASI,VF] {CR-014}", "DPM Gr.2 [RP&ASI,VF] {CR-014}", "DPM Gr.3 [RP&ASI,VF] {CR-014}", "CB GS", "-"],
+["Fri / 31-Jul-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Fri / 31-Jul-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "NGS Gr.1 [SP, MG,VF] {CR-017}", "NGS Gr.2 [SP, MG,VF] {CR-017}", "-", "-", "-"],
+["Fri / 31-Jul-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "-", "-", "-", "-", "-"],
+["Sat / 01-Aug-2026", "MS Quiz-2 12.30 pm to 01.00 pm", "MS Gr.1 [MN] {CR-015}", "MS Gr.2 [MN] {CR-015}", "DPM Gr.2 [RP&ASI,VF] {CR-014}", "DPM Gr.1 [RP&ASI,VF] {CR-014}", "DPM Gr.3 [RP&ASI,VF] {CR-014}", "CB GS", "-"],
+["Sat / 01-Aug-2026", "-", "LEAP Gr.1 [SP] {CR-017}", "LEAP Gr.2 [SP] {CR-017}", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Sat / 01-Aug-2026", "-", "DFES Gr.1 [KD] {CR-115}", "DFES Gr.2 [KD] {CR-115}", "-", "-", "-", "-", "-"],
+["Sat / 01-Aug-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Sun / 02-Aug-2026", "NGS GS", "NGS GS", "NGS GS", "DPM Gr.1 [RP&ASI,VF] {CR-014}", "DPM Gr.2 [RP&ASI,VF] {CR-014}", "DPM Gr.3 [RP&ASI,VF] {CR-014}", "-", "-"],
+["Sun / 02-Aug-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Sun / 02-Aug-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Sun / 02-Aug-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Mon / 03-Aug-2026", "-", "FSA Gr.1 [VG] {CR-014}", "FSA Gr.2 [VG] {CR-014}", "DVM Gr.1 [VCT] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "FSA Gr.3 [VG] {CR-014}", "-", "-"],
+["Mon / 03-Aug-2026", "-", "MS Gr.1 [MN] {CR-015}", "MS Gr.2 [MN] {CR-015}", "DM Gr.1 [SMS] {CR-015}", "DM Gr.2 [SMS] {CR-015}", "DM Gr.3 [SMS] {CR-015}", "-", "-"],
+["Mon / 03-Aug-2026", "-", "LEAP Gr.1 [SP] {CR-017}", "LEAP Gr.2 [SP] {CR-017}", "PRM Gr.1 [MMS&AP] {CR-017}", "PRM Gr.2 [MMS&AP] {CR-017}", "-", "-", "-"],
+["Mon / 03-Aug-2026", "-", "DFES Gr.1 [KD] {CR-115}", "DFES Gr.2 [KD] {CR-115}", "MDT Gr.1 [AVP&ST,VF] {CR-115}", "MDT Gr.2 [AVP&ST,VF] {CR-115}", "-", "-", "-"],
+["Tue / 04-Aug-2026", "-", "DAM Gr.1 [GMS] {CR-001}", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-001}", "BADM Gr.1 [JBS&VCT] {CR-014}", "BADM Gr.2 [JBS&VCT] {CR-014}", "-", "-"],
+["Tue / 04-Aug-2026", "-", "-", "-", "NEME [SPC] {CR-114}", "CB Gr.1 [HSK] {CR-015}", "CB Gr.2 [HSK] {CR-015}", "-", "-"],
+["Tue / 04-Aug-2026", "-", "IAPM Gr.1 [PSN] {CR-017}", "IAPM Gr.2 [PSN] {CR-017}", "IAPM Gr.3 [PSN] {CR-017}", "DG Gr.1 [KSM] {CR-017}", "DG Gr.2 [KSM] {CR-017}", "-", "-"],
+["Tue / 04-Aug-2026", "-", "LDSC Gr.1 [GT] {CR-013}", "LDSC Gr.2 [GT] {CR-013}", "FIS [KS] {CR-015}", "-", "-", "-", "-"],
+["Wed / 05-Aug-2026", "-", "FSA Gr.2 [VG] {CR-014}", "FSA Gr.1 [VG] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "DVM Gr.1 [VCT] {CR-014}", "FSA Gr.3 [VG] {CR-014}", "", "-"],
+["Wed / 05-Aug-2026", "-", "MS Gr.2 [MN] {CR-015}", "MS Gr.1 [MN] {CR-015}", "DM Gr.2 [SMS] {CR-015}", "DM Gr.1 [SMS] {CR-015}", "DM Gr.3 [SMS] {CR-015}", "", "-"],
+["Wed / 05-Aug-2026", "-", "LEAP Gr.2 [SP] {CR-017}", "LEAP Gr.1 [SP] {CR-017}", "PRM Gr.2 [MMS&AP] {CR-017}", "PRM Gr.1 [MMS&AP] {CR-017}", "-", "", "-"],
+["Wed / 05-Aug-2026", "-", "DFES Gr.2 [KD] {CR-115}", "DFES Gr.1 [KD] {CR-115}", "MDT Gr.2 [AVP&ST,VF] {CR-115}", "MDT Gr.1 [AVP&ST,VF] {CR-115}", "-", "", "-"],
+["Thu / 06-Aug-2026", "-", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.1 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-001}", "BADM Gr.2 [JBS&VCT] {CR-014}", "BADM Gr.1 [JBS&VCT] {CR-014}", "-", "-"],
+["Thu / 06-Aug-2026", "-", "PPBM Gr.2 [SPA] {CR-115}", "PPBM Gr.1 [SPA] {CR-115}", "NEME [SPC] {CR-114}", "CB Gr.2 [HSK] {CR-015}", "CB Gr.1 [HSK] {CR-015}", "PPBM Gr.3 [SPA] {CR-115}", "-"],
+["Thu / 06-Aug-2026", "-", "IAPM Gr.2 [PSN] {CR-017}", "IAPM Gr.1 [PSN] {CR-017}", "IAPM Gr.3 [PSN] {CR-017}", "DG Gr.2 [KSM] {CR-017}", "DG Gr.1 [KSM] {CR-017}", "-", "-"],
+["Thu / 06-Aug-2026", "-", "LDSC Gr.2 [GT] {CR-013}", "LDSC Gr.1 [GT] {CR-013}", "FIS [KS] {CR-015}", "-", "-", "-", "-"],
+["Fri / 07-Aug-2026", "MS GS", "LEAP GS", "MS Guest Speaker", "-", "-", "-", "-", "-"],
+["Fri / 07-Aug-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Fri / 07-Aug-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "NGS Gr.1 [SP, MG,VF] {CR-017}", "NGS Gr.2 [SP, MG,VF] {CR-017}", "-", "-", "-"],
+["Fri / 07-Aug-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "-", "-", "-", "-", "-"],
+["Sat / 08-Aug-2026", "-", "LEAP GS", "LEAP GS", "DPM Gr.2 [RP&ASI,VF] {CR-014}", "DPM Gr.1 [RP&ASI,VF] {CR-014}", "DPM Gr.3 [RP&ASI,VF] {CR-014}", "-", "-"],
+["Sat / 08-Aug-2026", "-", "-", "-", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Sat / 08-Aug-2026", "-", "-", "-", "NGS Gr.2 [SP, MG,VF] {CR-017}", "NGS Gr.1 [SP, MG,VF] {CR-017}", "-", "-", "-"],
+["Sat / 08-Aug-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Sun / 09-Aug-2026", "-", "LEAP GS", "LEAP GS", "DPM Gr.1 [RP&ASI,VF] {CR-014}", "DPM Gr.2 [RP&ASI,VF] {CR-014}", "DPM Gr.3 [RP&ASI,VF] {CR-014}", "-", "-"],
+["Sun / 09-Aug-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Sun / 09-Aug-2026", "-", "-", "-", "NGS Gr.1 [SP, MG,VF] {CR-017}", "NGS Gr.2 [SP, MG,VF] {CR-017}", "-", "-", "-"],
+["Sun / 09-Aug-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Mon / 10-Aug-2026", "-", "FSA Gr.1 [VG] {CR-014}", "FSA Gr.2 [VG] {CR-014}", "DVM Gr.1 [VCT] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "FSA Gr.3 [VG] {CR-014}", "-", "-"],
+["Mon / 10-Aug-2026", "-", "MS Gr.1 [MN] {CR-015}", "MS Gr.2 [MN] {CR-015}", "DM Gr.1 [SMS] {CR-015}", "DM Gr.2 [SMS] {CR-015}", "DM Gr.3 [SMS] {CR-015}", "-", "-"],
+["Mon / 10-Aug-2026", "-", "LEAP Gr.1 [SP] {CR-017}", "LEAP Gr.2 [SP] {CR-017}", "PRM Gr.1 [MMS&AP] {CR-017}", "PRM Gr.2 [MMS&AP] {CR-017}", "-", "-", "-"],
+["Mon / 10-Aug-2026", "-", "DFES Gr.1 [KD] {CR-115}", "DFES Gr.2 [KD] {CR-115}", "MDT Gr.1 [AVP&ST,VF] {CR-115}", "MDT Gr.2 [AVP&ST,VF] {CR-115}", "-", "-", "-"],
+["Tue / 11-Aug-2026", "AOL Workshop for Faculty Members", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "-"],
+["Tue / 11-Aug-2026", "-", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "-"],
+["Tue / 11-Aug-2026", "-", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "-"],
+["Tue / 11-Aug-2026", "-", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "-"],
+["Wed / 12-Aug-2026", "AOL Workshop for Faculty Members", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "-"],
+["Wed / 12-Aug-2026", "-", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "-"],
+["Wed / 12-Aug-2026", "-", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "-"],
+["Wed / 12-Aug-2026", "-", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "No Class for Students", "-"],
+["Thu / 13-Aug-2026", "-", "-", "-", "-", "BADM Gr.2 [JBS&VCT] {CR-014}", "BADM Gr.1 [JBS&VCT] {CR-014}", "-", "-"],
+["Thu / 13-Aug-2026", "-", "PPBM Gr.2 [SPA] {CR-115}", "PPBM Gr.1 [SPA] {CR-115}", "NEME [SPC] {CR-114}", "CB Gr.2 [HSK] {CR-015}", "CB Gr.1 [HSK] {CR-015}", "PPBM Gr.3 [SPA] {CR-115}", "-"],
+["Thu / 13-Aug-2026", "-", "IAPM Gr.2 [PSN] {CR-017}", "IAPM Gr.1 [PSN] {CR-017}", "IAPM Gr.3 [PSN] {CR-017}", "DG Gr.2 [KSM] {CR-017}", "DG Gr.1 [KSM] {CR-017}", "-", "-"],
+["Thu / 13-Aug-2026", "-", "LDSC Gr.2 [GT] {CR-013}", "LDSC Gr.1 [GT] {CR-013}", "FIS [KS] {CR-015}", "-", "-", "-", "-"],
+["Fri / 14-Aug-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "-", "-", "-", "-", "-"],
+["Fri / 14-Aug-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Fri / 14-Aug-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "NGS Gr.1 [SP, MG,VF] {CR-017}", "NGS Gr.2 [SP, MG,VF] {CR-017}", "-", "-", "-"],
+["Fri / 14-Aug-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "-", "-", "-", "-", "-"],
+["Sat / 15-Aug-2026", "-", "Independence Day", "Independence Day", "Independence Day", "Independence Day", "Independence Day", "Independence Day", "Independence Day"],
+["Sat / 15-Aug-2026", "-", "Independence Day", "Independence Day", "Independence Day", "Independence Day", "Independence Day", "Independence Day", "Independence Day"],
+["Sat / 15-Aug-2026", "-", "Independence Day", "Independence Day", "Independence Day", "Independence Day", "Independence Day", "Independence Day", "Independence Day"],
+["Sat / 15-Aug-2026", "-", "Independence Day", "Independence Day", "Independence Day", "Independence Day", "Independence Day", "Independence Day", "Independence Day"],
+["Sun / 16-Aug-2026", "-", "-", "MS GS", "-", "-", "-", "-", "-"],
+["Sun / 16-Aug-2026", "-", "-", "-", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Sun / 16-Aug-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Sun / 16-Aug-2026", "-", "-", "-", "-", "-", "-", "-", "-"],
+["Mon / 17-Aug-2026", "-", "FSA Gr.1 [VG] {CR-014}", "FSA Gr.2 [VG] {CR-014}", "DVM Gr.1 [VCT] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "FSA Gr.3 [VG] {CR-014}", "-", "-"],
+["Mon / 17-Aug-2026", "-", "MS Gr.1 [MN] {CR-015}", "MS Gr.2 [MN] {CR-015}", "DM Gr.1 [SMS] {CR-015}", "DM Gr.2 [SMS] {CR-015}", "DM Gr.3 [SMS] {CR-015}", "-", "-"],
+["Mon / 17-Aug-2026", "-", "LEAP Gr.1 [SP] {CR-017}", "LEAP Gr.2 [SP] {CR-017}", "PRM Gr.1 [MMS&AP] {CR-017}", "PRM Gr.2 [MMS&AP] {CR-017}", "-", "-", "-"],
+["Mon / 17-Aug-2026", "-", "DFES Gr.1 [KD] {CR-115}", "DFES Gr.2 [KD] {CR-115}", "MDT Gr.1 [AVP&ST,VF] {CR-115}", "MDT Gr.2 [AVP&ST,VF] {CR-115}", "-", "-", "-"],
+["Tue / 18-Aug-2026", "MS Quiz-3 12.30 pm to 01.00 pm", "DAM Gr.1 [GMS] {CR-001}", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-001}", "BADM Gr.1 [JBS&VCT] {CR-014}", "BADM Gr.2 [JBS&VCT] {CR-014}", "-", "-"],
+["Tue / 18-Aug-2026", "-", "PPBM Gr.1 [SPA] {CR-115}", "PPBM Gr.2 [SPA] {CR-115}", "NEME [SPC] {CR-114}", "CB Gr.1 [HSK] {CR-015}", "CB Gr.2 [HSK] {CR-015}", "PPBM Gr.3 [SPA] {CR-115}", "-"],
+["Tue / 18-Aug-2026", "-", "-", "-", "-", "DG Gr.1 [KSM] {CR-017}", "DG Gr.2 [KSM] {CR-017}", "-", "-"],
+["Tue / 18-Aug-2026", "-", "LDSC Gr.1 [GT] {CR-013}", "LDSC Gr.2 [GT] {CR-013}", "FIS [KS] {CR-015}", "-", "-", "-", "-"],
+["Wed / 19-Aug-2026", "-", "FSA Gr.2 [VG] {CR-014}", "FSA Gr.1 [VG] {CR-014}", "DVM Gr.2 [VCT] {CR-014}", "DVM Gr.1 [VCT] {CR-014}", "FSA Gr.3 [VG] {CR-014}", "-", "-"],
+["Wed / 19-Aug-2026", "-", "MS Gr.2 [MN] {CR-015}", "MS Gr.1 [MN] {CR-015}", "DM Gr.2 [SMS] {CR-015}", "DM Gr.1 [SMS] {CR-015}", "DM Gr.3 [SMS] {CR-015}", "-", "-"],
+["Wed / 19-Aug-2026", "-", "LEAP Gr.2 [SP] {CR-017}", "LEAP Gr.1 [SP] {CR-017}", "PRM Gr.2 [MMS&AP] {CR-017}", "PRM Gr.1 [MMS&AP] {CR-017}", "-", "-", "-"],
+["Wed / 19-Aug-2026", "-", "DFES Gr.2 [KD] {CR-115}", "DFES Gr.1 [KD] {CR-115}", "-", "-", "-", "-", "-"],
+["Thu / 20-Aug-2026", "-", "DAM Gr.2 [GMS] {CR-001}", "DAM Gr.1 [GMS] {CR-001}", "DAM Gr.3 [GMS] {CR-001}", "BADM Gr.2 [JBS&VCT] {CR-014}", "BADM Gr.1 [JBS&VCT] {CR-014}", "-", "-"],
+["Thu / 20-Aug-2026", "-", "PPBM Gr.2 [SPA] {CR-115}", "PPBM Gr.1 [SPA] {CR-115}", "NEME [SPC] {CR-114}", "CB Gr.2 [HSK] {CR-015}", "CB Gr.1 [HSK] {CR-015}", "PPBM Gr.3 [SPA] {CR-115}", "-"],
+["Thu / 20-Aug-2026", "-", "-", "-", "-", "DG Gr.2 [KSM] {CR-017}", "DG Gr.1 [KSM] {CR-017}", "-", "-"],
+["Thu / 20-Aug-2026", "-", "-", "-", "FIS [KS] {CR-015}", "-", "-", "-", "-"],
+["Fri / 21-Aug-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "-", "-", "-", "-", "-"],
+["Fri / 21-Aug-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "VAL Gr.1 [NG] {CR-015}", "VAL Gr.2 [NG] {CR-015}", "VAL Gr.3 [NG] {CR-015}", "-", "-"],
+["Fri / 21-Aug-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "-", "-", "-", "-", "-"],
+["Fri / 21-Aug-2026", "-", "Quiz/Guest Speaker", "Quiz/Guest Speaker", "-", "-", "-", "-", "-"],
+["Sat / 22-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Sat / 22-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Sat / 22-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Sat / 22-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Sun / 23-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Sun / 23-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Sun / 23-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Sun / 23-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Mon / 24-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Mon / 24-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Mon / 24-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Mon / 24-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Tue / 25-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Tue / 25-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Tue / 25-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Tue / 25-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Wed / 26-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Wed / 26-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Wed / 26-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Wed / 26-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Thu / 27-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Thu / 27-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Thu / 27-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Thu / 27-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Fri / 28-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Fri / 28-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Fri / 28-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Fri / 28-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Sat / 29-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Sat / 29-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Sat / 29-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Sat / 29-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Sun / 30-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Sun / 30-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Sun / 30-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Sun / 30-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Mon / 31-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Mon / 31-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Mon / 31-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"],
+["Mon / 31-Aug-2026", "-", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term", "End-Term"]
+];
+
+let currentRaw=[...RAW];
+
+function pDate(ds){const[d,mo,y]=ds.split('-');const M={Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};return new Date(+y,M[mo],+d);}
+function todayKey(){const t=new Date();const M=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];return`${String(t.getDate()).padStart(2,'0')}-${M[t.getMonth()]}-${t.getFullYear()}`;}
+
+function parseData(raw){
+  const data={},subs={};
+  const sp=['Registration','Mid-Term','End-Term','Field Visit','No Class','Independence','Quiz','Guest'];
+  raw.forEach(row=>{
+    const m=row[0].match(/(\w+)\s*\/\s*(\d{2}-\w+-\d{4})/);if(!m)return;
+    const dk=m[2],day=m[1];
+    const remark=(row[1]||'').trim();
+    if(!data[dk])data[dk]={day,date:dk,remarks:[],slots:[[],[],[],[],[],[],[]]};
+    if(remark&&remark!=='-'&&!data[dk].remarks.includes(remark))data[dk].remarks.push(remark);
+    // slots are at indices 2..8
+    for(let i=2;i<=8;i++){
+      const t=(row[i]||'').replace(/\s+/g,' ').trim();if(!t||t==='-')continue;
+      const sm=t.match(/^([A-Z]{2,6})\s+Gr\.(\d+)/);
+      const ngm=t.match(/^([A-Z]{2,5})\s+\[/);
+      const isSp=sp.some(w=>t.includes(w));
+      if(sm){const sub=sm[1],grp=+sm[2];const rm=t.match(/\{([^}]+)\}/);if(!subs[sub])subs[sub]=new Set();subs[sub].add(grp);data[dk].slots[i-2].push({type:'cls',sub,grp,room:rm?rm[1]:''});}
+      else if(ngm&&!isSp){const sub=ngm[1];const rm=t.match(/\{([^}]+)\}/);if(!subs[sub])subs[sub]=new Set();data[dk].slots[i-2].push({type:'cls',sub,grp:0,room:rm?rm[1]:''});}
+      else if(isSp){let tp='ev';if(t.includes('Independence'))tp='hol';else if(t.includes('Mid-Term')||t.includes('End-Term'))tp='exam';else if(t.includes('No Class'))tp='gs';data[dk].slots[i-2].push({type:tp,label:t.replace('Mid-Term','Mid-term').replace('End-Term','End-term')});}
+    }
+  });
+  return{data,subs};
+}
+
+function getWeeks(data){
+  const dates=Object.keys(data).sort((a,b)=>pDate(a)-pDate(b));
+  const weeks=[];
+  dates.forEach(d=>{const day=data[d].day;if(weeks.length===0||day==='Mon')weeks.push({key:d,label:d.slice(0,6),dates:[d]});else weeks[weeks.length-1].dates.push(d);});
+  return weeks;
+}
+
+function loadPrefs(){try{const s=localStorage.getItem(STORE);if(s){sel=JSON.parse(s);return true;}}catch(e){}return false;}
+function savePrefs(){try{localStorage.setItem(STORE,JSON.stringify(sel));}catch(e){}}
+
+function buildSetupChips(){
+  const grid=document.getElementById('setupChips');grid.innerHTML='';
+  Object.keys(allSubs).sort().forEach(sub=>{
+    const groups=[...allSubs[sub]].sort((a,b)=>a-b);
+    const isOn=sel[sub]!==undefined;
+    const chip=document.createElement('div');chip.className='chip'+(isOn?' on':'');
+    let inner=`<span class="dot"></span><span>${sub}</span>`;
+    if(groups.length>1){inner+=`<select onclick="event.stopPropagation()">`;groups.forEach(g=>inner+=`<option value="${g}"${sel[sub]===g?' selected':''}>Gr.${g}</option>`);inner+='</select>';}
+    chip.innerHTML=inner;
+    chip.addEventListener('click',e=>{
+      if(e.target.tagName==='SELECT'||e.target.tagName==='OPTION')return;
+      if(chip.classList.contains('on')){delete sel[sub];chip.classList.remove('on');}
+      else{const s=chip.querySelector('select');sel[sub]=s?+s.value:(groups[0]||0);chip.classList.add('on');}
+      updateFooter();
+    });
+    const s=chip.querySelector('select');
+    if(s)s.addEventListener('change',()=>{if(sel[sub]!==undefined){sel[sub]=+s.value;}});
+    grid.appendChild(chip);
+  });
+  updateFooter();
+}
+
+function updateFooter(){
+  const n=Object.keys(sel).length;
+  document.getElementById('setupBtn').disabled=n===0;
+  document.getElementById('scnt').textContent=n===0?'Select at least one subject':`${n} subject${n!==1?'s':''} selected`;
+}
+
+function goMain(){
+  savePrefs();
+  document.getElementById('sSetup').classList.remove('active');
+  document.getElementById('sMain').classList.add('active');
+  renderSummary();renderTable();
+}
+
+function goSetup(){
+  document.getElementById('sMain').classList.remove('active');
+  document.getElementById('sSetup').classList.add('active');
+  buildSetupChips();
+}
+
+function renderSummary(){
+  const line=Object.keys(sel).sort().map(s=>`${s}${sel[s]?` Gr.${sel[s]}`:''}`).join(' \u00b7 ');
+  document.getElementById('sbarTxt').textContent=line||'No subjects selected';
+}
+
+function renderTable(){
+  const today=todayKey();
+  const dates=Object.keys(parsed).sort((a,b)=>pDate(a)-pDate(b));
+  let fd;
+  if(activeWk==='all')fd=[...new Set(dates)];
+  else{const wks=getWeeks(parsed);const w=wks.find(x=>x.key===activeWk);fd=w?[...new Set(w.dates)].sort((a,b)=>pDate(a)-pDate(b)):[...new Set(dates)];}
+  const tbody=document.getElementById('tbody');tbody.innerHTML='';
+  let cnt=0;
+  fd.forEach(dk=>{
+    const row=parsed[dk];if(!row)return;
+    const isT=dk===today;
+    const tr=document.createElement('tr');if(isT)tr.classList.add('tr-today');
+    const td0=document.createElement('td');td0.className='dc';td0.textContent=dk;
+    if(isT){const b=document.createElement('span');b.style.cssText='font-size:9px;background:#534AB7;color:#fff;border-radius:4px;padding:1px 5px;margin-left:6px;vertical-align:middle;font-weight:500';b.textContent='today';td0.appendChild(b);}
+    tr.appendChild(td0);
+    const td1=document.createElement('td');td1.className='dy';td1.textContent=row.day;tr.appendChild(td1);
+    const tdR=document.createElement('td');tdR.className='remark-cell';
+    if(row.remarks&&row.remarks.length>0){
+      const ul=document.createElement('ol');ul.style.cssText='padding-left:14px;margin:0';
+      row.remarks.forEach(r=>{const li=document.createElement('li');li.textContent=r;ul.appendChild(li);});
+      tdR.appendChild(ul);
+    }
+    tr.appendChild(tdR);
+    row.slots.forEach(entries=>{
+      const td=document.createElement('td');let html='';
+      entries.forEach(e=>{
+        if(e.type!=='cls'){html+=`<span class="pill ${e.type}">${e.label}</span>`;return;}
+        const ms=sel[e.sub];
+        if(ms!==undefined&&(e.grp===0||e.grp===ms)){
+          html+=`<span class="pill cls my"><span class="ps">${e.sub}${e.grp?` Gr.${e.grp}`:''}</span><span class="pr">${e.room}</span></span>`;cnt++;
+        }
+      });
+      td.innerHTML=html||'<span class="em">\u2014</span>';tr.appendChild(td);
+    });
+    tbody.appendChild(tr);
+  });
+  document.getElementById('sSes').textContent=cnt;
+  const end=pDate('31-Aug-2026');
+  document.getElementById('sWks').textContent=Math.max(0,Math.round((end-pDate(today))/(7*86400000)));
+  buildToolbar();
+}
+
+function buildToolbar(){
+  const bar=document.getElementById('toolbar');bar.innerHTML='';
+  const wks=getWeeks(parsed);
+  const all=document.createElement('button');all.className='wc'+(activeWk==='all'?' on':'');all.textContent='All';all.onclick=()=>{activeWk='all';renderTable();};bar.appendChild(all);
+  wks.forEach((w,i)=>{const btn=document.createElement('button');btn.className='wc'+(activeWk===w.key?' on':'');btn.textContent=`Wk ${i+1}`;btn.title=w.label;btn.onclick=()=>{activeWk=w.key;renderTable();};bar.appendChild(btn);});
+  const ub=document.createElement('button');ub.className='upbtn';
+  ub.innerHTML='<i class="ti ti-upload" aria-hidden="true" style="font-size:13px"></i> Update timetable';
+  ub.onclick=()=>document.getElementById('modal').classList.add('open');
+  bar.appendChild(ub);
+}
+
+function closeModal(){document.getElementById('modal').classList.remove('open');document.getElementById('ust').className='ust';document.getElementById('fi').value='';}
+
+function onDrop(e){e.preventDefault();document.getElementById('dz').classList.remove('over');const f=e.dataTransfer.files[0];if(f)onFile(f);}
+
+function onFile(file){
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=ev=>{
+    try{
+      const rows=parseHTML(ev.target.result);
+      if(rows.length<10)throw new Error('no data');
+      currentRaw=rows;
+      const r=parseData(currentRaw);parsed=r.data;allSubs=r.subs;
+      showSt('ok',`Done — ${rows.length} rows loaded. Your subjects are preserved.`);
+      setTimeout(()=>{closeModal();renderSummary();renderTable();buildSetupChips();},1600);
+    }catch(e){showSt('err','Could not read this file. Make sure it is the complete HTML export (sheet.html) from Google Sheets.');}
+  };
+  reader.readAsText(file);
+}
+
+function parseHTML(html){
+  const doc=new DOMParser().parseFromString(html,'text/html');
+  const rows=[];
+  doc.querySelectorAll('tr').forEach(tr=>{
+    const cells=tr.querySelectorAll('td');if(cells.length<5)return;
+    const first=cells[0].textContent.trim();
+    if(!first.match(/\w+\s*\/\s*\d{2}-\w+-\d{4}/))return;
+    // col[0]=date, col[1]=day, col[2]=freezebar, col[3]=remarks, col[4..10]=slots
+    const row=[first];
+    const remarks=cells[3]?cells[3].textContent.replace(/\s+/g,' ').trim():'-';
+    row.push(remarks);
+    for(let i=4;i<11;i++)row.push(cells[i]?cells[i].textContent.replace(/\s+/g,' ').trim():'-');
+    rows.push(row);
+  });
+  return rows;
+}
+
+function showSt(type,msg){const el=document.getElementById('ust');el.className='ust '+type;el.textContent=msg;}
+
+const r=parseData(currentRaw);parsed=r.data;allSubs=r.subs;
+loadPrefs();
+if(Object.keys(sel).length>0){goMain();}else{buildSetupChips();}
+</script>
+</body>
+</html>
