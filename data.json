@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-02",
+  "generated": "2026-07-03",
   "term": "Term IV · Jun–Aug 2026",
   "dates": {
     "18-Jun-2026": {
@@ -1662,7 +1662,7 @@
       "date": "03-Jul-2026",
       "remarks": [
         "DVM Guest Speaker Group-wise",
-        "MS Quiz-1 12.30 pm to 01.00 pm"
+        "MS Quiz-1 20 Minutes"
       ],
       "slots": [
         [
@@ -3708,7 +3708,9 @@
     "22-Jul-2026": {
       "day": "Wed",
       "date": "22-Jul-2026",
-      "remarks": [],
+      "remarks": [
+        "IAPM Quiz-2 30 Minutes"
+      ],
       "slots": [
         [
           {
