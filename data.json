@@ -1,5 +1,5 @@
 {
-  "generated": "4 Jul 2026, 1:58:46 pm",
+  "generated": "5 Jul 2026, 3:11:06 am",
   "term": "Term IV",
   "stats": {
     "dates": 75,
@@ -3728,8 +3728,8 @@
             "grp": "TBD",
             "room": "",
             "combined": false,
-            "tentative": true,
-            "label": "DM GS Tentative"
+            "tentative": false,
+            "label": "DM GS"
           }
         ],
         [
@@ -3739,8 +3739,8 @@
             "grp": "TBD",
             "room": "",
             "combined": false,
-            "tentative": true,
-            "label": "DM GS Tentative"
+            "tentative": false,
+            "label": "DM GS"
           }
         ],
         [
