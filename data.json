@@ -1,11 +1,11 @@
 {
-  "generated": "6 Jul 2026, 11:30:12 am",
+  "generated": "6 Jul 2026, 4:43:58 pm",
   "term": "Term IV",
   "stats": {
     "dates": 75,
     "subjects": 22,
     "classes": 780,
-    "groupSessions": 36,
+    "groupSessions": 40,
     "events": 468
   },
   "subjects": {
@@ -7270,7 +7270,17 @@
             "room": "CR-015"
           }
         ],
-        [],
+        [
+          {
+            "type": "gs",
+            "sub": "MDT",
+            "grp": "TBD",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "MDT GS"
+          }
+        ],
         []
       ]
     },
@@ -7433,14 +7443,26 @@
             "room": "CR-017"
           }
         ],
-        [],
+        [
+          {
+            "type": "gs",
+            "sub": "MDT",
+            "grp": "TBD",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "MDT GS"
+          }
+        ],
         []
       ]
     },
     "05-Aug-2026": {
       "day": "Wed",
       "date": "05-Aug-2026",
-      "remarks": [],
+      "remarks": [
+        "MDT Cancelled"
+      ],
       "slots": [
         [
           {
@@ -7616,7 +7638,17 @@
             "room": "CR-015"
           }
         ],
-        [],
+        [
+          {
+            "type": "gs",
+            "sub": "MDT",
+            "grp": "TBD",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "MDT GS"
+          }
+        ],
         []
       ]
     },
@@ -8329,7 +8361,17 @@
             "room": "CR-015"
           }
         ],
-        [],
+        [
+          {
+            "type": "gs",
+            "sub": "MDT",
+            "grp": "TBD",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "MDT GS"
+          }
+        ],
         []
       ]
     },
