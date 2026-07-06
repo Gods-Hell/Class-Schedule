@@ -1,5 +1,5 @@
 {
-  "generated": "6 Jul 2026, 10:12:01 am",
+  "generated": "6 Jul 2026, 11:29:04 am",
   "term": "Term IV",
   "stats": {
     "dates": 75,
@@ -3270,7 +3270,8 @@
       "day": "Wed",
       "date": "08-Jul-2026",
       "remarks": [
-        "DPM Quiz 30 Minutes"
+        "DPM Quiz 30 Minutes",
+        "CR-008 Blocked"
       ],
       "slots": [
         [
