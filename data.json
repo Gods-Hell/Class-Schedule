@@ -1,11 +1,11 @@
 {
-  "generated": "6 Jul 2026, 4:45:19 pm",
+  "generated": "7 Jul 2026, 7:16:23 pm",
   "term": "Term IV",
   "stats": {
     "dates": 75,
     "subjects": 22,
     "classes": 780,
-    "groupSessions": 40,
+    "groupSessions": 37,
     "events": 468
   },
   "subjects": {
@@ -3428,17 +3428,7 @@
             "room": "CR-015"
           }
         ],
-        [
-          {
-            "type": "gs",
-            "sub": "LEAP",
-            "grp": "TBD",
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "LEAP GS"
-          }
-        ],
+        [],
         []
       ]
     },
@@ -3446,7 +3436,8 @@
       "day": "Thu",
       "date": "09-Jul-2026",
       "remarks": [
-        "MDT Quiz 30 Minutes"
+        "MDT Quiz 30 Minutes",
+        "DM Quiz 15 Minutes"
       ],
       "slots": [
         [
@@ -3722,28 +3713,8 @@
             "label": "FIS Mid-Term"
           }
         ],
-        [
-          {
-            "type": "gs",
-            "sub": "DM",
-            "grp": "TBD",
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "DM GS"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": "DM",
-            "grp": "TBD",
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "DM GS"
-          }
-        ],
+        [],
+        [],
         [
           {
             "type": "gs",
