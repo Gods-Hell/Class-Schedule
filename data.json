@@ -1,11 +1,11 @@
 {
-  "generated": "7 Jul 2026, 11:15:29 pm",
+  "generated": "9 Jul 2026, 9:01:42 am",
   "term": "Term IV",
   "stats": {
     "dates": 75,
     "subjects": 22,
     "classes": 780,
-    "groupSessions": 37,
+    "groupSessions": 35,
     "events": 468
   },
   "subjects": {
@@ -4191,26 +4191,8 @@
             "room": "CR-017"
           }
         ],
-        [
-          {
-            "type": "gs",
-            "sub": "MS",
-            "grp": "TBD",
-            "room": "",
-            "faculty": [],
-            "label": "MS"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": "MS",
-            "grp": "TBD",
-            "room": "",
-            "faculty": [],
-            "label": "MS"
-          }
-        ]
+        [],
+        []
       ]
     },
     "17-Jul-2026": {
