@@ -1,14 +1,34 @@
 {
-  "generated": "9 Jul 2026, 9:01:42 am",
+  "generated": "10 Jul 2026, 3:04:58 pm",
   "term": "Term IV",
   "stats": {
-    "dates": 75,
+    "dates": 85,
     "subjects": 22,
-    "classes": 780,
-    "groupSessions": 35,
-    "events": 468
+    "classes": 916,
+    "groupSessions": 32,
+    "events": 476
   },
   "subjects": {
+    "DVM": [
+      1,
+      2
+    ],
+    "DM": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "PRM": [
+      0,
+      1,
+      2
+    ],
+    "MDT": [
+      0,
+      1,
+      2
+    ],
     "DAM": [
       1,
       2,
@@ -38,15 +58,29 @@
       2,
       3
     ],
-    "DG": [
-      1,
-      2
-    ],
     "LDSC": [
       1,
       2
     ],
-    "LEAP": [
+    "FIS": [
+      0
+    ],
+    "FSA": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "MS": [
+      0,
+      1,
+      2
+    ],
+    "DFES": [
+      1,
+      2
+    ],
+    "DG": [
       0,
       1,
       2
@@ -56,11 +90,6 @@
       1,
       2,
       3
-    ],
-    "NGS": [
-      0,
-      1,
-      2
     ],
     "DPM": [
       0,
@@ -75,46 +104,1542 @@
     "CPN": [
       0
     ],
-    "FSA": [
-      0,
-      1,
-      2,
-      3
-    ],
-    "DVM": [
-      1,
-      2
-    ],
-    "MS": [
+    "NGS": [
       0,
       1,
       2
     ],
-    "PRM": [
+    "LEAP": [
       0,
       1,
       2
-    ],
-    "DFES": [
-      1,
-      2
-    ],
-    "MDT": [
-      0,
-      1,
-      2
-    ],
-    "FIS": [
-      0
-    ],
-    "DM": [
-      0,
-      1,
-      2,
-      3
     ]
   },
   "dates": {
+    "08-Jun-2026": {
+      "day": "Mon",
+      "date": "08-Jun-2026",
+      "remarks": [],
+      "slots": [
+        [
+          {
+            "type": "event",
+            "label": "Registration"
+          },
+          {
+            "type": "event",
+            "label": "Registration"
+          },
+          {
+            "type": "event",
+            "label": "Registration"
+          },
+          {
+            "type": "event",
+            "label": "Registration"
+          }
+        ],
+        [
+          {
+            "type": "event",
+            "label": "Registration"
+          },
+          {
+            "type": "event",
+            "label": "Registration"
+          },
+          {
+            "type": "event",
+            "label": "Registration"
+          },
+          {
+            "type": "event",
+            "label": "Registration"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DVM",
+            "grp": 1,
+            "faculty": [
+              "VCT"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "DM",
+            "grp": 1,
+            "faculty": [
+              "SMS"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "PRM",
+            "grp": 1,
+            "faculty": [
+              "MMS&AP"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "MDT",
+            "grp": 1,
+            "faculty": [
+              "AVP&ST",
+              "VF"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DVM",
+            "grp": 2,
+            "faculty": [
+              "VCT"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "DM",
+            "grp": 2,
+            "faculty": [
+              "SMS"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "PRM",
+            "grp": 2,
+            "faculty": [
+              "MMS&AP"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "MDT",
+            "grp": 2,
+            "faculty": [
+              "AVP&ST",
+              "VF"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DM",
+            "grp": 3,
+            "faculty": [
+              "SMS"
+            ],
+            "room": "CR-015"
+          }
+        ],
+        [],
+        []
+      ]
+    },
+    "09-Jun-2026": {
+      "day": "Tue",
+      "date": "09-Jun-2026",
+      "remarks": [],
+      "slots": [
+        [
+          {
+            "type": "cls",
+            "sub": "DAM",
+            "grp": 1,
+            "faculty": [
+              "GMS"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "PPBM",
+            "grp": 1,
+            "faculty": [
+              "SPA"
+            ],
+            "room": "CR-115"
+          },
+          {
+            "type": "cls",
+            "sub": "IAPM",
+            "grp": 1,
+            "faculty": [
+              "PSN"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "LDSC",
+            "grp": 1,
+            "faculty": [
+              "GT"
+            ],
+            "room": "CR-013"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DAM",
+            "grp": 2,
+            "faculty": [
+              "GMS"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "PPBM",
+            "grp": 2,
+            "faculty": [
+              "SPA"
+            ],
+            "room": "CR-115"
+          },
+          {
+            "type": "cls",
+            "sub": "IAPM",
+            "grp": 2,
+            "faculty": [
+              "PSN"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "LDSC",
+            "grp": 2,
+            "faculty": [
+              "GT"
+            ],
+            "room": "CR-013"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DAM",
+            "grp": 3,
+            "faculty": [
+              "GMS"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "NEME",
+            "grp": 0,
+            "faculty": [
+              "SPC"
+            ],
+            "room": "CR-114"
+          },
+          {
+            "type": "cls",
+            "sub": "IAPM",
+            "grp": 3,
+            "faculty": [
+              "PSN"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "FIS",
+            "grp": 0,
+            "faculty": [
+              "KS"
+            ],
+            "room": "CR-014"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "BADM",
+            "grp": 1,
+            "faculty": [
+              "JBS&VCT"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "CB",
+            "grp": 1,
+            "faculty": [
+              "HSK"
+            ],
+            "room": "CR-015"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "BADM",
+            "grp": 2,
+            "faculty": [
+              "JBS&VCT"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "CB",
+            "grp": 2,
+            "faculty": [
+              "HSK"
+            ],
+            "room": "CR-015"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "PPBM",
+            "grp": 3,
+            "faculty": [
+              "SPA"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        []
+      ]
+    },
+    "10-Jun-2026": {
+      "day": "Wed",
+      "date": "10-Jun-2026",
+      "remarks": [],
+      "slots": [
+        [
+          {
+            "type": "cls",
+            "sub": "FSA",
+            "grp": 2,
+            "faculty": [
+              "VG"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "MS",
+            "grp": 2,
+            "faculty": [
+              "MN"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "DFES",
+            "grp": 2,
+            "faculty": [
+              "KD"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "FSA",
+            "grp": 1,
+            "faculty": [
+              "VG"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "MS",
+            "grp": 1,
+            "faculty": [
+              "MN"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "DFES",
+            "grp": 1,
+            "faculty": [
+              "KD"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DVM",
+            "grp": 2,
+            "faculty": [
+              "VCT"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "DM",
+            "grp": 2,
+            "faculty": [
+              "SMS"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "PRM",
+            "grp": 2,
+            "faculty": [
+              "MMS&AP"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "MDT",
+            "grp": 2,
+            "faculty": [
+              "AVP&ST",
+              "VF"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DVM",
+            "grp": 1,
+            "faculty": [
+              "VCT"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "DM",
+            "grp": 1,
+            "faculty": [
+              "SMS"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "PRM",
+            "grp": 1,
+            "faculty": [
+              "MMS&AP"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "MDT",
+            "grp": 1,
+            "faculty": [
+              "AVP&ST",
+              "VF"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "FSA",
+            "grp": 3,
+            "faculty": [
+              "VG"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "DM",
+            "grp": 3,
+            "faculty": [
+              "SMS"
+            ],
+            "room": "CR-015"
+          }
+        ],
+        [],
+        []
+      ]
+    },
+    "11-Jun-2026": {
+      "day": "Thu",
+      "date": "11-Jun-2026",
+      "remarks": [
+        "DG Venue-CR-002"
+      ],
+      "slots": [
+        [
+          {
+            "type": "cls",
+            "sub": "DAM",
+            "grp": 2,
+            "faculty": [
+              "GMS"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "PPBM",
+            "grp": 2,
+            "faculty": [
+              "SPA"
+            ],
+            "room": "CR-115"
+          },
+          {
+            "type": "cls",
+            "sub": "IAPM",
+            "grp": 2,
+            "faculty": [
+              "PSN"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "LDSC",
+            "grp": 2,
+            "faculty": [
+              "GT"
+            ],
+            "room": "CR-013"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DAM",
+            "grp": 1,
+            "faculty": [
+              "GMS"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "PPBM",
+            "grp": 1,
+            "faculty": [
+              "SPA"
+            ],
+            "room": "CR-115"
+          },
+          {
+            "type": "cls",
+            "sub": "IAPM",
+            "grp": 1,
+            "faculty": [
+              "PSN"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "LDSC",
+            "grp": 1,
+            "faculty": [
+              "GT"
+            ],
+            "room": "CR-013"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DAM",
+            "grp": 3,
+            "faculty": [
+              "GMS"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "NEME",
+            "grp": 0,
+            "faculty": [
+              "SPC"
+            ],
+            "room": "CR-114"
+          },
+          {
+            "type": "cls",
+            "sub": "IAPM",
+            "grp": 3,
+            "faculty": [
+              "PSN"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "FIS",
+            "grp": 0,
+            "faculty": [
+              "KS"
+            ],
+            "room": "CR-014"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "BADM",
+            "grp": 2,
+            "faculty": [
+              "JBS&VCT"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "CB",
+            "grp": 2,
+            "faculty": [
+              "HSK"
+            ],
+            "room": "CR-015"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "BADM",
+            "grp": 1,
+            "faculty": [
+              "JBS&VCT"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "CB",
+            "grp": 1,
+            "faculty": [
+              "HSK"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "DG",
+            "grp": 1,
+            "faculty": [
+              "KSM"
+            ],
+            "room": "CR-017"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DG",
+            "grp": 1,
+            "faculty": [
+              "KSM"
+            ],
+            "room": "CR-017"
+          }
+        ],
+        []
+      ]
+    },
+    "12-Jun-2026": {
+      "day": "Fri",
+      "date": "12-Jun-2026",
+      "remarks": [
+        "DG Venue-CR-002"
+      ],
+      "slots": [
+        [
+          {
+            "type": "cls",
+            "sub": "DG",
+            "grp": 2,
+            "faculty": [
+              "KSM"
+            ],
+            "room": "CR-017"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DG",
+            "grp": 2,
+            "faculty": [
+              "KSM"
+            ],
+            "room": "CR-017"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "VAL",
+            "grp": 1,
+            "faculty": [
+              "NG"
+            ],
+            "room": "CR-015"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "VAL",
+            "grp": 2,
+            "faculty": [
+              "NG"
+            ],
+            "room": "CR-015"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "VAL",
+            "grp": 3,
+            "faculty": [
+              "NG"
+            ],
+            "room": "CR-015"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "PPBM",
+            "grp": 3,
+            "faculty": [
+              "SPA"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        []
+      ]
+    },
+    "13-Jun-2026": {
+      "day": "Sat",
+      "date": "13-Jun-2026",
+      "remarks": [],
+      "slots": [
+        [
+          {
+            "type": "cls",
+            "sub": "MFS",
+            "grp": 2,
+            "faculty": [
+              "BLR",
+              "VF"
+            ],
+            "room": "CR-017"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "MFS",
+            "grp": 1,
+            "faculty": [
+              "BLR",
+              "VF"
+            ],
+            "room": "CR-017"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DPM",
+            "grp": 2,
+            "faculty": [
+              "RP&ASI",
+              "VF"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "VAL",
+            "grp": 2,
+            "faculty": [
+              "NG"
+            ],
+            "room": "CR-015"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DPM",
+            "grp": 1,
+            "faculty": [
+              "RP&ASI",
+              "VF"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "VAL",
+            "grp": 1,
+            "faculty": [
+              "NG"
+            ],
+            "room": "CR-015"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DPM",
+            "grp": 3,
+            "faculty": [
+              "RP&ASI",
+              "VF"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "VAL",
+            "grp": 3,
+            "faculty": [
+              "NG"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "MFS",
+            "grp": 1,
+            "faculty": [
+              "BLR",
+              "VF"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "CPN",
+            "grp": 0,
+            "faculty": [
+              "AD",
+              "VF"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "MFS",
+            "grp": 2,
+            "faculty": [
+              "BLR",
+              "VF"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "CPN",
+            "grp": 0,
+            "faculty": [
+              "AD",
+              "VF"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        []
+      ]
+    },
+    "14-Jun-2026": {
+      "day": "Sun",
+      "date": "14-Jun-2026",
+      "remarks": [
+        "NGS Venue CR-002"
+      ],
+      "slots": [
+        [
+          {
+            "type": "cls",
+            "sub": "MFS",
+            "grp": 2,
+            "faculty": [
+              "BLR",
+              "VF"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "CPN",
+            "grp": 0,
+            "faculty": [
+              "AD",
+              "VF"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "MFS",
+            "grp": 1,
+            "faculty": [
+              "BLR",
+              "VF"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "CPN",
+            "grp": 0,
+            "faculty": [
+              "AD",
+              "VF"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DPM",
+            "grp": 1,
+            "faculty": [
+              "RP&ASI",
+              "VF"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "NGS",
+            "grp": 1,
+            "faculty": [
+              "SP",
+              "MG",
+              "VF"
+            ],
+            "room": "CR-017"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DPM",
+            "grp": 2,
+            "faculty": [
+              "RP&ASI",
+              "VF"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "NGS",
+            "grp": 2,
+            "faculty": [
+              "SP",
+              "MG",
+              "VF"
+            ],
+            "room": "CR-017"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DPM",
+            "grp": 3,
+            "faculty": [
+              "RP&ASI",
+              "VF"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "MFS",
+            "grp": 1,
+            "faculty": [
+              "BLR",
+              "VF"
+            ],
+            "room": "CR-017"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "MFS",
+            "grp": 2,
+            "faculty": [
+              "BLR",
+              "VF"
+            ],
+            "room": "CR-017"
+          }
+        ],
+        []
+      ]
+    },
+    "15-Jun-2026": {
+      "day": "Mon",
+      "date": "15-Jun-2026",
+      "remarks": [],
+      "slots": [
+        [
+          {
+            "type": "cls",
+            "sub": "FSA",
+            "grp": 1,
+            "faculty": [
+              "VG"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "MS",
+            "grp": 1,
+            "faculty": [
+              "MN"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "DFES",
+            "grp": 1,
+            "faculty": [
+              "KD"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "FSA",
+            "grp": 2,
+            "faculty": [
+              "VG"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "MS",
+            "grp": 2,
+            "faculty": [
+              "MN"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "DFES",
+            "grp": 2,
+            "faculty": [
+              "KD"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DVM",
+            "grp": 1,
+            "faculty": [
+              "VCT"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "DM",
+            "grp": 1,
+            "faculty": [
+              "SMS"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "PRM",
+            "grp": 1,
+            "faculty": [
+              "MMS&AP"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "MDT",
+            "grp": 1,
+            "faculty": [
+              "AVP&ST",
+              "VF"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DVM",
+            "grp": 2,
+            "faculty": [
+              "VCT"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "DM",
+            "grp": 2,
+            "faculty": [
+              "SMS"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "PRM",
+            "grp": 2,
+            "faculty": [
+              "MMS&AP"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "MDT",
+            "grp": 2,
+            "faculty": [
+              "AVP&ST",
+              "VF"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "FSA",
+            "grp": 3,
+            "faculty": [
+              "VG"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "DM",
+            "grp": 3,
+            "faculty": [
+              "SMS"
+            ],
+            "room": "CR-015"
+          }
+        ],
+        [],
+        []
+      ]
+    },
+    "16-Jun-2026": {
+      "day": "Tue",
+      "date": "16-Jun-2026",
+      "remarks": [],
+      "slots": [
+        [
+          {
+            "type": "cls",
+            "sub": "DAM",
+            "grp": 1,
+            "faculty": [
+              "GMS"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "PPBM",
+            "grp": 1,
+            "faculty": [
+              "SPA"
+            ],
+            "room": "CR-115"
+          },
+          {
+            "type": "cls",
+            "sub": "IAPM",
+            "grp": 1,
+            "faculty": [
+              "PSN"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "LDSC",
+            "grp": 1,
+            "faculty": [
+              "GT"
+            ],
+            "room": "CR-013"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DAM",
+            "grp": 2,
+            "faculty": [
+              "GMS"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "PPBM",
+            "grp": 2,
+            "faculty": [
+              "SPA"
+            ],
+            "room": "CR-115"
+          },
+          {
+            "type": "cls",
+            "sub": "IAPM",
+            "grp": 2,
+            "faculty": [
+              "PSN"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "LDSC",
+            "grp": 2,
+            "faculty": [
+              "GT"
+            ],
+            "room": "CR-013"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DAM",
+            "grp": 3,
+            "faculty": [
+              "GMS"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "NEME",
+            "grp": 0,
+            "faculty": [
+              "SPC"
+            ],
+            "room": "CR-114"
+          },
+          {
+            "type": "cls",
+            "sub": "IAPM",
+            "grp": 3,
+            "faculty": [
+              "PSN"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "FIS",
+            "grp": 0,
+            "faculty": [
+              "KS"
+            ],
+            "room": "CR-014"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "BADM",
+            "grp": 1,
+            "faculty": [
+              "JBS&VCT"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "CB",
+            "grp": 1,
+            "faculty": [
+              "HSK"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "DG",
+            "grp": 1,
+            "faculty": [
+              "KSM"
+            ],
+            "room": "CR-017"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "BADM",
+            "grp": 2,
+            "faculty": [
+              "JBS&VCT"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "CB",
+            "grp": 2,
+            "faculty": [
+              "HSK"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "DG",
+            "grp": 2,
+            "faculty": [
+              "KSM"
+            ],
+            "room": "CR-017"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "PPBM",
+            "grp": 3,
+            "faculty": [
+              "SPA"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        []
+      ]
+    },
+    "17-Jun-2026": {
+      "day": "Wed",
+      "date": "17-Jun-2026",
+      "remarks": [],
+      "slots": [
+        [
+          {
+            "type": "cls",
+            "sub": "FSA",
+            "grp": 2,
+            "faculty": [
+              "VG"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "MS",
+            "grp": 2,
+            "faculty": [
+              "MN"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "DFES",
+            "grp": 2,
+            "faculty": [
+              "KD"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "FSA",
+            "grp": 1,
+            "faculty": [
+              "VG"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "MS",
+            "grp": 1,
+            "faculty": [
+              "MN"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "DFES",
+            "grp": 1,
+            "faculty": [
+              "KD"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DVM",
+            "grp": 2,
+            "faculty": [
+              "VCT"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "DM",
+            "grp": 2,
+            "faculty": [
+              "SMS"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "PRM",
+            "grp": 2,
+            "faculty": [
+              "MMS&AP"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "MDT",
+            "grp": 2,
+            "faculty": [
+              "AVP&ST",
+              "VF"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "DVM",
+            "grp": 1,
+            "faculty": [
+              "VCT"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "DM",
+            "grp": 1,
+            "faculty": [
+              "SMS"
+            ],
+            "room": "CR-015"
+          },
+          {
+            "type": "cls",
+            "sub": "PRM",
+            "grp": 1,
+            "faculty": [
+              "MMS&AP"
+            ],
+            "room": "CR-017"
+          },
+          {
+            "type": "cls",
+            "sub": "MDT",
+            "grp": 1,
+            "faculty": [
+              "AVP&ST",
+              "VF"
+            ],
+            "room": "CR-115"
+          }
+        ],
+        [
+          {
+            "type": "cls",
+            "sub": "FSA",
+            "grp": 3,
+            "faculty": [
+              "VG"
+            ],
+            "room": "CR-014"
+          },
+          {
+            "type": "cls",
+            "sub": "DM",
+            "grp": 3,
+            "faculty": [
+              "SMS"
+            ],
+            "room": "CR-015"
+          }
+        ],
+        [],
+        []
+      ]
+    },
     "18-Jun-2026": {
       "day": "Thu",
       "date": "18-Jun-2026",
@@ -3698,7 +5223,7 @@
       "day": "Sun",
       "date": "12-Jul-2026",
       "remarks": [
-        "CR-002"
+        "LEAP Make-up Session CR-002"
       ],
       "slots": [
         [
@@ -3717,22 +5242,24 @@
         [],
         [
           {
-            "type": "gs",
+            "type": "cls",
             "sub": "LEAP",
-            "grp": "TBD",
-            "room": "",
-            "faculty": [],
-            "label": "LEAP"
+            "grp": 1,
+            "faculty": [
+              "SP"
+            ],
+            "room": "CR-002"
           }
         ],
         [
           {
-            "type": "gs",
+            "type": "cls",
             "sub": "LEAP",
-            "grp": "TBD",
-            "room": "",
-            "faculty": [],
-            "label": "LEAP"
+            "grp": 2,
+            "faculty": [
+              "SP"
+            ],
+            "room": "CR-002"
           }
         ],
         []
@@ -4627,7 +6154,7 @@
       "day": "Mon",
       "date": "20-Jul-2026",
       "remarks": [
-        "Sports Complex"
+        "Sports Complex to be Ready"
       ],
       "slots": [
         [
@@ -4995,7 +6522,8 @@
       "day": "Wed",
       "date": "22-Jul-2026",
       "remarks": [
-        "IAPM Quiz-2 30 Minutes"
+        "IAPM Quiz-2 30 Minutes",
+        "LEAP Cancelled"
       ],
       "slots": [
         [
@@ -5016,15 +6544,6 @@
               "MN"
             ],
             "room": "CR-015"
-          },
-          {
-            "type": "cls",
-            "sub": "LEAP",
-            "grp": 2,
-            "faculty": [
-              "SP"
-            ],
-            "room": "CR-017"
           },
           {
             "type": "cls",
@@ -5054,15 +6573,6 @@
               "MN"
             ],
             "room": "CR-015"
-          },
-          {
-            "type": "cls",
-            "sub": "LEAP",
-            "grp": 1,
-            "faculty": [
-              "SP"
-            ],
-            "room": "CR-017"
           },
           {
             "type": "cls",
@@ -5409,15 +6919,6 @@
           },
           {
             "type": "cls",
-            "sub": "MS",
-            "grp": 2,
-            "faculty": [
-              "MN"
-            ],
-            "room": "CR-015"
-          },
-          {
-            "type": "cls",
             "sub": "LEAP",
             "grp": 2,
             "faculty": [
@@ -5444,15 +6945,6 @@
               "VG"
             ],
             "room": "CR-014"
-          },
-          {
-            "type": "cls",
-            "sub": "MS",
-            "grp": 1,
-            "faculty": [
-              "MN"
-            ],
-            "room": "CR-015"
           },
           {
             "type": "cls",
@@ -5918,7 +7410,9 @@
     "27-Jul-2026": {
       "day": "Mon",
       "date": "27-Jul-2026",
-      "remarks": [],
+      "remarks": [
+        "Lakshya GL (Placement) From 02.00 pm (CR-009)"
+      ],
       "slots": [
         [
           {
@@ -6282,7 +7776,9 @@
     "29-Jul-2026": {
       "day": "Wed",
       "date": "29-Jul-2026",
-      "remarks": [],
+      "remarks": [
+        "Lakshya GL (Placement) From 02.00 pm (CR-009)"
+      ],
       "slots": [
         [
           {
@@ -7226,12 +8722,12 @@
         [
           {
             "type": "gs",
-            "sub": "MDT",
+            "sub": "DG",
             "grp": "TBD",
             "room": "",
             "combined": false,
             "tentative": false,
-            "label": "MDT GS"
+            "label": "DG GS"
           }
         ],
         []
@@ -7399,12 +8895,12 @@
         [
           {
             "type": "gs",
-            "sub": "MDT",
+            "sub": "DG",
             "grp": "TBD",
             "room": "",
             "combined": false,
             "tentative": false,
-            "label": "MDT GS"
+            "label": "DG GS"
           }
         ],
         []
@@ -7594,12 +9090,12 @@
         [
           {
             "type": "gs",
-            "sub": "MDT",
+            "sub": "DG",
             "grp": "TBD",
             "room": "",
             "combined": false,
             "tentative": false,
-            "label": "MDT GS"
+            "label": "DG GS"
           }
         ],
         []
@@ -7800,7 +9296,8 @@
       "day": "Fri",
       "date": "07-Aug-2026",
       "remarks": [
-        "MS GS (M) CR-009"
+        "MS GS (M) CR-009",
+        "FSA GS CR-009"
       ],
       "slots": [
         [
@@ -7905,8 +9402,9 @@
             "sub": "FSA",
             "grp": "TBD",
             "room": "",
-            "faculty": [],
-            "label": "FSA"
+            "combined": false,
+            "tentative": false,
+            "label": "FSA GS CR-009"
           }
         ],
         []
@@ -8047,6 +9545,7 @@
         "VAL GS Combined CR-009"
       ],
       "slots": [
+        [],
         [
           {
             "type": "gs",
@@ -8055,18 +9554,7 @@
             "room": "",
             "combined": false,
             "tentative": false,
-            "label": "LEAP GS"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": "LEAP",
-            "grp": "TBD",
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "LEAP GS"
+            "label": "LEAP GS CR-009"
           }
         ],
         [
@@ -8736,12 +10224,12 @@
         [
           {
             "type": "gs",
-            "sub": "DM",
+            "sub": "DG",
             "grp": "TBD",
             "room": "",
             "combined": false,
             "tentative": false,
-            "label": "DM GS"
+            "label": "DG GS"
           },
           {
             "type": "quiz",
@@ -8759,12 +10247,12 @@
         [
           {
             "type": "gs",
-            "sub": "DM",
+            "sub": "DG",
             "grp": "TBD",
             "room": "",
             "combined": false,
             "tentative": false,
-            "label": "DM GS"
+            "label": "DG GS"
           },
           {
             "type": "quiz",
@@ -9232,7 +10720,8 @@
       "day": "Tue",
       "date": "18-Aug-2026",
       "remarks": [
-        "MS Quiz-3 12.30 pm to 01.00 pm"
+        "MS Quiz-3 12.30 pm to 01.00 pm",
+        "NEME Cancelled"
       ],
       "slots": [
         [
@@ -9411,15 +10900,6 @@
           },
           {
             "type": "cls",
-            "sub": "MS",
-            "grp": 2,
-            "faculty": [
-              "MN"
-            ],
-            "room": "CR-015"
-          },
-          {
-            "type": "cls",
             "sub": "LEAP",
             "grp": 2,
             "faculty": [
@@ -9446,15 +10926,6 @@
               "VG"
             ],
             "room": "CR-014"
-          },
-          {
-            "type": "cls",
-            "sub": "MS",
-            "grp": 1,
-            "faculty": [
-              "MN"
-            ],
-            "room": "CR-015"
           },
           {
             "type": "cls",
