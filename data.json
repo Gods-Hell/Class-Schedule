@@ -1,12 +1,12 @@
 {
-  "generated": "10 Jul 2026, 3:04:58 pm",
+  "generated": "15 Jul 2026, 11:24:13 pm",
   "term": "Term IV",
   "stats": {
     "dates": 85,
     "subjects": 22,
     "classes": 916,
-    "groupSessions": 32,
-    "events": 476
+    "groupSessions": 40,
+    "events": 428
   },
   "subjects": {
     "DVM": [
@@ -98,6 +98,7 @@
       3
     ],
     "MFS": [
+      0,
       1,
       2
     ],
@@ -5580,7 +5581,9 @@
     "16-Jul-2026": {
       "day": "Thu",
       "date": "16-Jul-2026",
-      "remarks": [],
+      "remarks": [
+        "CR-002 to be ready for DG course"
+      ],
       "slots": [
         [
           {
@@ -5879,7 +5882,8 @@
       "day": "Sat",
       "date": "18-Jul-2026",
       "remarks": [
-        "PPBM GS Combined CR-009"
+        "PPBM GS Combined CR-009",
+        "MFS Cancelled"
       ],
       "slots": [
         [
@@ -6050,6 +6054,7 @@
       "day": "Sun",
       "date": "19-Jul-2026",
       "remarks": [
+        "MFS Cancelled",
         "VAL Cancelled"
       ],
       "slots": [
@@ -6329,7 +6334,7 @@
       "day": "Tue",
       "date": "21-Jul-2026",
       "remarks": [
-        "CR-112 to be ready"
+        "CR-112 to be ready for PPBM"
       ],
       "slots": [
         [
@@ -7777,7 +7782,8 @@
       "day": "Wed",
       "date": "29-Jul-2026",
       "remarks": [
-        "Lakshya GL (Placement) From 02.00 pm (CR-009)"
+        "Lakshya GL (Placement) From 02.00 pm (CR-009)",
+        "DFES To be Cancelled"
       ],
       "slots": [
         [
@@ -8146,7 +8152,8 @@
       "date": "31-Jul-2026",
       "remarks": [
         "DPM GS Combined CR-009",
-        "First Year Mid-Term"
+        "First Year Mid-Term",
+        "IAPM GS CR-009"
       ],
       "slots": [
         [
@@ -8157,7 +8164,7 @@
             "room": "",
             "combined": false,
             "tentative": false,
-            "label": "IAPM GS"
+            "label": "IAPM GS CR-009"
           },
           {
             "type": "quiz",
@@ -8180,7 +8187,7 @@
             "room": "",
             "combined": false,
             "tentative": false,
-            "label": "IAPM GS"
+            "label": "IAPM GS CR-009"
           },
           {
             "type": "quiz",
@@ -8542,7 +8549,9 @@
       "day": "Mon",
       "date": "03-Aug-2026",
       "remarks": [
-        "DPM Quiz-2 30 Minutes"
+        "DPM Quiz-2 30 Minutes",
+        "DG GS (M) CR-009",
+        "DFES To be Cancelled"
       ],
       "slots": [
         [
@@ -8725,9 +8734,9 @@
             "sub": "DG",
             "grp": "TBD",
             "room": "",
-            "combined": false,
+            "combined": true,
             "tentative": false,
-            "label": "DG GS"
+            "label": "DG GS Combined CR-009"
           }
         ],
         []
@@ -8736,7 +8745,9 @@
     "04-Aug-2026": {
       "day": "Tue",
       "date": "04-Aug-2026",
-      "remarks": [],
+      "remarks": [
+        "DG GS (M) CR-009"
+      ],
       "slots": [
         [
           {
@@ -8898,9 +8909,9 @@
             "sub": "DG",
             "grp": "TBD",
             "room": "",
-            "combined": false,
+            "combined": true,
             "tentative": false,
-            "label": "DG GS"
+            "label": "DG GS Combined CR-009"
           }
         ],
         []
@@ -9104,7 +9115,9 @@
     "06-Aug-2026": {
       "day": "Thu",
       "date": "06-Aug-2026",
-      "remarks": [],
+      "remarks": [
+        "DG to be Cancelled"
+      ],
       "slots": [
         [
           {
@@ -9414,10 +9427,21 @@
       "day": "Sat",
       "date": "08-Aug-2026",
       "remarks": [
+        "LEAP GS CR-009",
         "FSA GS (O) CR-009"
       ],
       "slots": [
-        [],
+        [
+          {
+            "type": "gs",
+            "sub": "LEAP",
+            "grp": "TBD",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "LEAP GS CR-009"
+          }
+        ],
         [
           {
             "type": "gs",
@@ -9546,17 +9570,7 @@
       ],
       "slots": [
         [],
-        [
-          {
-            "type": "gs",
-            "sub": "LEAP",
-            "grp": "TBD",
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "LEAP GS CR-009"
-          }
-        ],
+        [],
         [
           {
             "type": "cls",
@@ -9643,7 +9657,8 @@
       "day": "Mon",
       "date": "10-Aug-2026",
       "remarks": [
-        "DVM Cancelled"
+        "DVM Cancelled",
+        "PRM Quiz-3"
       ],
       "slots": [
         [
@@ -9825,112 +9840,46 @@
       "slots": [
         [
           {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
+            "type": "gs",
+            "sub": "MFS",
+            "grp": "TBD",
+            "room": "",
+            "faculty": [],
+            "label": "MFS"
           }
         ],
         [
           {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
+            "type": "gs",
+            "sub": "MFS",
+            "grp": "TBD",
+            "room": "",
+            "faculty": [],
+            "label": "MFS"
           }
         ],
         [
           {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
+            "type": "gs",
+            "sub": "MFS",
+            "grp": "TBD",
+            "room": "",
+            "faculty": [],
+            "label": "MFS"
           }
         ],
         [
           {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
+            "type": "gs",
+            "sub": "MFS",
+            "grp": "TBD",
+            "room": "",
+            "faculty": [],
+            "label": "MFS"
           }
         ],
-        [
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          }
-        ],
-        [
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          }
-        ],
+        [],
+        [],
         []
       ]
     },
@@ -9943,112 +9892,46 @@
       "slots": [
         [
           {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
+            "type": "gs",
+            "sub": "MFS",
+            "grp": "TBD",
+            "room": "",
+            "faculty": [],
+            "label": "MFS"
           }
         ],
         [
           {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
+            "type": "gs",
+            "sub": "MFS",
+            "grp": "TBD",
+            "room": "",
+            "faculty": [],
+            "label": "MFS"
           }
         ],
         [
           {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
+            "type": "gs",
+            "sub": "MFS",
+            "grp": "TBD",
+            "room": "",
+            "faculty": [],
+            "label": "MFS"
           }
         ],
         [
           {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
+            "type": "gs",
+            "sub": "MFS",
+            "grp": "TBD",
+            "room": "",
+            "faculty": [],
+            "label": "MFS"
           }
         ],
-        [
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          }
-        ],
-        [
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          },
-          {
-            "type": "holiday",
-            "label": "No Class for Students"
-          }
-        ],
+        [],
+        [],
         []
       ]
     },
@@ -10219,7 +10102,9 @@
     "14-Aug-2026": {
       "day": "Fri",
       "date": "14-Aug-2026",
-      "remarks": [],
+      "remarks": [
+        "MDT GS CR - 009"
+      ],
       "slots": [
         [
           {
@@ -10330,7 +10215,7 @@
             "room": "",
             "combined": false,
             "tentative": false,
-            "label": "MDT GS"
+            "label": "MDT GS CR - 009"
           }
         ],
         []
@@ -11031,7 +10916,9 @@
     "20-Aug-2026": {
       "day": "Thu",
       "date": "20-Aug-2026",
-      "remarks": [],
+      "remarks": [
+        "NEME Cancelled"
+      ],
       "slots": [
         [
           {
