@@ -1,12 +1,12 @@
 {
-  "generated": "15 Jul 2026, 11:24:13 pm",
+  "generated": "16 Jul 2026, 4:15:18 pm",
   "term": "Term IV",
   "stats": {
     "dates": 85,
     "subjects": 22,
     "classes": 916,
-    "groupSessions": 40,
-    "events": 428
+    "groupSessions": 38,
+    "events": 424
   },
   "subjects": {
     "DVM": [
@@ -77,6 +77,7 @@
       2
     ],
     "DFES": [
+      0,
       1,
       2
     ],
@@ -98,7 +99,6 @@
       3
     ],
     "MFS": [
-      0,
       1,
       2
     ],
@@ -5729,8 +5729,8 @@
       "day": "Fri",
       "date": "17-Jul-2026",
       "remarks": [
-        "NEME GS CR-114",
-        "CB GS Combined CR-009"
+        "NEME GS (H) CR-014",
+        "CB GS (H) Combined CR-009"
       ],
       "slots": [
         [
@@ -5741,7 +5741,7 @@
             "room": "",
             "combined": false,
             "tentative": false,
-            "label": "NEME GS CR-114"
+            "label": "NEME GS CR-014"
           },
           {
             "type": "quiz",
@@ -5764,7 +5764,7 @@
             "room": "",
             "combined": false,
             "tentative": false,
-            "label": "NEME GS CR-114"
+            "label": "NEME GS CR-014"
           },
           {
             "type": "quiz",
@@ -5882,34 +5882,12 @@
       "day": "Sat",
       "date": "18-Jul-2026",
       "remarks": [
-        "PPBM GS Combined CR-009",
+        "PPBM GS (H) Combined CR-009",
         "MFS Cancelled"
       ],
       "slots": [
-        [
-          {
-            "type": "cls",
-            "sub": "MFS",
-            "grp": 2,
-            "faculty": [
-              "BLR",
-              "VF"
-            ],
-            "room": "CR-017"
-          }
-        ],
-        [
-          {
-            "type": "cls",
-            "sub": "MFS",
-            "grp": 1,
-            "faculty": [
-              "BLR",
-              "VF"
-            ],
-            "room": "CR-017"
-          }
-        ],
+        [],
+        [],
         [
           {
             "type": "cls",
@@ -5993,16 +5971,6 @@
               "NG"
             ],
             "room": "CR-015"
-          },
-          {
-            "type": "cls",
-            "sub": "MFS",
-            "grp": 1,
-            "faculty": [
-              "BLR",
-              "VF"
-            ],
-            "room": "CR-017"
           },
           {
             "type": "cls",
@@ -6016,16 +5984,6 @@
           }
         ],
         [
-          {
-            "type": "cls",
-            "sub": "MFS",
-            "grp": 2,
-            "faculty": [
-              "BLR",
-              "VF"
-            ],
-            "room": "CR-017"
-          },
           {
             "type": "cls",
             "sub": "CPN",
@@ -6061,16 +6019,6 @@
         [
           {
             "type": "cls",
-            "sub": "MFS",
-            "grp": 2,
-            "faculty": [
-              "BLR",
-              "VF"
-            ],
-            "room": "CR-017"
-          },
-          {
-            "type": "cls",
             "sub": "CPN",
             "grp": 0,
             "faculty": [
@@ -6081,16 +6029,6 @@
           }
         ],
         [
-          {
-            "type": "cls",
-            "sub": "MFS",
-            "grp": 1,
-            "faculty": [
-              "BLR",
-              "VF"
-            ],
-            "room": "CR-017"
-          },
           {
             "type": "cls",
             "sub": "CPN",
@@ -6128,30 +6066,8 @@
             "room": "CR-017"
           }
         ],
-        [
-          {
-            "type": "cls",
-            "sub": "MFS",
-            "grp": 1,
-            "faculty": [
-              "BLR",
-              "VF"
-            ],
-            "room": "CR-017"
-          }
-        ],
-        [
-          {
-            "type": "cls",
-            "sub": "MFS",
-            "grp": 2,
-            "faculty": [
-              "BLR",
-              "VF"
-            ],
-            "room": "CR-017"
-          }
-        ],
+        [],
+        [],
         []
       ]
     },
@@ -6159,7 +6075,8 @@
       "day": "Mon",
       "date": "20-Jul-2026",
       "remarks": [
-        "Sports Complex to be Ready"
+        "Sports Complex to be Ready LEAP",
+        "DM Cancelled"
       ],
       "slots": [
         [
@@ -9569,8 +9486,28 @@
         "VAL GS Combined CR-009"
       ],
       "slots": [
-        [],
-        [],
+        [
+          {
+            "type": "gs",
+            "sub": "DFES",
+            "grp": "TBD",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "DFES GS"
+          }
+        ],
+        [
+          {
+            "type": "gs",
+            "sub": "DFES",
+            "grp": "TBD",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "DFES GS"
+          }
+        ],
         [
           {
             "type": "cls",
@@ -9835,47 +9772,56 @@
       "day": "Tue",
       "date": "11-Aug-2026",
       "remarks": [
-        "AOL Workshop for Faculty Members"
+        "AOL Workshop for Faculty Members",
+        "MFS Make up"
       ],
       "slots": [
         [
           {
-            "type": "gs",
+            "type": "cls",
             "sub": "MFS",
-            "grp": "TBD",
-            "room": "",
-            "faculty": [],
-            "label": "MFS"
+            "grp": 2,
+            "faculty": [
+              "BLR",
+              "VF"
+            ],
+            "room": "CR-017"
           }
         ],
         [
           {
-            "type": "gs",
+            "type": "cls",
             "sub": "MFS",
-            "grp": "TBD",
-            "room": "",
-            "faculty": [],
-            "label": "MFS"
+            "grp": 1,
+            "faculty": [
+              "BLR",
+              "VF"
+            ],
+            "room": "CR-017"
           }
         ],
         [
           {
-            "type": "gs",
+            "type": "cls",
             "sub": "MFS",
-            "grp": "TBD",
-            "room": "",
-            "faculty": [],
-            "label": "MFS"
+            "grp": 1,
+            "faculty": [
+              "BLR",
+              "VF"
+            ],
+            "room": "CR-017"
           }
         ],
         [
           {
-            "type": "gs",
+            "type": "cls",
             "sub": "MFS",
-            "grp": "TBD",
-            "room": "",
-            "faculty": [],
-            "label": "MFS"
+            "grp": 2,
+            "faculty": [
+              "BLR",
+              "VF"
+            ],
+            "room": "CR-017"
           }
         ],
         [],
@@ -9887,47 +9833,56 @@
       "day": "Wed",
       "date": "12-Aug-2026",
       "remarks": [
-        "AOL Workshop for Faculty Members"
+        "AOL Workshop for Faculty Members",
+        "MFS Make up"
       ],
       "slots": [
         [
           {
-            "type": "gs",
+            "type": "cls",
             "sub": "MFS",
-            "grp": "TBD",
-            "room": "",
-            "faculty": [],
-            "label": "MFS"
+            "grp": 2,
+            "faculty": [
+              "BLR",
+              "VF"
+            ],
+            "room": "CR-017"
           }
         ],
         [
           {
-            "type": "gs",
+            "type": "cls",
             "sub": "MFS",
-            "grp": "TBD",
-            "room": "",
-            "faculty": [],
-            "label": "MFS"
+            "grp": 1,
+            "faculty": [
+              "BLR",
+              "VF"
+            ],
+            "room": "CR-017"
           }
         ],
         [
           {
-            "type": "gs",
+            "type": "cls",
             "sub": "MFS",
-            "grp": "TBD",
-            "room": "",
-            "faculty": [],
-            "label": "MFS"
+            "grp": 1,
+            "faculty": [
+              "BLR",
+              "VF"
+            ],
+            "room": "CR-017"
           }
         ],
         [
           {
-            "type": "gs",
+            "type": "cls",
             "sub": "MFS",
-            "grp": "TBD",
-            "room": "",
-            "faculty": [],
-            "label": "MFS"
+            "grp": 2,
+            "faculty": [
+              "BLR",
+              "VF"
+            ],
+            "room": "CR-017"
           }
         ],
         [],
@@ -10117,8 +10072,13 @@
             "label": "DG GS"
           },
           {
-            "type": "quiz",
-            "label": "Quiz/Guest Speaker"
+            "type": "gs",
+            "sub": "DFES",
+            "grp": "TBD",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "DFES GS"
           },
           {
             "type": "quiz",
@@ -10140,8 +10100,12 @@
             "label": "DG GS"
           },
           {
-            "type": "quiz",
-            "label": "Quiz/Guest Speaker"
+            "type": "gs",
+            "sub": "DFES",
+            "grp": "TBD",
+            "room": "",
+            "faculty": [],
+            "label": "DFES"
           },
           {
             "type": "quiz",
@@ -11068,8 +11032,13 @@
       "slots": [
         [
           {
-            "type": "quiz",
-            "label": "Quiz/Guest Speaker"
+            "type": "gs",
+            "sub": "DFES",
+            "grp": "TBD",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "DFES GS"
           },
           {
             "type": "quiz",
@@ -11086,8 +11055,12 @@
         ],
         [
           {
-            "type": "quiz",
-            "label": "Quiz/Guest Speaker"
+            "type": "gs",
+            "sub": "DFES",
+            "grp": "TBD",
+            "room": "",
+            "faculty": [],
+            "label": "DFES"
           },
           {
             "type": "quiz",
