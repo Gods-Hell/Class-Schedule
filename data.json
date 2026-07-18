@@ -1,11 +1,11 @@
 {
-  "generated": "16 Jul 2026, 4:15:18 pm",
+  "generated": "18 Jul 2026, 5:58:56 pm",
   "term": "Term IV",
   "stats": {
     "dates": 85,
     "subjects": 22,
-    "classes": 916,
-    "groupSessions": 38,
+    "classes": 913,
+    "groupSessions": 37,
     "events": 424
   },
   "subjects": {
@@ -20,7 +20,6 @@
       3
     ],
     "PRM": [
-      0,
       1,
       2
     ],
@@ -6167,15 +6166,6 @@
           },
           {
             "type": "cls",
-            "sub": "DM",
-            "grp": 1,
-            "faculty": [
-              "SMS"
-            ],
-            "room": "CR-015"
-          },
-          {
-            "type": "cls",
             "sub": "PRM",
             "grp": 1,
             "faculty": [
@@ -6196,15 +6186,6 @@
           },
           {
             "type": "cls",
-            "sub": "DM",
-            "grp": 2,
-            "faculty": [
-              "SMS"
-            ],
-            "room": "CR-015"
-          },
-          {
-            "type": "cls",
             "sub": "PRM",
             "grp": 2,
             "faculty": [
@@ -6222,28 +6203,9 @@
               "VG"
             ],
             "room": "CR-014"
-          },
-          {
-            "type": "cls",
-            "sub": "DM",
-            "grp": 3,
-            "faculty": [
-              "SMS"
-            ],
-            "room": "CR-015"
           }
         ],
-        [
-          {
-            "type": "gs",
-            "sub": "PRM",
-            "grp": "TBD",
-            "room": "",
-            "combined": true,
-            "tentative": false,
-            "label": "PRM GS Combined"
-          }
-        ],
+        [],
         []
       ]
     },
@@ -6613,7 +6575,9 @@
     "23-Jul-2026": {
       "day": "Thu",
       "date": "23-Jul-2026",
-      "remarks": [],
+      "remarks": [
+        "VAL Quiz 20 Minutes"
+      ],
       "slots": [
         [
           {
@@ -8663,7 +8627,8 @@
       "day": "Tue",
       "date": "04-Aug-2026",
       "remarks": [
-        "DG GS (M) CR-009"
+        "DG GS (M) CR-009",
+        "DG To be Cancelled"
       ],
       "slots": [
         [
@@ -8838,6 +8803,7 @@
       "day": "Wed",
       "date": "05-Aug-2026",
       "remarks": [
+        "MDT Quiz 30 Minutes",
         "MDT Cancelled"
       ],
       "slots": [
@@ -10881,6 +10847,7 @@
       "day": "Thu",
       "date": "20-Aug-2026",
       "remarks": [
+        "Placement 2.00 pm to 06.00 pm",
         "NEME Cancelled"
       ],
       "slots": [
