@@ -1,12 +1,12 @@
 {
-  "generated": "18 Jul 2026, 9:51:45 pm",
+  "generated": "20 Jul 2026, 1:03:38 pm",
   "term": "Term IV",
   "stats": {
     "dates": 85,
     "subjects": 22,
     "classes": 913,
-    "groupSessions": 37,
-    "events": 424
+    "groupSessions": 32,
+    "events": 427
   },
   "subjects": {
     "DVM": [
@@ -34,6 +34,7 @@
       3
     ],
     "BADM": [
+      0,
       1,
       2
     ],
@@ -6790,7 +6791,7 @@
       "day": "Fri",
       "date": "24-Jul-2026",
       "remarks": [
-        "CR-002"
+        "LEAP CR-002"
       ],
       "slots": [
         [
@@ -7839,7 +7840,7 @@
       "day": "Thu",
       "date": "30-Jul-2026",
       "remarks": [
-        "PRM Quiz-2"
+        "PRM Quiz-2 20 Minutes"
       ],
       "slots": [
         [
@@ -9452,28 +9453,8 @@
         "VAL GS Combined CR-009"
       ],
       "slots": [
-        [
-          {
-            "type": "gs",
-            "sub": "DFES",
-            "grp": "TBD",
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "DFES GS"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": "DFES",
-            "grp": "TBD",
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "DFES GS"
-          }
-        ],
+        [],
+        [],
         [
           {
             "type": "cls",
@@ -10029,22 +10010,12 @@
       "slots": [
         [
           {
-            "type": "gs",
-            "sub": "DG",
-            "grp": "TBD",
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "DG GS"
+            "type": "quiz",
+            "label": "Quiz/Guest Speaker"
           },
           {
-            "type": "gs",
-            "sub": "DFES",
-            "grp": "TBD",
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "DFES GS"
+            "type": "quiz",
+            "label": "Quiz/Guest Speaker"
           },
           {
             "type": "quiz",
@@ -10058,20 +10029,16 @@
         [
           {
             "type": "gs",
-            "sub": "DG",
+            "sub": "BADM",
             "grp": "TBD",
             "room": "",
             "combined": false,
             "tentative": false,
-            "label": "DG GS"
+            "label": "BADM GS"
           },
           {
-            "type": "gs",
-            "sub": "DFES",
-            "grp": "TBD",
-            "room": "",
-            "faculty": [],
-            "label": "DFES"
+            "type": "quiz",
+            "label": "Quiz/Guest Speaker"
           },
           {
             "type": "quiz",
@@ -10351,7 +10318,9 @@
     "17-Aug-2026": {
       "day": "Mon",
       "date": "17-Aug-2026",
-      "remarks": [],
+      "remarks": [
+        "PRM GS"
+      ],
       "slots": [
         [
           {
