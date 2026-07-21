@@ -1,5 +1,5 @@
 {
-  "generated": "20 Jul 2026, 1:03:38 pm",
+  "generated": "21 Jul 2026, 11:25:56 am",
   "term": "Term IV",
   "stats": {
     "dates": 85,
@@ -10995,8 +10995,9 @@
             "sub": "DFES",
             "grp": "TBD",
             "room": "",
-            "faculty": [],
-            "label": "DFES"
+            "combined": false,
+            "tentative": false,
+            "label": "DFES GS"
           },
           {
             "type": "quiz",
