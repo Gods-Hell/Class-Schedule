@@ -1,12 +1,12 @@
 {
-  "generated": "21 Jul 2026, 11:25:56 am",
+  "generated": "22 Jul 2026, 10:28:22 am",
   "term": "Term IV",
   "stats": {
     "dates": 85,
     "subjects": 22,
     "classes": 913,
-    "groupSessions": 32,
-    "events": 427
+    "groupSessions": 34,
+    "events": 426
   },
   "subjects": {
     "DVM": [
@@ -9453,7 +9453,17 @@
         "VAL GS Combined CR-009"
       ],
       "slots": [
-        [],
+        [
+          {
+            "type": "gs",
+            "sub": "FIS",
+            "grp": "TBD",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "FIS GS"
+          }
+        ],
         [],
         [
           {
@@ -9542,7 +9552,7 @@
       "date": "10-Aug-2026",
       "remarks": [
         "DVM Cancelled",
-        "PRM Quiz-3"
+        "PRM Quiz-3 20 Minutes"
       ],
       "slots": [
         [
@@ -10010,8 +10020,13 @@
       "slots": [
         [
           {
-            "type": "quiz",
-            "label": "Quiz/Guest Speaker"
+            "type": "gs",
+            "sub": "FIS",
+            "grp": "TBD",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "FIS GS"
           },
           {
             "type": "quiz",
