@@ -1,11 +1,11 @@
 {
-  "generated": "22 Jul 2026, 10:28:22 am",
+  "generated": "23 Jul 2026, 3:29:27 pm",
   "term": "Term IV",
   "stats": {
     "dates": 85,
     "subjects": 22,
     "classes": 913,
-    "groupSessions": 34,
+    "groupSessions": 33,
     "events": 426
   },
   "subjects": {
@@ -6577,7 +6577,8 @@
       "day": "Thu",
       "date": "23-Jul-2026",
       "remarks": [
-        "VAL Quiz 20 Minutes"
+        "VAL Quiz 20 Minutes",
+        "MDT Venue is CR-017"
       ],
       "slots": [
         [
@@ -6770,7 +6771,7 @@
               "AVP&ST",
               "VF"
             ],
-            "room": "CR-115"
+            "room": "CR-017"
           }
         ],
         [
@@ -6782,7 +6783,7 @@
               "AVP&ST",
               "VF"
             ],
-            "room": "CR-115"
+            "room": "CR-017"
           }
         ]
       ]
@@ -7472,7 +7473,9 @@
     "28-Jul-2026": {
       "day": "Tue",
       "date": "28-Jul-2026",
-      "remarks": [],
+      "remarks": [
+        "Sports Complex to be Ready"
+      ],
       "slots": [
         [
           {
@@ -7840,7 +7843,8 @@
       "day": "Thu",
       "date": "30-Jul-2026",
       "remarks": [
-        "PRM Quiz-2 20 Minutes"
+        "PRM Quiz-2 20 Minutes",
+        "BADM Cancelled"
       ],
       "slots": [
         [
@@ -9711,17 +9715,7 @@
             "room": "CR-015"
           }
         ],
-        [
-          {
-            "type": "gs",
-            "sub": "MDT",
-            "grp": "TBD",
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "MDT GS"
-          }
-        ],
+        [],
         []
       ]
     },
@@ -10269,7 +10263,9 @@
     "16-Aug-2026": {
       "day": "Sun",
       "date": "16-Aug-2026",
-      "remarks": [],
+      "remarks": [
+        "MDT GS CR - 009"
+      ],
       "slots": [
         [
           {
@@ -10279,7 +10275,7 @@
             "room": "",
             "combined": false,
             "tentative": false,
-            "label": "MDT GS"
+            "label": "MDT GS CR-009"
           }
         ],
         [
