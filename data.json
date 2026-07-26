@@ -1,10 +1,10 @@
 {
-  "generated": "23 Jul 2026, 3:29:27 pm",
+  "generated": "26 Jul 2026, 11:05:47 am",
   "term": "Term IV",
   "stats": {
     "dates": 85,
     "subjects": 22,
-    "classes": 913,
+    "classes": 909,
     "groupSessions": 33,
     "events": 426
   },
@@ -6792,7 +6792,9 @@
       "day": "Fri",
       "date": "24-Jul-2026",
       "remarks": [
-        "LEAP CR-002"
+        "Placement 4.00 pm to 11.00 pm",
+        "LEAP CR-002",
+        "PRM cancelled"
       ],
       "slots": [
         [
@@ -6874,15 +6876,6 @@
           },
           {
             "type": "cls",
-            "sub": "PRM",
-            "grp": 2,
-            "faculty": [
-              "MMS&AP"
-            ],
-            "room": "CR-017"
-          },
-          {
-            "type": "cls",
             "sub": "MDT",
             "grp": 2,
             "faculty": [
@@ -6910,15 +6903,6 @@
               "SMS"
             ],
             "room": "CR-015"
-          },
-          {
-            "type": "cls",
-            "sub": "PRM",
-            "grp": 1,
-            "faculty": [
-              "MMS&AP"
-            ],
-            "room": "CR-017"
           },
           {
             "type": "cls",
@@ -7474,7 +7458,8 @@
       "day": "Tue",
       "date": "28-Jul-2026",
       "remarks": [
-        "Sports Complex to be Ready"
+        "Sports Complex to be Ready",
+        "BADM Quiz 20 Minutes"
       ],
       "slots": [
         [
@@ -8203,7 +8188,8 @@
       "remarks": [
         "MS Quiz-2 12.30 pm to 01.00 pm (Academic Block)",
         "CB GS Combined CR-009",
-        "First Year Mid-Term"
+        "First Year Mid-Term",
+        "CR-014 Booked for DPM 10.00 to 12.00 pm"
       ],
       "slots": [
         [
@@ -8632,6 +8618,7 @@
       "day": "Tue",
       "date": "04-Aug-2026",
       "remarks": [
+        "IAPM Quiz 30 Minutes",
         "DG GS (M) CR-009",
         "DG To be Cancelled"
       ],
@@ -9004,6 +8991,7 @@
       "day": "Thu",
       "date": "06-Aug-2026",
       "remarks": [
+        "VAL Quiz 20 Minutes",
         "DG to be Cancelled"
       ],
       "slots": [
@@ -9844,7 +9832,9 @@
     "13-Aug-2026": {
       "day": "Thu",
       "date": "13-Aug-2026",
-      "remarks": [],
+      "remarks": [
+        "VAL Quiz 20 Minutes"
+      ],
       "slots": [
         [
           {
@@ -10589,15 +10579,6 @@
           },
           {
             "type": "cls",
-            "sub": "NEME",
-            "grp": 0,
-            "faculty": [
-              "SPC"
-            ],
-            "room": "CR-114"
-          },
-          {
-            "type": "cls",
             "sub": "FIS",
             "grp": 0,
             "faculty": [
@@ -10880,15 +10861,6 @@
               "GMS"
             ],
             "room": "CR-015"
-          },
-          {
-            "type": "cls",
-            "sub": "NEME",
-            "grp": 0,
-            "faculty": [
-              "SPC"
-            ],
-            "room": "CR-114"
           },
           {
             "type": "cls",
