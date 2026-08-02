@@ -1,5 +1,5 @@
 {
-  "generated": "29 Jul 2026, 5:34:35 pm",
+  "generated": "2 Aug 2026, 4:40:45 pm",
   "term": "Term IV",
   "stats": {
     "dates": 85,
@@ -8146,7 +8146,7 @@
       "day": "Sat",
       "date": "01-Aug-2026",
       "remarks": [
-        "MS Quiz-2 12.30 pm to 01.00 pm (Academic Block)",
+        "MS Quiz-2 20 Minutes",
         "CB GS Combined CR-009",
         "First Year Mid-Term",
         "CR-014 Booked for DPM 10.00 to 12.00 pm"
@@ -8292,7 +8292,8 @@
       "date": "02-Aug-2026",
       "remarks": [
         "NGS GS Combined CR-009",
-        "First Year Mid-Term"
+        "First Year Mid-Term",
+        "CR-015 Booked for SA Office"
       ],
       "slots": [
         [
@@ -9583,7 +9584,8 @@
       "date": "12-Aug-2026",
       "remarks": [
         "AOL Workshop for Faculty Members",
-        "MFS Make up"
+        "MFS Make up",
+        "FSA Quiz 20 Minutes"
       ],
       "slots": [
         [
@@ -10127,6 +10129,7 @@
       "day": "Mon",
       "date": "17-Aug-2026",
       "remarks": [
+        "FSA Quiz-3 20 Minutes",
         "PRM GS"
       ],
       "slots": [
