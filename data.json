@@ -1,11 +1,11 @@
 {
-  "generated": "3 Aug 2026, 9:06:25 am",
+  "generated": "3 Aug 2026, 1:07:11 pm",
   "term": "Term IV",
   "stats": {
     "dates": 85,
     "subjects": 22,
     "classes": 895,
-    "groupSessions": 20,
+    "groupSessions": 19,
     "events": 437
   },
   "subjects": {
@@ -8669,7 +8669,7 @@
       "date": "05-Aug-2026",
       "remarks": [
         "MDT Quiz 30 Minutes",
-        "DVM Guest Speaker Group-wise",
+        "DVM Guest Speaker Group-wise CR-014",
         "MDT Cancelled"
       ],
       "slots": [
@@ -8827,17 +8827,7 @@
             "room": "CR-015"
           }
         ],
-        [
-          {
-            "type": "gs",
-            "sub": "DG",
-            "grp": "TBD",
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "DG GS"
-          }
-        ],
+        [],
         []
       ]
     },
@@ -8845,7 +8835,7 @@
       "day": "Thu",
       "date": "06-Aug-2026",
       "remarks": [
-        "VAL Quiz 20 Minutes",
+        "VAL Quiz 20 Minutes, DPM Quiz 20 Minutes",
         "DG Cancelled"
       ],
       "slots": [
@@ -9133,7 +9123,8 @@
       "remarks": [
         "LEAP GS (H) CR-009",
         "FSA GS (O-M) CR-009",
-        "DM GS (H) CR-009"
+        "DM GS (H) CR-009",
+        "FSA Quiz 20 Minutes"
       ],
       "slots": [
         [
@@ -9572,8 +9563,7 @@
       "date": "12-Aug-2026",
       "remarks": [
         "AOL Workshop for Faculty Members",
-        "MFS Make up",
-        "FSA Quiz 20 Minutes"
+        "MFS Make up"
       ],
       "slots": [
         [
@@ -9811,7 +9801,7 @@
             "room": "",
             "combined": false,
             "tentative": false,
-            "label": "FIS GS"
+            "label": "FIS GS CR-014"
           },
           {
             "type": "quiz",
@@ -10117,8 +10107,7 @@
       "day": "Mon",
       "date": "17-Aug-2026",
       "remarks": [
-        "FSA Quiz-3 20 Minutes",
-        "PRM GS"
+        "PRM GS Group-wise CR-017"
       ],
       "slots": [
         [
@@ -10461,7 +10450,9 @@
     "19-Aug-2026": {
       "day": "Wed",
       "date": "19-Aug-2026",
-      "remarks": [],
+      "remarks": [
+        "FSA Quiz-3 20 Minutes"
+      ],
       "slots": [
         [
           {
