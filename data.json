@@ -1,5 +1,5 @@
 {
-  "generated": "2 Aug 2026, 4:40:45 pm",
+  "generated": "3 Aug 2026, 9:06:25 am",
   "term": "Term IV",
   "stats": {
     "dates": 85,
@@ -7451,10 +7451,7 @@
     "28-Jul-2026": {
       "day": "Tue",
       "date": "28-Jul-2026",
-      "remarks": [
-        "Sports Complex for NEME",
-        "BADM Quiz 20 Minutes"
-      ],
+      "remarks": [],
       "slots": [
         [
           {
@@ -7645,11 +7642,7 @@
     "29-Jul-2026": {
       "day": "Wed",
       "date": "29-Jul-2026",
-      "remarks": [
-        "Lakshya GL (Placement) From 02.00 pm (CR-009)",
-        "NEME Surprise Quiz 20 Minutes",
-        "DFES Cancelled"
-      ],
+      "remarks": [],
       "slots": [
         [
           {
@@ -7804,10 +7797,7 @@
     "30-Jul-2026": {
       "day": "Thu",
       "date": "30-Jul-2026",
-      "remarks": [
-        "PRM Quiz-2 45 Minutes",
-        "BADM Cancelled"
-      ],
+      "remarks": [],
       "slots": [
         [
           {
@@ -7981,8 +7971,6 @@
       "day": "Fri",
       "date": "31-Jul-2026",
       "remarks": [
-        "DPM GS Combined CR-009",
-        "First Year Mid-Term",
         "IAPM GS CR-009",
         "DPM Final Feedback"
       ],
