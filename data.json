@@ -1,5 +1,5 @@
 {
-  "generated": "5 Aug 2026, 10:48:44 am",
+  "generated": "6 Aug 2026, 1:07:52 am",
   "term": "Term IV",
   "stats": {
     "dates": 85,
@@ -9636,7 +9636,8 @@
       "date": "13-Aug-2026",
       "remarks": [
         "VAL Quiz 20 Minutes",
-        "LDSC cancelled"
+        "LDSC cancelled",
+        "IAPM Cancelled"
       ],
       "slots": [
         [
@@ -10121,6 +10122,7 @@
       "day": "Mon",
       "date": "17-Aug-2026",
       "remarks": [
+        "DPM Quiz-2 30 Minutes",
         "PRM GS Group-wise CR-017"
       ],
       "slots": [
