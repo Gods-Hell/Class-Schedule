@@ -1,11 +1,11 @@
 {
-  "generated": "3 Aug 2026, 1:07:11 pm",
+  "generated": "5 Aug 2026, 10:48:44 am",
   "term": "Term IV",
   "stats": {
     "dates": 85,
     "subjects": 22,
     "classes": 895,
-    "groupSessions": 19,
+    "groupSessions": 18,
     "events": 437
   },
   "subjects": {
@@ -8670,6 +8670,7 @@
       "remarks": [
         "MDT Quiz 30 Minutes",
         "DVM Guest Speaker Group-wise CR-014",
+        "PRM Make-up",
         "MDT Cancelled"
       ],
       "slots": [
@@ -8827,7 +8828,17 @@
             "room": "CR-015"
           }
         ],
-        [],
+        [
+          {
+            "type": "cls",
+            "sub": "PRM",
+            "grp": 1,
+            "faculty": [
+              "MMS&AP"
+            ],
+            "room": "CR-017"
+          }
+        ],
         []
       ]
     },
@@ -8835,7 +8846,7 @@
       "day": "Thu",
       "date": "06-Aug-2026",
       "remarks": [
-        "VAL Quiz 20 Minutes, DPM Quiz 20 Minutes",
+        "VAL Quiz 20 Minutes",
         "DG Cancelled"
       ],
       "slots": [
@@ -9124,7 +9135,7 @@
         "LEAP GS (H) CR-009",
         "FSA GS (O-M) CR-009",
         "DM GS (H) CR-009",
-        "FSA Quiz 20 Minutes"
+        "FSA Quiz 20 Minutes DPM Quiz 30 Minutes"
       ],
       "slots": [
         [
@@ -9245,17 +9256,7 @@
         "VAL GS Combined CR-009"
       ],
       "slots": [
-        [
-          {
-            "type": "gs",
-            "sub": "FIS",
-            "grp": "TBD",
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "FIS GS"
-          }
-        ],
+        [],
         [],
         [
           {
@@ -9334,7 +9335,8 @@
       "date": "10-Aug-2026",
       "remarks": [
         "DVM Cancelled",
-        "PRM Quiz-3 20 Minutes"
+        "PRM Quiz-3 20 Minutes",
+        "PRM Make-up Gr.2"
       ],
       "slots": [
         [
@@ -9493,7 +9495,17 @@
             "room": "CR-015"
           }
         ],
-        [],
+        [
+          {
+            "type": "cls",
+            "sub": "PRM",
+            "grp": 2,
+            "faculty": [
+              "MMS&AP"
+            ],
+            "room": "CR-017"
+          }
+        ],
         []
       ]
     },
@@ -9623,7 +9635,8 @@
       "day": "Thu",
       "date": "13-Aug-2026",
       "remarks": [
-        "VAL Quiz 20 Minutes"
+        "VAL Quiz 20 Minutes",
+        "LDSC cancelled"
       ],
       "slots": [
         [
@@ -9790,7 +9803,8 @@
       "date": "14-Aug-2026",
       "remarks": [
         "MDT GS (M) CR - 009",
-        "BADM Combined GS CR-009"
+        "BADM Combined GS CR-009",
+        "BADM Quiz 20 Minutes"
       ],
       "slots": [
         [
@@ -9819,7 +9833,7 @@
         [
           {
             "type": "unknown",
-            "text": "BADM Combined GS"
+            "text": "BADM Combined GS CR-009"
           },
           {
             "type": "quiz",
@@ -10292,7 +10306,8 @@
       "day": "Tue",
       "date": "18-Aug-2026",
       "remarks": [
-        "MS Quiz-3 12.30 pm to 01.00 pm",
+        "MS Quiz-3 20 mins",
+        "CB Cancelled",
         "NEME Cancelled",
         "FIS GS (M) CR-014"
       ],
@@ -10387,15 +10402,6 @@
           },
           {
             "type": "cls",
-            "sub": "CB",
-            "grp": 1,
-            "faculty": [
-              "HSK"
-            ],
-            "room": "CR-015"
-          },
-          {
-            "type": "cls",
             "sub": "DG",
             "grp": 1,
             "faculty": [
@@ -10413,15 +10419,6 @@
               "JBS&VCT"
             ],
             "room": "CR-014"
-          },
-          {
-            "type": "cls",
-            "sub": "CB",
-            "grp": 2,
-            "faculty": [
-              "HSK"
-            ],
-            "room": "CR-015"
           },
           {
             "type": "cls",
@@ -10599,7 +10596,9 @@
       "date": "20-Aug-2026",
       "remarks": [
         "Placement 2.00 pm to 06.00 pm",
-        "NEME Cancelled"
+        "CB, NEME Cancelled",
+        "LDSC Make-up",
+        "DM Quiz 20 Minutes"
       ],
       "slots": [
         [
@@ -10620,6 +10619,15 @@
               "SPA"
             ],
             "room": "CR-115"
+          },
+          {
+            "type": "cls",
+            "sub": "LDSC",
+            "grp": 2,
+            "faculty": [
+              "GT"
+            ],
+            "room": "CR-013"
           }
         ],
         [
@@ -10640,6 +10648,15 @@
               "SPA"
             ],
             "room": "CR-115"
+          },
+          {
+            "type": "cls",
+            "sub": "LDSC",
+            "grp": 1,
+            "faculty": [
+              "GT"
+            ],
+            "room": "CR-013"
           }
         ],
         [
@@ -10674,15 +10691,6 @@
           },
           {
             "type": "cls",
-            "sub": "CB",
-            "grp": 2,
-            "faculty": [
-              "HSK"
-            ],
-            "room": "CR-015"
-          },
-          {
-            "type": "cls",
             "sub": "DG",
             "grp": 2,
             "faculty": [
@@ -10700,15 +10708,6 @@
               "JBS&VCT"
             ],
             "room": "CR-014"
-          },
-          {
-            "type": "cls",
-            "sub": "CB",
-            "grp": 1,
-            "faculty": [
-              "HSK"
-            ],
-            "room": "CR-015"
           },
           {
             "type": "cls",
