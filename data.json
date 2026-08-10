@@ -1,10 +1,10 @@
 {
-  "generated": "8 Aug 2026, 3:40:53 pm",
+  "generated": "10 Aug 2026, 10:03:34 pm",
   "term": "Term IV",
   "stats": {
     "dates": 85,
     "subjects": 22,
-    "classes": 892,
+    "classes": 889,
     "guestSessions": 43,
     "gsNotices": 26,
     "quizNotices": 27,
@@ -10083,25 +10083,16 @@
       "date": "10-Aug-2026",
       "remarks": [
         "DVM Cancelled",
-        "PRM Quiz-3 20 Minutes",
-        "PRM Make-up Gr.2"
+        "PRM Quiz-3 30 Minutes",
+        "PRM Make-up Gr.2",
+        "FSA Cancelled"
       ],
       "gs": [],
       "quiz": [
-        "PRM Quiz-3 20 Minutes"
+        "PRM Quiz-3 30 Minutes"
       ],
       "slots": [
         [
-          {
-            "type": "cls",
-            "sub": "FSA",
-            "grp": 1,
-            "faculty": [
-              "VG"
-            ],
-            "room": "CR-014",
-            "label": "FSA Gr.1 [VG] {CR-014}"
-          },
           {
             "type": "cls",
             "sub": "MS",
@@ -10134,16 +10125,6 @@
           }
         ],
         [
-          {
-            "type": "cls",
-            "sub": "FSA",
-            "grp": 2,
-            "faculty": [
-              "VG"
-            ],
-            "room": "CR-014",
-            "label": "FSA Gr.2 [VG] {CR-014}"
-          },
           {
             "type": "cls",
             "sub": "MS",
@@ -10242,16 +10223,6 @@
           }
         ],
         [
-          {
-            "type": "cls",
-            "sub": "FSA",
-            "grp": 3,
-            "faculty": [
-              "VG"
-            ],
-            "room": "CR-014",
-            "label": "FSA Gr.3 [VG] {CR-014}"
-          },
           {
             "type": "cls",
             "sub": "DM",
