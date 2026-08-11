@@ -1,14 +1,14 @@
 {
-  "generated": "10 Aug 2026, 10:03:34 pm",
+  "generated": "11 Aug 2026, 11:43:26 pm",
   "term": "Term IV",
   "stats": {
     "dates": 85,
     "subjects": 22,
-    "classes": 889,
+    "classes": 887,
     "guestSessions": 43,
     "gsNotices": 26,
     "quizNotices": 27,
-    "events": 103
+    "events": 104
   },
   "subjects": {
     "DVM": [
@@ -10406,16 +10406,6 @@
             ],
             "room": "CR-115",
             "label": "PPBM Gr.2 [SPA] {CR-115}"
-          },
-          {
-            "type": "cls",
-            "sub": "LDSC",
-            "grp": 2,
-            "faculty": [
-              "GT"
-            ],
-            "room": "CR-013",
-            "label": "LDSC Gr.2 [GT] {CR-013}"
           }
         ],
         [
@@ -10428,16 +10418,6 @@
             ],
             "room": "CR-115",
             "label": "PPBM Gr.1 [SPA] {CR-115}"
-          },
-          {
-            "type": "cls",
-            "sub": "LDSC",
-            "grp": 1,
-            "faculty": [
-              "GT"
-            ],
-            "room": "CR-013",
-            "label": "LDSC Gr.1 [GT] {CR-013}"
           }
         ],
         [
@@ -11322,7 +11302,12 @@
             "label": "DM Gr.3 [SMS] {CR-015}"
           }
         ],
-        [],
+        [
+          {
+            "type": "ev",
+            "label": "DG"
+          }
+        ],
         []
       ]
     },
