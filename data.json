@@ -1,12 +1,12 @@
 {
-  "generated": "12 Aug 2026, 7:58:53 pm",
+  "generated": "14 Aug 2026, 7:33:13 pm",
   "term": "Term IV",
   "stats": {
     "dates": 85,
     "subjects": 22,
     "classes": 887,
-    "guestSessions": 43,
-    "gsNotices": 26,
+    "guestSessions": 44,
+    "gsNotices": 28,
     "quizNotices": 27,
     "events": 104
   },
@@ -10526,26 +10526,19 @@
       "date": "14-Aug-2026",
       "remarks": [
         "MDT GS (M) CR-009",
-        "BADM Combined GS CR-009",
+        "BADM Combined GS (M) CR-009",
+        "CR-014 Booked for DPR",
         "BADM Quiz 20 Minutes"
       ],
       "gs": [
         "MDT GS (M) CR-009",
-        "BADM Combined GS CR-009"
+        "BADM Combined GS (M) CR-009"
       ],
       "quiz": [
         "BADM Quiz 20 Minutes"
       ],
       "slots": [
         [
-          {
-            "type": "gs",
-            "sub": "FIS",
-            "room": "CR-014",
-            "combined": false,
-            "tentative": false,
-            "label": "FIS GS CR-014"
-          },
           {
             "type": "gs",
             "sub": null,
@@ -10702,11 +10695,13 @@
       "date": "16-Aug-2026",
       "remarks": [
         "MDT GS (H) CR-009",
-        "MS GS (M) CR-009"
+        "MS GS (M) CR-009",
+        "FSA GS (O-H) CR-009"
       ],
       "gs": [
         "MDT GS (H) CR-009",
-        "MS GS (M) CR-009"
+        "MS GS (M) CR-009",
+        "FSA GS (O-H) CR-009"
       ],
       "quiz": [],
       "slots": [
@@ -10766,7 +10761,16 @@
             "label": "VAL Gr.3 [NG] {CR-015}"
           }
         ],
-        [],
+        [
+          {
+            "type": "gs",
+            "sub": "FSA",
+            "room": "CR-009",
+            "combined": false,
+            "tentative": false,
+            "label": "FSA GS CR-009"
+          }
+        ],
         []
       ]
     },
@@ -10775,10 +10779,12 @@
       "date": "17-Aug-2026",
       "remarks": [
         "DPM Quiz-2 30 Minutes",
-        "PRM GS Group-wise CR-017"
+        "FIS GS (M) CR-014",
+        "PRM GS (M) Group-wise CR-017"
       ],
       "gs": [
-        "PRM GS Group-wise CR-017"
+        "FIS GS (M) CR-014",
+        "PRM GS (M) Group-wise CR-017"
       ],
       "quiz": [
         "DPM Quiz-2 30 Minutes"
@@ -10976,7 +10982,16 @@
             "label": "DM Gr.3 [SMS] {CR-015}"
           }
         ],
-        [],
+        [
+          {
+            "type": "gs",
+            "sub": "FIS",
+            "room": "CR-014",
+            "combined": false,
+            "tentative": false,
+            "label": "FIS GS CR-014"
+          }
+        ],
         []
       ]
     },
@@ -10985,7 +11000,7 @@
       "date": "18-Aug-2026",
       "remarks": [
         "MS Quiz-3 20 mins",
-        "CB Cancelled",
+        "CB Cancelled, CR-115 Booked for DPR",
         "NEME Cancelled",
         "FIS GS (M) CR-014"
       ],
