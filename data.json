@@ -1,5 +1,5 @@
 {
-  "generated": "16 Aug 2026, 9:37:51 pm",
+  "generated": "20 Aug 2026, 2:00:23 pm",
   "term": "Term IV",
   "stats": {
     "dates": 85,
@@ -11160,7 +11160,8 @@
       "day": "Wed",
       "date": "19-Aug-2026",
       "remarks": [
-        "FSA Quiz-3 20 Minutes"
+        "FSA Quiz-3 20 Minutes",
+        "DFES Venue CR-015"
       ],
       "gs": [],
       "quiz": [
@@ -11320,7 +11321,7 @@
         [
           {
             "type": "ev",
-            "label": "DG"
+            "label": "DG CR-017"
           }
         ],
         []
