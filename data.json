@@ -1,5 +1,5 @@
 {
-  "generated": "8 Sept 2026, 6:26:59 pm",
+  "generated": "9 Sept 2026, 12:42:59 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -417,7 +417,8 @@
       "day": "Wed",
       "date": "09-Sep-2026",
       "remarks": [
-        "Exam Hall Not Available"
+        "Exam Hall Not Available",
+        "SCM Class room changed CR-008 instead of CR-010"
       ],
       "gs": [],
       "quiz": [],
@@ -474,8 +475,8 @@
             "faculty": [
               "SKG"
             ],
-            "room": "CR-010",
-            "label": "SCM Gr.2 [SKG] CR-010"
+            "room": "CR-008",
+            "label": "SCM Gr.2 [SKG] CR-008"
           }
         ],
         [
@@ -516,8 +517,8 @@
             "faculty": [
               "SKG"
             ],
-            "room": "CR-010",
-            "label": "SCM Gr.1 [SKG] CR-010"
+            "room": "CR-008",
+            "label": "SCM Gr.1 [SKG] CR-008"
           }
         ],
         [
