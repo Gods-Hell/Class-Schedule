@@ -1,5 +1,5 @@
 {
-  "generated": "10 Sept 2026, 11:49:50 am",
+  "generated": "10 Sept 2026, 6:56:07 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -8,7 +8,7 @@
     "guestSessions": 67,
     "gsNotices": 2,
     "quizNotices": 6,
-    "events": 161
+    "events": 163
   },
   "subjects": {
     "MMM": [
@@ -763,7 +763,8 @@
       "day": "Fri",
       "date": "11-Sep-2026",
       "remarks": [
-        "CR-115 Booked for Placement"
+        "CR-115 Booked for Placement",
+        "CR-014 Booked for MACR"
       ],
       "gs": [],
       "quiz": [],
@@ -779,6 +780,10 @@
           }
         ],
         [
+          {
+            "type": "ev",
+            "label": "MACR Extra Session"
+          },
           {
             "type": "gs",
             "sub": null,
@@ -1837,7 +1842,8 @@
       "date": "18-Sep-2026",
       "remarks": [
         "Exam Halls Blocked for First Year End Term",
-        "CR-009 Not Available"
+        "CR-009 Not Available",
+        "CR-014 Booked for MACR"
       ],
       "gs": [],
       "quiz": [],
@@ -1853,6 +1859,10 @@
           }
         ],
         [
+          {
+            "type": "ev",
+            "label": "MACR Extra Session"
+          },
           {
             "type": "gs",
             "sub": null,
