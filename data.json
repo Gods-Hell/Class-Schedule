@@ -1,14 +1,14 @@
 {
-  "generated": "12 Sept 2026, 2:50:20 am",
+  "generated": "12 Sept 2026, 11:01:26 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 836,
-    "guestSessions": 67,
+    "guestSessions": 65,
     "gsNotices": 2,
-    "quizNotices": 6,
-    "events": 163
+    "quizNotices": 7,
+    "events": 165
   },
   "subjects": {
     "MMM": [
@@ -1924,8 +1924,18 @@
             "label": "FDRM Gr.2 [SV,AV,SK,VF] CR-008"
           }
         ],
-        [],
-        [],
+        [
+          {
+            "type": "ev",
+            "label": "MDPW"
+          }
+        ],
+        [
+          {
+            "type": "ev",
+            "label": "MDPW"
+          }
+        ],
         []
       ]
     },
@@ -2100,9 +2110,13 @@
     "21-Sep-2026": {
       "day": "Mon",
       "date": "21-Sep-2026",
-      "remarks": [],
+      "remarks": [
+        "CBM Quiz-1 30 Minutes"
+      ],
       "gs": [],
-      "quiz": [],
+      "quiz": [
+        "CBM Quiz-1 30 Minutes"
+      ],
       "slots": [
         [
           {
@@ -3121,7 +3135,7 @@
       "day": "Sun",
       "date": "27-Sep-2026",
       "remarks": [
-        "CBM Gr.2 (07.45 pm to 09.15 pm) may be preponed"
+        "CBM Gr.2 (07.45 pm to 09.15 pm) Preponed to 02.15 to 03.45"
       ],
       "gs": [],
       "quiz": [],
@@ -3192,24 +3206,18 @@
         ],
         [
           {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
+            "type": "cls",
+            "sub": "CBM",
+            "grp": 2,
+            "faculty": [
+              "BLR",
+              "VF"
+            ],
+            "room": "CR-014",
+            "label": "CBM Gr.2 [BLR,VF] CR-014"
           }
         ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
-          }
-        ],
+        [],
         [
           {
             "type": "cls",
@@ -3235,19 +3243,7 @@
             "label": "ADPM [ASI, SJ,VF] CR-015"
           }
         ],
-        [
-          {
-            "type": "cls",
-            "sub": "CBM",
-            "grp": 2,
-            "faculty": [
-              "BLR",
-              "VF"
-            ],
-            "room": "CR-014",
-            "label": "CBM Gr.2 [BLR,VF] CR-014"
-          }
-        ],
+        [],
         []
       ]
     },
@@ -6150,7 +6146,9 @@
     "16-Oct-2026": {
       "day": "Fri",
       "date": "16-Oct-2026",
-      "remarks": [],
+      "remarks": [
+        "MDPW Tentative Make-up"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -7032,7 +7030,9 @@
     "23-Oct-2026": {
       "day": "Fri",
       "date": "23-Oct-2026",
-      "remarks": [],
+      "remarks": [
+        "MDPW tentative Make-up"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
