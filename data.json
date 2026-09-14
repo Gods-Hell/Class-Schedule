@@ -1,11 +1,11 @@
 {
-  "generated": "13 Sept 2026, 7:54:39 pm",
+  "generated": "14 Sept 2026, 12:42:38 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 836,
-    "guestSessions": 65,
+    "guestSessions": 67,
     "gsNotices": 2,
     "quizNotices": 7,
     "events": 165
@@ -7039,6 +7039,14 @@
         [
           {
             "type": "gs",
+            "sub": "IF",
+            "room": "",
+            "combined": false,
+            "tentative": true,
+            "label": "IF Guest Speaker Tentative"
+          },
+          {
+            "type": "gs",
             "sub": null,
             "room": "",
             "combined": false,
@@ -7047,6 +7055,14 @@
           }
         ],
         [
+          {
+            "type": "gs",
+            "sub": "IF",
+            "room": "",
+            "combined": false,
+            "tentative": true,
+            "label": "IF Guest Speaker Tentative"
+          },
           {
             "type": "gs",
             "sub": null,
