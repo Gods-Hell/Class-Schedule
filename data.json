@@ -1,14 +1,14 @@
 {
-  "generated": "14 Sept 2026, 10:30:24 pm",
+  "generated": "16 Sept 2026, 8:59:27 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 836,
-    "guestSessions": 67,
+    "guestSessions": 66,
     "gsNotices": 2,
-    "quizNotices": 7,
-    "events": 165
+    "quizNotices": 9,
+    "events": 171
   },
   "subjects": {
     "MMM": [
@@ -1251,7 +1251,8 @@
       "day": "Tue",
       "date": "15-Sep-2026",
       "remarks": [
-        "Exam Halls Blocked for First Year End Term"
+        "Exam Halls Blocked for First Year End Term",
+        "Placement Full Day"
       ],
       "gs": [],
       "quiz": [],
@@ -1861,7 +1862,7 @@
         [
           {
             "type": "ev",
-            "label": "MACR Extra Session"
+            "label": "MACR Extra Session CR-014"
           },
           {
             "type": "gs",
@@ -1924,18 +1925,8 @@
             "label": "FDRM Gr.2 [SV,AV,SK,VF] CR-008"
           }
         ],
-        [
-          {
-            "type": "ev",
-            "label": "MDPW"
-          }
-        ],
-        [
-          {
-            "type": "ev",
-            "label": "MDPW"
-          }
-        ],
+        [],
+        [],
         []
       ]
     },
@@ -2522,7 +2513,9 @@
     "23-Sep-2026": {
       "day": "Wed",
       "date": "23-Sep-2026",
-      "remarks": [],
+      "remarks": [
+        "Term-VI Elective Presentation 09.00 AM to 12.15 PM"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -2663,7 +2656,9 @@
     "24-Sep-2026": {
       "day": "Thur",
       "date": "24-Sep-2026",
-      "remarks": [],
+      "remarks": [
+        "Term-VI Bidding Evening"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -2854,7 +2849,9 @@
     "25-Sep-2026": {
       "day": "Fri",
       "date": "25-Sep-2026",
-      "remarks": [],
+      "remarks": [
+        "Term-VI Elective Bidding"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -4179,16 +4176,7 @@
             "label": "Guest Speaker"
           }
         ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
-          }
-        ]
+        []
       ]
     },
     "05-Oct-2026": {
@@ -4992,11 +4980,19 @@
     "09-Oct-2026": {
       "day": "Fri",
       "date": "09-Oct-2026",
-      "remarks": [],
+      "remarks": [
+        "SCM Quiz-1 1 Hour"
+      ],
       "gs": [],
-      "quiz": [],
+      "quiz": [
+        "SCM Quiz-1 1 Hour"
+      ],
       "slots": [
         [
+          {
+            "type": "exam",
+            "label": "SCM Quiz-1"
+          },
           {
             "type": "gs",
             "sub": null,
@@ -5412,7 +5408,9 @@
     "12-Oct-2026": {
       "day": "Mon",
       "date": "12-Oct-2026",
-      "remarks": [],
+      "remarks": [
+        "CIS Mid-Term Report Submission"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -6147,7 +6145,7 @@
       "day": "Fri",
       "date": "16-Oct-2026",
       "remarks": [
-        "MDPW Tentative Make-up"
+        "MDPW Make-up session"
       ],
       "gs": [],
       "quiz": [],
@@ -6174,22 +6172,14 @@
         ],
         [
           {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
+            "type": "ev",
+            "label": "MDPW Make-up Session"
           }
         ],
         [
           {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
+            "type": "ev",
+            "label": "MDPW Make-up Session"
           }
         ],
         [
@@ -7072,10 +7062,38 @@
             "label": "Quiz / Guest Speaker"
           }
         ],
-        [],
-        [],
-        [],
-        [],
+        [
+          {
+            "type": "ev",
+            "label": "MDPW Make-up Session"
+          }
+        ],
+        [
+          {
+            "type": "ev",
+            "label": "MDPW Make-up Session"
+          }
+        ],
+        [
+          {
+            "type": "gs",
+            "sub": "MMM",
+            "room": "",
+            "combined": false,
+            "tentative": true,
+            "label": "MMM Guest Speaker Tentative"
+          }
+        ],
+        [
+          {
+            "type": "gs",
+            "sub": "MMM",
+            "room": "",
+            "combined": false,
+            "tentative": true,
+            "label": "MMM Guest Speaker Tentative"
+          }
+        ],
         []
       ]
     },
@@ -7515,21 +7533,21 @@
         [
           {
             "type": "gs",
-            "sub": null,
+            "sub": "MMM",
             "room": "",
             "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
+            "tentative": true,
+            "label": "MMM Guest Speaker Tentative"
           }
         ],
         [
           {
             "type": "gs",
-            "sub": null,
+            "sub": "MMM",
             "room": "",
             "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
+            "tentative": true,
+            "label": "MMM Guest Speaker Tentative"
           }
         ],
         [
@@ -10331,11 +10349,13 @@
       "day": "Fri",
       "date": "20-Nov-2026",
       "remarks": [
-        "MIT 4.0 Quiz-3 60 Minutes"
+        "MIT 4.0 Quiz-3 60 Minutes",
+        "SCM Quiz-2 60 Minutes"
       ],
       "gs": [],
       "quiz": [
-        "MIT 4.0 Quiz-3 60 Minutes"
+        "MIT 4.0 Quiz-3 60 Minutes",
+        "SCM Quiz-2 60 Minutes"
       ],
       "slots": [
         [
@@ -10353,6 +10373,10 @@
           }
         ],
         [
+          {
+            "type": "exam",
+            "label": "SCM Quiz-2 60 Minutes"
+          },
           {
             "type": "gs",
             "sub": null,
@@ -10420,7 +10444,9 @@
     "21-Nov-2026": {
       "day": "Sat",
       "date": "21-Nov-2026",
-      "remarks": [],
+      "remarks": [
+        "MDPW Make-up Session"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -10522,6 +10548,10 @@
         ],
         [
           {
+            "type": "ev",
+            "label": "MDPW Make-up Session"
+          },
+          {
             "type": "gs",
             "sub": null,
             "room": "",
@@ -10531,6 +10561,10 @@
           }
         ],
         [
+          {
+            "type": "ev",
+            "label": "MDPW Make-up Session"
+          },
           {
             "type": "gs",
             "sub": null,
@@ -11305,7 +11339,9 @@
     "01-Dec-2026": {
       "day": "Tue",
       "date": "01-Dec-2026",
-      "remarks": [],
+      "remarks": [
+        "CIS Presentation"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -11520,7 +11556,9 @@
     "02-Dec-2026": {
       "day": "Wed",
       "date": "02-Dec-2026",
-      "remarks": [],
+      "remarks": [
+        "CIS Presentation"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -11601,7 +11639,9 @@
     "03-Dec-2026": {
       "day": "Thur",
       "date": "03-Dec-2026",
-      "remarks": [],
+      "remarks": [
+        "CIS Presentation"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
