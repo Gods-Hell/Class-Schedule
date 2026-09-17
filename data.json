@@ -1,13 +1,13 @@
 {
-  "generated": "17 Sept 2026, 9:25:52 am",
+  "generated": "17 Sept 2026, 7:26:26 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
-    "classes": 836,
+    "classes": 838,
     "guestSessions": 66,
     "gsNotices": 2,
-    "quizNotices": 9,
+    "quizNotices": 11,
     "events": 171
   },
   "subjects": {
@@ -1618,7 +1618,8 @@
       "day": "Thur",
       "date": "17-Sep-2026",
       "remarks": [
-        "Exam Halls Blocked for First Year End Term"
+        "Exam Halls Blocked for First Year End Term",
+        "GTM Cancelled"
       ],
       "gs": [],
       "quiz": [],
@@ -1936,7 +1937,8 @@
       "remarks": [
         "Exam Halls Blocked for First Year End Term",
         "CR-009 Not Available",
-        "Full Day Blocked"
+        "Full Day Blocked",
+        "BS-PPP Case Submission"
       ],
       "gs": [],
       "quiz": [],
@@ -2282,7 +2284,9 @@
     "22-Sep-2026": {
       "day": "Tue",
       "date": "22-Sep-2026",
-      "remarks": [],
+      "remarks": [
+        "GTM Make-up Session"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -2429,6 +2433,16 @@
         [
           {
             "type": "cls",
+            "sub": "GTM",
+            "grp": 1,
+            "faculty": [
+              "VM"
+            ],
+            "room": "CR-010",
+            "label": "GTM Gr.1 [VM] CR-010"
+          },
+          {
+            "type": "cls",
             "sub": "EBEC",
             "grp": 2,
             "faculty": [
@@ -2469,6 +2483,16 @@
           }
         ],
         [
+          {
+            "type": "cls",
+            "sub": "GTM",
+            "grp": 2,
+            "faculty": [
+              "VM"
+            ],
+            "room": "CR-010",
+            "label": "GTM Gr.2 [VM] CR-010"
+          },
           {
             "type": "cls",
             "sub": "EBEC",
@@ -2514,7 +2538,8 @@
       "day": "Wed",
       "date": "23-Sep-2026",
       "remarks": [
-        "Term-VI Elective Presentation 09.00 AM to 12.15 PM"
+        "Term-VI Elective Presentation 09.00 AM to 12.15 PM",
+        "CR-008 Booked for DPR Office 11.00 TO 01.00"
       ],
       "gs": [],
       "quiz": [],
@@ -2959,7 +2984,9 @@
     "26-Sep-2026": {
       "day": "Sat",
       "date": "26-Sep-2026",
-      "remarks": [],
+      "remarks": [
+        "BS-PPP Case Submission"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -3590,9 +3617,13 @@
     "30-Sep-2026": {
       "day": "Wed",
       "date": "30-Sep-2026",
-      "remarks": [],
+      "remarks": [
+        "BS-PPP Quiz-1 10 Minutes"
+      ],
       "gs": [],
-      "quiz": [],
+      "quiz": [
+        "BS-PPP Quiz-1 10 Minutes"
+      ],
       "slots": [
         [
           {
@@ -7654,7 +7685,9 @@
     "01-Nov-2026": {
       "day": "Sun",
       "date": "01-Nov-2026",
-      "remarks": [],
+      "remarks": [
+        "BS-PPP Case Submission"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -11238,9 +11271,13 @@
     "30-Nov-2026": {
       "day": "Mon",
       "date": "30-Nov-2026",
-      "remarks": [],
+      "remarks": [
+        "BS-PPP Quiz-1 10 Minutes"
+      ],
       "gs": [],
-      "quiz": [],
+      "quiz": [
+        "BS-PPP Quiz-1 10 Minutes"
+      ],
       "slots": [
         [
           {
