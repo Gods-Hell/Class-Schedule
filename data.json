@@ -1,13 +1,13 @@
 {
-  "generated": "21 Sept 2026, 2:00:01 pm",
+  "generated": "21 Sept 2026, 3:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 838,
-    "guestSessions": 66,
-    "gsNotices": 2,
-    "quizNotices": 11,
+    "guestSessions": 63,
+    "gsNotices": 0,
+    "quizNotices": 12,
     "events": 171
   },
   "subjects": {
@@ -5441,10 +5441,13 @@
       "day": "Mon",
       "date": "12-Oct-2026",
       "remarks": [
-        "CIS Mid-Term Report Submission"
+        "CIS Mid-Term Report Submission",
+        "SDM Quiz-1 30 Minutes"
       ],
       "gs": [],
-      "quiz": [],
+      "quiz": [
+        "SDM Quiz-1 30 Minutes"
+      ],
       "slots": [
         [
           {
@@ -7116,16 +7119,7 @@
             "label": "MMM Guest Speaker Tentative"
           }
         ],
-        [
-          {
-            "type": "gs",
-            "sub": "MMM",
-            "room": "",
-            "combined": false,
-            "tentative": true,
-            "label": "MMM Guest Speaker Tentative"
-          }
-        ],
+        [],
         []
       ]
     },
@@ -7409,11 +7403,9 @@
       "day": "Fri",
       "date": "30-Oct-2026",
       "remarks": [
-        "General Guest Speaker (CR-009 Not Available)"
+        "(CR-009 Not Available)"
       ],
-      "gs": [
-        "General Guest Speaker (CR-009 Not Available)"
-      ],
+      "gs": [],
       "quiz": [],
       "slots": [
         [
@@ -7459,11 +7451,9 @@
       "day": "Sat",
       "date": "31-Oct-2026",
       "remarks": [
-        "General Guest Speaker (CR-009 Not Available)"
+        "(CR-009 Not Available)"
       ],
-      "gs": [
-        "General Guest Speaker (CR-009 Not Available)"
-      ],
+      "gs": [],
       "quiz": [],
       "slots": [
         [
@@ -7562,26 +7552,8 @@
             "label": "BDDM [YN,VF] CR-015"
           }
         ],
-        [
-          {
-            "type": "gs",
-            "sub": "MMM",
-            "room": "",
-            "combined": false,
-            "tentative": true,
-            "label": "MMM Guest Speaker Tentative"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": "MMM",
-            "room": "",
-            "combined": false,
-            "tentative": true,
-            "label": "MMM Guest Speaker Tentative"
-          }
-        ],
+        [],
+        [],
         [
           {
             "type": "cls",
@@ -8756,7 +8728,9 @@
     "09-Nov-2026": {
       "day": "Mon",
       "date": "09-Nov-2026",
-      "remarks": [],
+      "remarks": [
+        "Exam Hall Not Available First Year Mid Term"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -8897,7 +8871,9 @@
     "10-Nov-2026": {
       "day": "Tue",
       "date": "10-Nov-2026",
-      "remarks": [],
+      "remarks": [
+        "Exam Hall Not Available First Year Mid Term"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -9082,7 +9058,9 @@
     "11-Nov-2026": {
       "day": "Wed",
       "date": "11-Nov-2026",
-      "remarks": [],
+      "remarks": [
+        "Exam Hall Not Available First Year Mid Term"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -9234,7 +9212,8 @@
       "day": "Thur",
       "date": "12-Nov-2026",
       "remarks": [
-        "Evening Sangaram"
+        "Evening Sangaram",
+        "Exam Hall Not Available First Year Mid Term"
       ],
       "gs": [],
       "quiz": [],
