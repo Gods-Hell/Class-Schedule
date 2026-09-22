@@ -1,5 +1,5 @@
 {
-  "generated": "22 Sept 2026, 2:00:03 pm",
+  "generated": "22 Sept 2026, 3:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -8,7 +8,7 @@
     "guestSessions": 63,
     "gsNotices": 0,
     "quizNotices": 12,
-    "events": 171
+    "events": 174
   },
   "subjects": {
     "MMM": [
@@ -8652,9 +8652,24 @@
             "label": "Quiz / Guest Speaker"
           }
         ],
-        [],
-        [],
-        [],
+        [
+          {
+            "type": "ev",
+            "label": "MMM Make-up sessions"
+          }
+        ],
+        [
+          {
+            "type": "ev",
+            "label": "MMM Make-up sessions"
+          }
+        ],
+        [
+          {
+            "type": "ev",
+            "label": "MMM Make-up sessions"
+          }
+        ],
         [],
         []
       ]
