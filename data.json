@@ -1,5 +1,5 @@
 {
-  "generated": "24 Sept 2026, 11:00:01 am",
+  "generated": "24 Sept 2026, 12:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -2682,9 +2682,7 @@
     "24-Sep-2026": {
       "day": "Thur",
       "date": "24-Sep-2026",
-      "remarks": [
-        "Term-VI Bidding Evening"
-      ],
+      "remarks": [],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -2876,7 +2874,6 @@
       "day": "Fri",
       "date": "25-Sep-2026",
       "remarks": [
-        "Term-VI Elective Bidding",
         "MMM Make-up Session"
       ],
       "gs": [],
