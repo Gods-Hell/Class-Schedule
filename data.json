@@ -1,5 +1,5 @@
 {
-  "generated": "25 Sept 2026, 2:00:03 pm",
+  "generated": "25 Sept 2026, 3:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -4222,7 +4222,8 @@
       "remarks": [
         "MIT 4.0 Quiz-1 30 Minutes",
         "Placement Full Day",
-        "CR-008 Booked for DPR Office 03.00 TO 06.30"
+        "CR-008 Booked for DPR Office 03.00 TO 06.30",
+        "Exam Hall Not Available"
       ],
       "gs": [],
       "quiz": [
@@ -4403,7 +4404,8 @@
       "day": "Tue",
       "date": "06-Oct-2026",
       "remarks": [
-        "Placement Full Day"
+        "Placement Full Day",
+        "Exam Hall Not Available"
       ],
       "gs": [],
       "quiz": [],
@@ -4656,7 +4658,8 @@
       "day": "Wed",
       "date": "07-Oct-2026",
       "remarks": [
-        "IM Quiz-1 20 Minutes"
+        "IM Quiz-1 20 Minutes",
+        "Exam Hall Not Available"
       ],
       "gs": [],
       "quiz": [
@@ -4810,7 +4813,9 @@
     "08-Oct-2026": {
       "day": "Thur",
       "date": "08-Oct-2026",
-      "remarks": [],
+      "remarks": [
+        "Exam Hall Not Available"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -11281,11 +11286,11 @@
       "day": "Mon",
       "date": "30-Nov-2026",
       "remarks": [
-        "BS-PPP Quiz-1 10 Minutes"
+        "BS-PPP Quiz-2 10 Minutes"
       ],
       "gs": [],
       "quiz": [
-        "BS-PPP Quiz-1 10 Minutes"
+        "BS-PPP Quiz-2 10 Minutes"
       ],
       "slots": [
         [
