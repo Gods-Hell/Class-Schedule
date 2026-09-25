@@ -1,5 +1,5 @@
 {
-  "generated": "25 Sept 2026, 1:00:03 pm",
+  "generated": "25 Sept 2026, 2:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -3274,7 +3274,8 @@
       "day": "Mon",
       "date": "28-Sep-2026",
       "remarks": [
-        "CR-008 Booked for DPR Office 03.00 TO 06.30"
+        "CR-008 Booked for DPR Office 03.00 TO 06.30",
+        "Full Day Placement 08.00AM to 11.45PM"
       ],
       "gs": [],
       "quiz": [],
@@ -3429,7 +3430,7 @@
       "date": "29-Sep-2026",
       "remarks": [
         "CR-014 Booked for DPR Office 03.00 TO 06.30",
-        "FULL DAY PLAcement 08:00 AM to 11.45 PM"
+        "Full Day Placement 08:00 AM to 11.45 PM"
       ],
       "gs": [],
       "quiz": [],
