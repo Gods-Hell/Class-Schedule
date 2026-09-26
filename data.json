@@ -1,10 +1,10 @@
 {
-  "generated": "26 Sept 2026, 2:00:03 pm",
+  "generated": "26 Sept 2026, 3:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
-    "classes": 838,
+    "classes": 836,
     "guestSessions": 63,
     "gsNotices": 0,
     "quizNotices": 12,
@@ -1753,16 +1753,6 @@
         [
           {
             "type": "cls",
-            "sub": "GTM",
-            "grp": 1,
-            "faculty": [
-              "VM"
-            ],
-            "room": "CR-010",
-            "label": "GTM Gr.1 [VM] CR-010"
-          },
-          {
-            "type": "cls",
             "sub": "EBEC",
             "grp": 2,
             "faculty": [
@@ -1803,16 +1793,6 @@
           }
         ],
         [
-          {
-            "type": "cls",
-            "sub": "GTM",
-            "grp": 2,
-            "faculty": [
-              "VM"
-            ],
-            "room": "CR-010",
-            "label": "GTM Gr.2 [VM] CR-010"
-          },
           {
             "type": "cls",
             "sub": "EBEC",
