@@ -1,12 +1,12 @@
 {
-  "generated": "28 Sept 2026, 9:00:03 am",
+  "generated": "28 Sept 2026, 10:00:03 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 836,
-    "guestSessions": 63,
-    "gsNotices": 0,
+    "guestSessions": 65,
+    "gsNotices": 1,
     "quizNotices": 12,
     "events": 174
   },
@@ -7998,7 +7998,9 @@
     "03-Nov-2026": {
       "day": "Tue",
       "date": "03-Nov-2026",
-      "remarks": [],
+      "remarks": [
+        "MDPW Cancelled"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -8384,7 +8386,9 @@
     "05-Nov-2026": {
       "day": "Thur",
       "date": "05-Nov-2026",
-      "remarks": [],
+      "remarks": [
+        "MDPW Cancelled"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -10706,8 +10710,12 @@
     "22-Nov-2026": {
       "day": "Sun",
       "date": "22-Nov-2026",
-      "remarks": [],
-      "gs": [],
+      "remarks": [
+        "IM Guest Speaker"
+      ],
+      "gs": [
+        "IM Guest Speaker"
+      ],
       "quiz": [],
       "slots": [
         [
@@ -10777,6 +10785,14 @@
         [
           {
             "type": "gs",
+            "sub": "IM",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "IM Guest Speaker"
+          },
+          {
+            "type": "gs",
             "sub": null,
             "room": "",
             "combined": false,
@@ -10785,6 +10801,14 @@
           }
         ],
         [
+          {
+            "type": "gs",
+            "sub": "IM",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "IM Guest Speaker"
+          },
           {
             "type": "gs",
             "sub": null,
