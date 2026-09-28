@@ -1,12 +1,12 @@
 {
-  "generated": "28 Sept 2026, 5:00:04 pm",
+  "generated": "28 Sept 2026, 6:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 836,
-    "guestSessions": 65,
-    "gsNotices": 1,
+    "guestSessions": 67,
+    "gsNotices": 2,
     "quizNotices": 12,
     "events": 174
   },
@@ -6239,8 +6239,12 @@
     "17-Oct-2026": {
       "day": "Sat",
       "date": "17-Oct-2026",
-      "remarks": [],
-      "gs": [],
+      "remarks": [
+        "EBEC Guest Speaker"
+      ],
+      "gs": [
+        "EBEC Guest Speaker"
+      ],
       "quiz": [],
       "slots": [
         [
@@ -6276,6 +6280,14 @@
         [
           {
             "type": "gs",
+            "sub": "EBEC",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "EBEC Guest Speaker"
+          },
+          {
+            "type": "gs",
             "sub": null,
             "room": "",
             "combined": false,
@@ -6284,6 +6296,14 @@
           }
         ],
         [
+          {
+            "type": "gs",
+            "sub": "EBEC",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "EBEC Guest Speaker"
+          },
           {
             "type": "gs",
             "sub": null,
