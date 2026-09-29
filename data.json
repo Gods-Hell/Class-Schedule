@@ -1,5 +1,5 @@
 {
-  "generated": "29 Sept 2026, 2:00:01 pm",
+  "generated": "29 Sept 2026, 3:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -7,8 +7,8 @@
     "classes": 836,
     "guestSessions": 67,
     "gsNotices": 2,
-    "quizNotices": 12,
-    "events": 174
+    "quizNotices": 13,
+    "events": 175
   },
   "subjects": {
     "MMM": [
@@ -5008,11 +5008,13 @@
       "day": "Fri",
       "date": "09-Oct-2026",
       "remarks": [
-        "SCM Quiz-1 1 Hour"
+        "SCM Quiz-1 1 Hour",
+        "BSF Quiz Only Textbook & Caluculator is allowed 30 Minutes"
       ],
       "gs": [],
       "quiz": [
-        "SCM Quiz-1 1 Hour"
+        "SCM Quiz-1 1 Hour",
+        "BSF Quiz Only Textbook & Caluculator is allowed 30 Minutes"
       ],
       "slots": [
         [
@@ -5030,6 +5032,10 @@
           }
         ],
         [
+          {
+            "type": "exam",
+            "label": "BSF Quiz-1 30 Minutes"
+          },
           {
             "type": "gs",
             "sub": null,
