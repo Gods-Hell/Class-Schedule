@@ -1,12 +1,12 @@
 {
-  "generated": "1 Oct 2026, 2:00:01 pm",
+  "generated": "1 Oct 2026, 3:00:02 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 836,
     "guestSessions": 67,
-    "gsNotices": 2,
+    "gsNotices": 3,
     "quizNotices": 15,
     "events": 176
   },
@@ -7093,9 +7093,12 @@
       "day": "Fri",
       "date": "23-Oct-2026",
       "remarks": [
-        "MDPW Make-up"
+        "MDPW Make-up",
+        "MMM Guest Speaker CR-009"
       ],
-      "gs": [],
+      "gs": [
+        "MMM Guest Speaker CR-009"
+      ],
       "quiz": [],
       "slots": [
         [
@@ -7152,8 +7155,8 @@
             "sub": "MMM",
             "room": "",
             "combined": false,
-            "tentative": true,
-            "label": "MMM Guest Speaker Tentative"
+            "tentative": false,
+            "label": "MMM Guest Speaker"
           }
         ],
         [],
