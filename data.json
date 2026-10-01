@@ -1,5 +1,5 @@
 {
-  "generated": "1 Oct 2026, 12:00:01 pm",
+  "generated": "1 Oct 2026, 1:00:02 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -7,7 +7,7 @@
     "classes": 836,
     "guestSessions": 67,
     "gsNotices": 2,
-    "quizNotices": 14,
+    "quizNotices": 15,
     "events": 176
   },
   "subjects": {
@@ -5848,9 +5848,13 @@
     "14-Oct-2026": {
       "day": "Wed",
       "date": "14-Oct-2026",
-      "remarks": [],
+      "remarks": [
+        "PRS Quiz - 1 20 Minutes"
+      ],
       "gs": [],
-      "quiz": [],
+      "quiz": [
+        "PRS Quiz - 1 20 Minutes"
+      ],
       "slots": [
         [
           {
