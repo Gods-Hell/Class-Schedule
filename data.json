@@ -1,5 +1,5 @@
 {
-  "generated": "1 Oct 2026, 11:00:02 am",
+  "generated": "1 Oct 2026, 12:00:01 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -7,8 +7,8 @@
     "classes": 836,
     "guestSessions": 67,
     "gsNotices": 2,
-    "quizNotices": 13,
-    "events": 175
+    "quizNotices": 14,
+    "events": 176
   },
   "subjects": {
     "MMM": [
@@ -4639,13 +4639,11 @@
       "day": "Wed",
       "date": "07-Oct-2026",
       "remarks": [
-        "IM Quiz-1 20 Minutes",
-        "Exam Hall Not Available"
+        "Exam Hall Not Available",
+        "Placement Full Day"
       ],
       "gs": [],
-      "quiz": [
-        "IM Quiz-1 20 Minutes"
-      ],
+      "quiz": [],
       "slots": [
         [
           {
@@ -4795,7 +4793,8 @@
       "day": "Thur",
       "date": "08-Oct-2026",
       "remarks": [
-        "Exam Hall Not Available"
+        "Exam Hall Not Available",
+        "Placement Full Day"
       ],
       "gs": [],
       "quiz": [],
@@ -5009,18 +5008,20 @@
       "date": "09-Oct-2026",
       "remarks": [
         "SCM Quiz-1 1 Hour",
-        "BSF Quiz-1 30 Minutes"
+        "BSF Quiz-1 30 Minutes",
+        "IM Quiz-1 20 Minutes"
       ],
       "gs": [],
       "quiz": [
         "SCM Quiz-1 1 Hour",
-        "BSF Quiz-1 30 Minutes"
+        "BSF Quiz-1 30 Minutes",
+        "IM Quiz-1 20 Minutes"
       ],
       "slots": [
         [
           {
             "type": "exam",
-            "label": "SCM Quiz-1"
+            "label": "SCM Quiz-1 60 Minutes"
           },
           {
             "type": "gs",
@@ -5056,6 +5057,10 @@
           }
         ],
         [
+          {
+            "type": "exam",
+            "label": "IM Quiz 20 Minutes"
+          },
           {
             "type": "gs",
             "sub": null,
@@ -5591,9 +5596,13 @@
     "13-Oct-2026": {
       "day": "Tue",
       "date": "13-Oct-2026",
-      "remarks": [],
+      "remarks": [
+        "IF Quiz - 1"
+      ],
       "gs": [],
-      "quiz": [],
+      "quiz": [
+        "IF Quiz - 1"
+      ],
       "slots": [
         [
           {
