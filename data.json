@@ -1,5 +1,5 @@
 {
-  "generated": "5 Oct 2026, 10:00:02 am",
+  "generated": "5 Oct 2026, 11:00:01 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -7,7 +7,7 @@
     "classes": 836,
     "guestSessions": 67,
     "gsNotices": 3,
-    "quizNotices": 15,
+    "quizNotices": 18,
     "events": 176
   },
   "subjects": {
@@ -6422,10 +6422,13 @@
       "day": "Mon",
       "date": "19-Oct-2026",
       "remarks": [
-        "CR-008 Booked for DPR office 03.00 TO 06.30"
+        "CR-008 Booked for DPR office 03.00 TO 06.30",
+        "GTM Quiz-1 30 Minutes"
       ],
       "gs": [],
-      "quiz": [],
+      "quiz": [
+        "GTM Quiz-1 30 Minutes"
+      ],
       "slots": [
         [
           {
@@ -8281,9 +8284,13 @@
     "04-Nov-2026": {
       "day": "Wed",
       "date": "04-Nov-2026",
-      "remarks": [],
+      "remarks": [
+        "GTM Quiz-2 30 Minutes"
+      ],
       "gs": [],
-      "quiz": [],
+      "quiz": [
+        "GTM Quiz-2 30 Minutes"
+      ],
       "slots": [
         [
           {
@@ -11442,10 +11449,13 @@
       "day": "Tue",
       "date": "01-Dec-2026",
       "remarks": [
-        "CIS Presentation"
+        "CIS Presentation",
+        "GTM Quiz-3 30 Minutes"
       ],
       "gs": [],
-      "quiz": [],
+      "quiz": [
+        "GTM Quiz-3 30 Minutes"
+      ],
       "slots": [
         [
           {
