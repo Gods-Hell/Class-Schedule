@@ -1,5 +1,5 @@
 {
-  "generated": "6 Oct 2026, 9:00:01 am",
+  "generated": "6 Oct 2026, 10:00:03 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -5988,7 +5988,8 @@
       "day": "Thur",
       "date": "15-Oct-2026",
       "remarks": [
-        "Placement Full Day"
+        "Placement Full Day",
+        "CR-009 Not Available"
       ],
       "gs": [],
       "quiz": [],
@@ -6202,7 +6203,8 @@
       "date": "16-Oct-2026",
       "remarks": [
         "MDPW Make-up session",
-        "Placement Full Day"
+        "Placement Full Day",
+        "CR-009 Not Available"
       ],
       "gs": [],
       "quiz": [],
@@ -11454,7 +11456,8 @@
       "date": "01-Dec-2026",
       "remarks": [
         "CIS Presentation",
-        "GTM Quiz-3 30 Minutes"
+        "GTM Quiz-3 30 Minutes",
+        "EBEC To be cancelled"
       ],
       "gs": [],
       "quiz": [
