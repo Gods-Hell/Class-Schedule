@@ -1,11 +1,11 @@
 {
-  "generated": "7 Oct 2026, 3:00:01 pm",
+  "generated": "7 Oct 2026, 4:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 838,
-    "guestSessions": 61,
+    "guestSessions": 51,
     "gsNotices": 3,
     "quizNotices": 19,
     "events": 175
@@ -6213,26 +6213,8 @@
       "gs": [],
       "quiz": [],
       "slots": [
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
-          }
-        ],
+        [],
+        [],
         [
           {
             "type": "cls",
@@ -6257,26 +6239,8 @@
             "label": "MDPW Gr.2 [PN] CR-015"
           }
         ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
-          }
-        ],
+        [],
+        [],
         []
       ]
     },
@@ -6284,10 +6248,10 @@
       "day": "Sat",
       "date": "17-Oct-2026",
       "remarks": [
-        "EBEC Guest Speaker"
+        "EBEC Guest Speaker CR-009 (H)"
       ],
       "gs": [
-        "EBEC Guest Speaker"
+        "EBEC Guest Speaker CR-009 (H)"
       ],
       "quiz": [],
       "slots": [
@@ -6298,48 +6262,23 @@
           {
             "type": "gs",
             "sub": "EBEC",
-            "room": "",
+            "room": "CR-009",
             "combined": false,
             "tentative": false,
-            "label": "EBEC Guest Speaker"
-          },
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
+            "label": "EBEC Guest Speaker CR-009"
           }
         ],
         [
           {
             "type": "gs",
             "sub": "EBEC",
-            "room": "",
+            "room": "CR-009",
             "combined": false,
             "tentative": false,
-            "label": "EBEC Guest Speaker"
-          },
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
+            "label": "EBEC Guest Speaker CR-009"
           }
         ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
-          }
-        ],
+        [],
         []
       ]
     },
@@ -6353,36 +6292,9 @@
         [],
         [],
         [],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
-          }
-        ],
+        [],
+        [],
+        [],
         []
       ]
     },
