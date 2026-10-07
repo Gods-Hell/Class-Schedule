@@ -1,14 +1,14 @@
 {
-  "generated": "7 Oct 2026, 2:00:08 pm",
+  "generated": "7 Oct 2026, 3:00:01 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
-    "classes": 836,
-    "guestSessions": 67,
+    "classes": 838,
+    "guestSessions": 61,
     "gsNotices": 3,
     "quizNotices": 19,
-    "events": 177
+    "events": 175
   },
   "subjects": {
     "MMM": [
@@ -6235,14 +6235,26 @@
         ],
         [
           {
-            "type": "ev",
-            "label": "MDPW Make-up Session"
+            "type": "cls",
+            "sub": "MDPW",
+            "grp": 1,
+            "faculty": [
+              "PN"
+            ],
+            "room": "CR-015",
+            "label": "MDPW Gr.1 [PN] CR-015"
           }
         ],
         [
           {
-            "type": "ev",
-            "label": "MDPW Make-up Session"
+            "type": "cls",
+            "sub": "MDPW",
+            "grp": 2,
+            "faculty": [
+              "PN"
+            ],
+            "room": "CR-015",
+            "label": "MDPW Gr.2 [PN] CR-015"
           }
         ],
         [
@@ -6279,36 +6291,9 @@
       ],
       "quiz": [],
       "slots": [
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
-          }
-        ],
+        [],
+        [],
+        [],
         [
           {
             "type": "gs",
@@ -6365,36 +6350,9 @@
       "gs": [],
       "quiz": [],
       "slots": [
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
-          }
-        ],
+        [],
+        [],
+        [],
         [
           {
             "type": "gs",
