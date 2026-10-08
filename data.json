@@ -1,5 +1,5 @@
 {
-  "generated": "8 Oct 2026, 9:00:01 am",
+  "generated": "8 Oct 2026, 10:00:03 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -5455,7 +5455,8 @@
       "remarks": [
         "CIS Mid-Term Report Submission",
         "SDM Quiz-1 30 Minutes",
-        "CR-008 Booked for DPR office 03.00 TO 06.30"
+        "CR-008 Booked for DPR office 03.00 TO 06.30",
+        "Placement Full Day"
       ],
       "gs": [],
       "quiz": [
@@ -5855,7 +5856,8 @@
       "day": "Wed",
       "date": "14-Oct-2026",
       "remarks": [
-        "PRS Quiz - 1 20 Minutes"
+        "PRS Quiz - 1 20 Minutes",
+        "Placement Full Day"
       ],
       "gs": [],
       "quiz": [
@@ -6301,7 +6303,8 @@
       "date": "19-Oct-2026",
       "remarks": [
         "CR-008 Booked for DPR office 03.00 TO 06.30",
-        "GTM Quiz-1 30 Minutes"
+        "GTM Quiz-1 30 Minutes",
+        "Placement Full Day"
       ],
       "gs": [],
       "quiz": [
@@ -6425,7 +6428,9 @@
     "20-Oct-2026": {
       "day": "Tue",
       "date": "20-Oct-2026",
-      "remarks": [],
+      "remarks": [
+        "Placement Full Day"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -6610,7 +6615,9 @@
     "21-Oct-2026": {
       "day": "Wed",
       "date": "21-Oct-2026",
-      "remarks": [],
+      "remarks": [
+        "Placement Full Day"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -6978,7 +6985,8 @@
       "date": "23-Oct-2026",
       "remarks": [
         "MDPW Make-up",
-        "MMM Guest Speaker CR-009"
+        "MMM Guest Speaker CR-009",
+        "Placement Full Day"
       ],
       "gs": [
         "MMM Guest Speaker CR-009"
