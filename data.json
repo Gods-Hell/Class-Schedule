@@ -1,13 +1,13 @@
 {
-  "generated": "9 Oct 2026, 2:00:01 pm",
+  "generated": "9 Oct 2026, 3:00:02 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 838,
-    "guestSessions": 51,
+    "guestSessions": 53,
     "gsNotices": 3,
-    "quizNotices": 19,
+    "quizNotices": 20,
     "events": 177
   },
   "subjects": {
@@ -6248,12 +6248,15 @@
       "day": "Sat",
       "date": "17-Oct-2026",
       "remarks": [
-        "EBEC Guest Speaker CR-009 (H)"
+        "EBEC Guest Speaker CR-009 (H)",
+        "CBM Quiz 60 Minutes"
       ],
       "gs": [
         "EBEC Guest Speaker CR-009 (H)"
       ],
-      "quiz": [],
+      "quiz": [
+        "CBM Quiz 60 Minutes"
+      ],
       "slots": [
         [],
         [],
@@ -7494,8 +7497,26 @@
             "label": "BDDM [YN,VF] CR-015"
           }
         ],
-        [],
-        [],
+        [
+          {
+            "type": "gs",
+            "sub": null,
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "GL"
+          }
+        ],
+        [
+          {
+            "type": "gs",
+            "sub": null,
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "GL"
+          }
+        ],
         [
           {
             "type": "cls",
