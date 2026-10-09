@@ -1,5 +1,5 @@
 {
-  "generated": "9 Oct 2026, 12:00:02 pm",
+  "generated": "9 Oct 2026, 1:00:02 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -8,7 +8,7 @@
     "guestSessions": 51,
     "gsNotices": 3,
     "quizNotices": 19,
-    "events": 175
+    "events": 177
   },
   "subjects": {
     "MMM": [
@@ -6257,7 +6257,12 @@
       "slots": [
         [],
         [],
-        [],
+        [
+          {
+            "type": "ev",
+            "label": "SDM Tentative"
+          }
+        ],
         [
           {
             "type": "gs",
@@ -6291,7 +6296,12 @@
       "slots": [
         [],
         [],
-        [],
+        [
+          {
+            "type": "ev",
+            "label": "SDM Tentative"
+          }
+        ],
         [],
         [],
         [],
