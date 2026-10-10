@@ -1,10 +1,10 @@
 {
-  "generated": "10 Oct 2026, 2:00:03 pm",
+  "generated": "10 Oct 2026, 3:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
-    "classes": 838,
+    "classes": 837,
     "guestSessions": 62,
     "gsNotices": 5,
     "quizNotices": 20,
@@ -1128,7 +1128,8 @@
       "day": "Mon",
       "date": "14-Sep-2026",
       "remarks": [
-        "Exam Halls Blocked for First Year End Term"
+        "Exam Halls Blocked for First Year End Term",
+        "IF Cancelled"
       ],
       "gs": [],
       "quiz": [],
@@ -1231,18 +1232,7 @@
             "label": "MACR Gr.2 [BKD] CR-015"
           }
         ],
-        [
-          {
-            "type": "cls",
-            "sub": "IF",
-            "grp": 0,
-            "faculty": [
-              "SMA"
-            ],
-            "room": "CR-015",
-            "label": "IF [SMA] CR-015"
-          }
-        ],
+        [],
         [],
         []
       ]
