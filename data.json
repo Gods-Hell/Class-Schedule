@@ -1,14 +1,14 @@
 {
-  "generated": "10 Oct 2026, 12:00:03 pm",
+  "generated": "10 Oct 2026, 1:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 838,
-    "guestSessions": 61,
+    "guestSessions": 62,
     "gsNotices": 5,
     "quizNotices": 20,
-    "events": 178
+    "events": 177
   },
   "subjects": {
     "MMM": [
@@ -6268,8 +6268,12 @@
         ],
         [
           {
-            "type": "ev",
-            "label": "SDM Tentative"
+            "type": "gs",
+            "sub": "SDM",
+            "room": "CR-009",
+            "combined": false,
+            "tentative": false,
+            "label": "SDM Guest Speaker CR-009"
           }
         ],
         [
@@ -10195,7 +10199,8 @@
       "day": "Thur",
       "date": "19-Nov-2026",
       "remarks": [
-        "IM Quiz-3 20 Minutes"
+        "IM Quiz-3 20 Minutes",
+        "SDM Will be Cancelled"
       ],
       "gs": [],
       "quiz": [
