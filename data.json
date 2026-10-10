@@ -1,14 +1,14 @@
 {
-  "generated": "10 Oct 2026, 9:00:03 am",
+  "generated": "10 Oct 2026, 10:00:03 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 838,
-    "guestSessions": 53,
-    "gsNotices": 3,
+    "guestSessions": 61,
+    "gsNotices": 5,
     "quizNotices": 20,
-    "events": 177
+    "events": 178
   },
   "subjects": {
     "MMM": [
@@ -6249,7 +6249,8 @@
       "date": "17-Oct-2026",
       "remarks": [
         "EBEC Guest Speaker CR-009 (H)",
-        "CBM Quiz 60 Minutes"
+        "CBM Quiz 60 Minutes",
+        "Placement Full Day"
       ],
       "gs": [
         "EBEC Guest Speaker CR-009 (H)"
@@ -6259,7 +6260,12 @@
       ],
       "slots": [
         [],
-        [],
+        [
+          {
+            "type": "exam",
+            "label": "CBM Quiz-2 60 Minutes"
+          }
+        ],
         [
           {
             "type": "ev",
@@ -6761,7 +6767,9 @@
     "22-Oct-2026": {
       "day": "Thur",
       "date": "22-Oct-2026",
-      "remarks": [],
+      "remarks": [
+        "Placement Full Day"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
@@ -8609,7 +8617,7 @@
             "room": "",
             "combined": false,
             "tentative": false,
-            "label": "Quiz / Guest Speaker"
+            "label": "Guest Speaker"
           }
         ],
         [
@@ -8647,12 +8655,14 @@
     "07-Nov-2026": {
       "day": "Sat",
       "date": "07-Nov-2026",
-      "remarks": [],
-      "gs": [],
+      "remarks": [
+        "Guest Speaker Tentative"
+      ],
+      "gs": [
+        "Guest Speaker Tentative"
+      ],
       "quiz": [],
       "slots": [
-        [],
-        [],
         [
           {
             "type": "gs",
@@ -8673,20 +8683,60 @@
             "label": "Guest Speaker"
           }
         ],
-        [],
-        [],
+        [
+          {
+            "type": "gs",
+            "sub": null,
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "Guest Speaker"
+          }
+        ],
+        [
+          {
+            "type": "gs",
+            "sub": null,
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "Guest Speaker"
+          }
+        ],
+        [
+          {
+            "type": "gs",
+            "sub": null,
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "Guest Speaker"
+          }
+        ],
+        [
+          {
+            "type": "gs",
+            "sub": null,
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "Guest Speaker"
+          }
+        ],
         []
       ]
     },
     "08-Nov-2026": {
       "day": "Sun",
       "date": "08-Nov-2026",
-      "remarks": [],
-      "gs": [],
+      "remarks": [
+        "Guest Speaker Tentative"
+      ],
+      "gs": [
+        "Guest Speaker Tentative"
+      ],
       "quiz": [],
       "slots": [
-        [],
-        [],
         [
           {
             "type": "gs",
@@ -8707,8 +8757,46 @@
             "label": "Guest Speaker"
           }
         ],
-        [],
-        [],
+        [
+          {
+            "type": "gs",
+            "sub": null,
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "Guest Speaker"
+          }
+        ],
+        [
+          {
+            "type": "gs",
+            "sub": null,
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "Guest Speaker"
+          }
+        ],
+        [
+          {
+            "type": "gs",
+            "sub": null,
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "Guest Speaker"
+          }
+        ],
+        [
+          {
+            "type": "gs",
+            "sub": null,
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "Guest Speaker"
+          }
+        ],
         []
       ]
     },
