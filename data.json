@@ -1,5 +1,5 @@
 {
-  "generated": "10 Oct 2026, 5:00:03 pm",
+  "generated": "10 Oct 2026, 6:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -8,7 +8,7 @@
     "guestSessions": 62,
     "gsNotices": 5,
     "quizNotices": 20,
-    "events": 177
+    "events": 176
   },
   "subjects": {
     "MMM": [
@@ -6299,12 +6299,7 @@
       "slots": [
         [],
         [],
-        [
-          {
-            "type": "ev",
-            "label": "SDM Tentative"
-          }
-        ],
+        [],
         [],
         [],
         [],
