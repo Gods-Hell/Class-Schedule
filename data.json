@@ -1,5 +1,5 @@
 {
-  "generated": "12 Oct 2026, 3:00:02 pm",
+  "generated": "12 Oct 2026, 4:00:01 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -6239,21 +6239,21 @@
       "date": "17-Oct-2026",
       "remarks": [
         "EBEC Guest Speaker CR-009 (H)",
-        "CBM Quiz 60 Minutes",
+        "CBM Quiz - 2 20 Minutes",
         "Placement Full Day"
       ],
       "gs": [
         "EBEC Guest Speaker CR-009 (H)"
       ],
       "quiz": [
-        "CBM Quiz 60 Minutes"
+        "CBM Quiz - 2 20 Minutes"
       ],
       "slots": [
         [],
         [
           {
             "type": "exam",
-            "label": "CBM Quiz-2 60 Minutes"
+            "label": "CBM Quiz-2 20 Minutes"
           }
         ],
         [
