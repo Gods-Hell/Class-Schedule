@@ -1,14 +1,14 @@
 {
-  "generated": "13 Oct 2026, 2:00:05 pm",
+  "generated": "13 Oct 2026, 3:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 837,
-    "guestSessions": 62,
+    "guestSessions": 60,
     "gsNotices": 5,
-    "quizNotices": 20,
-    "events": 176
+    "quizNotices": 22,
+    "events": 178
   },
   "subjects": {
     "MMM": [
@@ -8594,31 +8594,25 @@
       "date": "06-Nov-2026",
       "remarks": [
         "IM Quiz-2 20 Minutes",
-        "MMM Make-up Session in lieu of (14-09-2026)"
+        "MMM Make-up Session in lieu of (14-09-2026)",
+        "BSF Quiz-2 30 Minutes"
       ],
       "gs": [],
       "quiz": [
-        "IM Quiz-2 20 Minutes"
+        "IM Quiz-2 20 Minutes",
+        "BSF Quiz-2 30 Minutes"
       ],
       "slots": [
         [
           {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
+            "type": "exam",
+            "label": "BSF Quiz-2"
           }
         ],
         [
           {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
+            "type": "exam",
+            "label": "IM Quiz-2"
           }
         ],
         [
@@ -10029,9 +10023,13 @@
     "18-Nov-2026": {
       "day": "Wed",
       "date": "18-Nov-2026",
-      "remarks": [],
+      "remarks": [
+        "BSF Quiz-3 30 Minutes"
+      ],
       "gs": [],
-      "quiz": [],
+      "quiz": [
+        "BSF Quiz-3 30 Minutes"
+      ],
       "slots": [
         [
           {
