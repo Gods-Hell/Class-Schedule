@@ -1,5 +1,5 @@
 {
-  "generated": "14 Oct 2026, 5:00:02 pm",
+  "generated": "14 Oct 2026, 6:00:00 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -5983,7 +5983,8 @@
       "date": "15-Oct-2026",
       "remarks": [
         "Placement Full Day",
-        "CR-009 Not Available"
+        "CR-009 Not Available",
+        "MDPW Venue is CR-002"
       ],
       "gs": [],
       "quiz": [],
