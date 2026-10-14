@@ -1,10 +1,10 @@
 {
-  "generated": "14 Oct 2026, 4:00:01 pm",
+  "generated": "14 Oct 2026, 5:00:02 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
-    "classes": 837,
+    "classes": 835,
     "guestSessions": 60,
     "gsNotices": 5,
     "quizNotices": 22,
@@ -10218,16 +10218,6 @@
           },
           {
             "type": "cls",
-            "sub": "SDM",
-            "grp": 2,
-            "faculty": [
-              "RPS"
-            ],
-            "room": "CR-014",
-            "label": "SDM Gr.2 [RPS] CR-014"
-          },
-          {
-            "type": "cls",
             "sub": "PF",
             "grp": 2,
             "faculty": [
@@ -10269,16 +10259,6 @@
             ],
             "room": "CR-015",
             "label": "ISDC Gr.1 [VKT, AS,VF] CR-015"
-          },
-          {
-            "type": "cls",
-            "sub": "SDM",
-            "grp": 1,
-            "faculty": [
-              "RPS"
-            ],
-            "room": "CR-014",
-            "label": "SDM Gr.1 [RPS] CR-014"
           },
           {
             "type": "cls",
