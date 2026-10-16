@@ -1,5 +1,5 @@
 {
-  "generated": "16 Oct 2026, 10:00:02 am",
+  "generated": "16 Oct 2026, 11:00:03 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -1129,7 +1129,8 @@
       "date": "14-Sep-2026",
       "remarks": [
         "Exam Halls Blocked for First Year End Term",
-        "IF Cancelled"
+        "IF Cancelled",
+        "MMM Cancelled"
       ],
       "gs": [],
       "quiz": [],
