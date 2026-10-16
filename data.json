@@ -1,12 +1,12 @@
 {
-  "generated": "16 Oct 2026, 9:00:02 am",
+  "generated": "16 Oct 2026, 10:00:02 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
-    "classes": 835,
-    "guestSessions": 60,
-    "gsNotices": 5,
+    "classes": 834,
+    "guestSessions": 61,
+    "gsNotices": 6,
     "quizNotices": 22,
     "events": 178
   },
@@ -11322,9 +11322,12 @@
       "day": "Mon",
       "date": "30-Nov-2026",
       "remarks": [
-        "BS-PPP Quiz-2 10 Minutes"
+        "BS-PPP Quiz-2 10 Minutes",
+        "MIT 4.0 (GS)"
       ],
-      "gs": [],
+      "gs": [
+        "MIT 4.0 (GS)"
+      ],
       "quiz": [
         "BS-PPP Quiz-2 10 Minutes"
       ],
@@ -11399,14 +11402,12 @@
         ],
         [
           {
-            "type": "cls",
-            "sub": "MIT 4.0",
-            "grp": 0,
-            "faculty": [
-              "SKS"
-            ],
+            "type": "gs",
+            "sub": null,
             "room": "CR-014",
-            "label": "MIT 4.0 [SKS] CR-014"
+            "combined": false,
+            "tentative": false,
+            "label": "MIT 4.0 [SKS] (GS) CR-014"
           },
           {
             "type": "cls",
