@@ -1,12 +1,12 @@
 {
-  "generated": "21 Oct 2026, 9:00:03 am",
+  "generated": "21 Oct 2026, 10:00:03 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 834,
-    "guestSessions": 61,
-    "gsNotices": 6,
+    "guestSessions": 58,
+    "gsNotices": 7,
     "quizNotices": 22,
     "events": 178
   },
@@ -6760,7 +6760,8 @@
       "day": "Thur",
       "date": "22-Oct-2026",
       "remarks": [
-        "Placement Full Day"
+        "Placement Full Day",
+        "EBEC Cancelled"
       ],
       "gs": [],
       "quiz": [],
@@ -6997,50 +6998,26 @@
       "day": "Fri",
       "date": "23-Oct-2026",
       "remarks": [
-        "MDPW Make-up",
+        "IF GS MDPW Make-up",
         "MMM Guest Speaker CR-009",
         "Placement Full Day",
         "CR-115 Booked for DPR"
       ],
       "gs": [
+        "IF GS MDPW Make-up",
         "MMM Guest Speaker CR-009"
       ],
       "quiz": [],
       "slots": [
+        [],
         [
           {
             "type": "gs",
             "sub": "IF",
-            "room": "",
-            "combined": false,
-            "tentative": true,
-            "label": "IF Guest Speaker Tentative"
-          },
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
+            "room": "CR-014",
             "combined": false,
             "tentative": false,
-            "label": "Quiz / Guest Speaker"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": "IF",
-            "room": "",
-            "combined": false,
-            "tentative": true,
-            "label": "IF Guest Speaker Tentative"
-          },
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
+            "label": "IF GS CR-014"
           }
         ],
         [
