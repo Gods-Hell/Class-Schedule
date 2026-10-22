@@ -1,5 +1,5 @@
 {
-  "generated": "22 Oct 2026, 10:00:04 am",
+  "generated": "22 Oct 2026, 11:00:03 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -7,8 +7,8 @@
     "classes": 833,
     "guestSessions": 58,
     "gsNotices": 7,
-    "quizNotices": 22,
-    "events": 176
+    "quizNotices": 23,
+    "events": 175
   },
   "subjects": {
     "MMM": [
@@ -7928,10 +7928,13 @@
       "day": "Tue",
       "date": "03-Nov-2026",
       "remarks": [
-        "MDPW Cancelled"
+        "MDPW Cancelled",
+        "BSF Quiz-2 25 Minutes"
       ],
       "gs": [],
-      "quiz": [],
+      "quiz": [
+        "BSF Quiz-2 25 Minutes"
+      ],
       "slots": [
         [
           {
@@ -8568,12 +8571,7 @@
         "BSF Quiz-2 30 Minutes"
       ],
       "slots": [
-        [
-          {
-            "type": "exam",
-            "label": "BSF Quiz-2"
-          }
-        ],
+        [],
         [
           {
             "type": "exam",
