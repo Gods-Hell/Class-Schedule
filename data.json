@@ -1,14 +1,14 @@
 {
-  "generated": "22 Oct 2026, 9:00:03 am",
+  "generated": "22 Oct 2026, 10:00:04 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
-    "classes": 834,
+    "classes": 833,
     "guestSessions": 58,
     "gsNotices": 7,
     "quizNotices": 22,
-    "events": 178
+    "events": 176
   },
   "subjects": {
     "MMM": [
@@ -6877,16 +6877,6 @@
           },
           {
             "type": "cls",
-            "sub": "EBEC",
-            "grp": 1,
-            "faculty": [
-              "GPK"
-            ],
-            "room": "CR-017",
-            "label": "EBEC Gr.1 [GPK] CR-017"
-          },
-          {
-            "type": "cls",
             "sub": "B2B",
             "grp": 1,
             "faculty": [
@@ -6929,16 +6919,6 @@
           },
           {
             "type": "cls",
-            "sub": "EBEC",
-            "grp": 2,
-            "faculty": [
-              "GPK"
-            ],
-            "room": "CR-017",
-            "label": "EBEC Gr.2 [GPK] CR-017"
-          },
-          {
-            "type": "cls",
             "sub": "B2B",
             "grp": 2,
             "faculty": [
@@ -6978,16 +6958,6 @@
             ],
             "room": "CR-010",
             "label": "GTM Gr.2 [VM] CR-010"
-          },
-          {
-            "type": "cls",
-            "sub": "EBEC",
-            "grp": 3,
-            "faculty": [
-              "GPK"
-            ],
-            "room": "CR-017",
-            "label": "EBEC Gr.3 [GPK] CR-017"
           }
         ],
         [],
@@ -7022,24 +6992,36 @@
         ],
         [
           {
-            "type": "ev",
-            "label": "MDPW Make-up Session"
+            "type": "cls",
+            "sub": "MDPW",
+            "grp": 1,
+            "faculty": [
+              "PN"
+            ],
+            "room": "CR-015",
+            "label": "MDPW Gr.1 [PN] CR-015"
           }
         ],
         [
           {
-            "type": "ev",
-            "label": "MDPW Make-up Session"
+            "type": "cls",
+            "sub": "MDPW",
+            "grp": 2,
+            "faculty": [
+              "PN"
+            ],
+            "room": "CR-015",
+            "label": "MDPW Gr.2 [PN] CR-015"
           }
         ],
         [
           {
             "type": "gs",
             "sub": "MMM",
-            "room": "",
+            "room": "CR-009",
             "combined": false,
             "tentative": false,
-            "label": "MMM Guest Speaker"
+            "label": "MMM Guest Speaker CR-009"
           }
         ],
         [],
