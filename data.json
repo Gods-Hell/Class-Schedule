@@ -1,5 +1,5 @@
 {
-  "generated": "23 Oct 2026, 2:00:03 pm",
+  "generated": "23 Oct 2026, 3:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -7,7 +7,7 @@
     "classes": 827,
     "guestSessions": 52,
     "gsNotices": 7,
-    "quizNotices": 23,
+    "quizNotices": 24,
     "events": 181
   },
   "subjects": {
@@ -8282,10 +8282,13 @@
       "day": "Thur",
       "date": "05-Nov-2026",
       "remarks": [
-        "MDPW Cancelled"
+        "MDPW Cancelled",
+        "BDDM Quiz-1"
       ],
       "gs": [],
-      "quiz": [],
+      "quiz": [
+        "BDDM Quiz-1"
+      ],
       "slots": [
         [
           {
