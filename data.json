@@ -1,5 +1,5 @@
 {
-  "generated": "23 Oct 2026, 9:00:04 am",
+  "generated": "23 Oct 2026, 10:00:04 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -6968,13 +6968,13 @@
       "day": "Fri",
       "date": "23-Oct-2026",
       "remarks": [
-        "IF GS MDPW Make-up",
+        "IF GS (M) MDPW Make-up",
         "MMM Guest Speaker CR-009",
         "Placement Full Day",
         "CR-115 Booked for DPR"
       ],
       "gs": [
-        "IF GS MDPW Make-up",
+        "IF GS (M) MDPW Make-up",
         "MMM Guest Speaker CR-009"
       ],
       "quiz": [],
