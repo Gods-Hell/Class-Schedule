@@ -1,14 +1,14 @@
 {
-  "generated": "23 Oct 2026, 12:00:03 pm",
+  "generated": "23 Oct 2026, 1:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
-    "classes": 833,
-    "guestSessions": 58,
+    "classes": 827,
+    "guestSessions": 52,
     "gsNotices": 7,
     "quizNotices": 23,
-    "events": 175
+    "events": 181
   },
   "subjects": {
     "MMM": [
@@ -1138,16 +1138,6 @@
         [
           {
             "type": "cls",
-            "sub": "MMM",
-            "grp": 1,
-            "faculty": [
-              "AJS"
-            ],
-            "room": "CR-017",
-            "label": "MMM Gr.1 [AJS] CR-017"
-          },
-          {
-            "type": "cls",
             "sub": "IM",
             "grp": 1,
             "faculty": [
@@ -1160,16 +1150,6 @@
         [
           {
             "type": "cls",
-            "sub": "MMM",
-            "grp": 2,
-            "faculty": [
-              "AJS"
-            ],
-            "room": "CR-017",
-            "label": "MMM Gr.2 [AJS] CR-017"
-          },
-          {
-            "type": "cls",
             "sub": "IM",
             "grp": 2,
             "faculty": [
@@ -1180,16 +1160,6 @@
           }
         ],
         [
-          {
-            "type": "cls",
-            "sub": "MMM",
-            "grp": 3,
-            "faculty": [
-              "AJS"
-            ],
-            "room": "CR-017",
-            "label": "MMM Gr.3 [AJS] CR-017"
-          },
           {
             "type": "cls",
             "sub": "SR",
@@ -8066,14 +8036,8 @@
             "label": "B2B Gr.1 [ATK] CR-014"
           },
           {
-            "type": "cls",
-            "sub": "MDPW",
-            "grp": 1,
-            "faculty": [
-              "PN"
-            ],
-            "room": "CR-015",
-            "label": "MDPW Gr.1 [PN] CR-015"
+            "type": "ev",
+            "label": "MDPW Cancelled"
           },
           {
             "type": "cls",
@@ -8118,14 +8082,8 @@
             "label": "B2B Gr.2 [ATK] CR-014"
           },
           {
-            "type": "cls",
-            "sub": "MDPW",
-            "grp": 2,
-            "faculty": [
-              "PN"
-            ],
-            "room": "CR-015",
-            "label": "MDPW Gr.2 [PN] CR-015"
+            "type": "ev",
+            "label": "MDPW Cancelled"
           },
           {
             "type": "cls",
@@ -8459,14 +8417,8 @@
             "label": "B2B Gr.1 [ATK] CR-014"
           },
           {
-            "type": "cls",
-            "sub": "MDPW",
-            "grp": 1,
-            "faculty": [
-              "PN"
-            ],
-            "room": "CR-015",
-            "label": "MDPW Gr.1 [PN] CR-015"
+            "type": "ev",
+            "label": "MDPW Cancelled"
           },
           {
             "type": "cls",
@@ -8511,14 +8463,8 @@
             "label": "B2B Gr.2 [ATK] CR-014"
           },
           {
-            "type": "cls",
-            "sub": "MDPW",
-            "grp": 2,
-            "faculty": [
-              "PN"
-            ],
-            "room": "CR-015",
-            "label": "MDPW Gr.2 [PN] CR-015"
+            "type": "ev",
+            "label": "MDPW Cancelled"
           },
           {
             "type": "cls",
@@ -10388,28 +10334,11 @@
             "label": "MIT 4.0 Quiz-3 60 Minutes"
           },
           {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
-          }
-        ],
-        [
-          {
             "type": "exam",
             "label": "SCM Quiz-2 60 Minutes"
-          },
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Quiz / Guest Speaker"
           }
         ],
+        [],
         [
           {
             "type": "cls",
@@ -10696,7 +10625,16 @@
             "label": "ADPM [ASI, SJ,VF] CR-015"
           }
         ],
-        []
+        [
+          {
+            "type": "gs",
+            "sub": "ESNVM",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "ESNVM Guest Speaker"
+          }
+        ]
       ]
     },
     "22-Nov-2026": {
@@ -11142,22 +11080,14 @@
         ],
         [
           {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
+            "type": "ev",
+            "label": "MACR"
           }
         ],
         [
           {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
+            "type": "ev",
+            "label": "MACR"
           }
         ],
         [
@@ -11226,26 +11156,8 @@
             "label": "FDRM Gr.2 [SV,AV,SK,VF] CR-008"
           }
         ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
-          }
-        ],
+        [],
+        [],
         [
           {
             "type": "cls",
@@ -11363,12 +11275,14 @@
         ],
         [
           {
-            "type": "gs",
-            "sub": null,
+            "type": "cls",
+            "sub": "MIT 4.0",
+            "grp": 0,
+            "faculty": [
+              "SKS"
+            ],
             "room": "CR-014",
-            "combined": false,
-            "tentative": false,
-            "label": "MIT 4.0 [SKS] (GS) CR-014"
+            "label": "MIT 4.0 [SKS] CR-014"
           },
           {
             "type": "cls",
