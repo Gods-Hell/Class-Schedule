@@ -1,12 +1,12 @@
 {
-  "generated": "26 Oct 2026, 3:00:02 pm",
+  "generated": "26 Oct 2026, 4:00:01 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 827,
     "guestSessions": 50,
-    "gsNotices": 7,
+    "gsNotices": 8,
     "quizNotices": 24,
     "events": 183
   },
@@ -8553,10 +8553,12 @@
       "day": "Sat",
       "date": "07-Nov-2026",
       "remarks": [
-        "Guest Speaker Tentative"
+        "Guest Speaker Tentative",
+        "BDDM Guest Speaker Session"
       ],
       "gs": [
-        "Guest Speaker Tentative"
+        "Guest Speaker Tentative",
+        "BDDM Guest Speaker Session"
       ],
       "quiz": [],
       "slots": [
