@@ -1,11 +1,11 @@
 {
-  "generated": "27 Oct 2026, 5:00:03 pm",
+  "generated": "27 Oct 2026, 6:00:02 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 827,
-    "guestSessions": 47,
+    "guestSessions": 45,
     "gsNotices": 7,
     "quizNotices": 25,
     "events": 185
@@ -8567,46 +8567,6 @@
       "slots": [
         [
           {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
-          }
-        ],
-        [
-          {
             "type": "ev",
             "label": "BDDM Make-up"
           }
@@ -8617,6 +8577,28 @@
             "label": "BDDM Make-up"
           }
         ],
+        [
+          {
+            "type": "gs",
+            "sub": null,
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "Guest Speaker"
+          }
+        ],
+        [
+          {
+            "type": "gs",
+            "sub": null,
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "Guest Speaker"
+          }
+        ],
+        [],
+        [],
         []
       ]
     },
