@@ -1,5 +1,5 @@
 {
-  "generated": "27 Oct 2026, 9:00:01 am",
+  "generated": "27 Oct 2026, 10:00:03 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -7,7 +7,7 @@
     "classes": 827,
     "guestSessions": 50,
     "gsNotices": 8,
-    "quizNotices": 24,
+    "quizNotices": 25,
     "events": 183
   },
   "subjects": {
@@ -9702,9 +9702,13 @@
     "17-Nov-2026": {
       "day": "Tue",
       "date": "17-Nov-2026",
-      "remarks": [],
+      "remarks": [
+        "SDM Quiz-2 20 Minutes"
+      ],
       "gs": [],
-      "quiz": [],
+      "quiz": [
+        "SDM Quiz-2 20 Minutes"
+      ],
       "slots": [
         [
           {
@@ -11193,7 +11197,8 @@
       "date": "30-Nov-2026",
       "remarks": [
         "BS-PPP Quiz-2 10 Minutes",
-        "MIT 4.0 (GS)"
+        "MIT 4.0 (GS)",
+        "CR-008 Booked for PGPM-HR"
       ],
       "gs": [
         "MIT 4.0 (GS)"
