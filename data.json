@@ -1,11 +1,11 @@
 {
-  "generated": "27 Oct 2026, 11:00:03 am",
+  "generated": "27 Oct 2026, 12:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 827,
-    "guestSessions": 46,
+    "guestSessions": 47,
     "gsNotices": 7,
     "quizNotices": 25,
     "events": 185
@@ -7328,7 +7328,8 @@
       "day": "Sat",
       "date": "31-Oct-2026",
       "remarks": [
-        "(CR-009 Not Available)"
+        "(CR-009 Not Available)",
+        "BS-PPP Case Submission"
       ],
       "gs": [],
       "quiz": [],
@@ -7554,7 +7555,6 @@
       "day": "Sun",
       "date": "01-Nov-2026",
       "remarks": [
-        "BS-PPP Case Submission",
         "Placement Full Day"
       ],
       "gs": [],
@@ -8655,11 +8655,11 @@
         [
           {
             "type": "gs",
-            "sub": null,
+            "sub": "MMM",
             "room": "",
             "combined": false,
             "tentative": false,
-            "label": "Guest Speaker"
+            "label": "MMM Guest Speaker"
           }
         ],
         [
@@ -10368,6 +10368,14 @@
             ],
             "room": "CR-010",
             "label": "BS-PPP Gr.2 [AP,VF] CR-010"
+          },
+          {
+            "type": "gs",
+            "sub": null,
+            "room": "CR-015",
+            "combined": true,
+            "tentative": false,
+            "label": "BS-PPP Combined Guest Speaker CR-015"
           }
         ],
         [
