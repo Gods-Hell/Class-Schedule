@@ -1,14 +1,14 @@
 {
-  "generated": "27 Oct 2026, 10:00:03 am",
+  "generated": "27 Oct 2026, 11:00:03 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 827,
-    "guestSessions": 50,
-    "gsNotices": 8,
+    "guestSessions": 46,
+    "gsNotices": 7,
     "quizNotices": 25,
-    "events": 183
+    "events": 185
   },
   "subjects": {
     "MMM": [
@@ -7554,7 +7554,8 @@
       "day": "Sun",
       "date": "01-Nov-2026",
       "remarks": [
-        "BS-PPP Case Submission"
+        "BS-PPP Case Submission",
+        "Placement Full Day"
       ],
       "gs": [],
       "quiz": [],
@@ -7743,7 +7744,8 @@
       "date": "02-Nov-2026",
       "remarks": [
         "MIT 4.0 Quiz-2 30 Minutes",
-        "Placement 08.00 AM to 10.00AM"
+        "Placement 08.00 AM to 10.00AM",
+        "Placement Full Day"
       ],
       "gs": [],
       "quiz": [
@@ -7899,7 +7901,8 @@
       "date": "03-Nov-2026",
       "remarks": [
         "MDPW Cancelled",
-        "BSF Quiz-2 25 Minutes"
+        "BSF Quiz-2 25 Minutes",
+        "Placement Full Day"
       ],
       "gs": [],
       "quiz": [
@@ -8127,7 +8130,8 @@
       "date": "04-Nov-2026",
       "remarks": [
         "GTM Quiz-2 30 Minutes",
-        "Exam Hall Booked for Placement"
+        "Exam Hall Booked for Placement",
+        "Placement Full Day"
       ],
       "gs": [],
       "quiz": [
@@ -8512,7 +8516,8 @@
       "remarks": [
         "IM Quiz-2 20 Minutes",
         "MMM Make-up Session in lieu of (14-09-2026)",
-        "BSF Quiz-2 30 Minutes"
+        "BSF Quiz-2 30 Minutes",
+        "Placement Full Day"
       ],
       "gs": [],
       "quiz": [
@@ -8554,11 +8559,10 @@
       "date": "07-Nov-2026",
       "remarks": [
         "Guest Speaker Tentative",
-        "BDDM Guest Speaker Session"
+        "BDDM Make-up"
       ],
       "gs": [
-        "Guest Speaker Tentative",
-        "BDDM Guest Speaker Session"
+        "Guest Speaker Tentative"
       ],
       "quiz": [],
       "slots": [
@@ -8604,22 +8608,14 @@
         ],
         [
           {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
+            "type": "ev",
+            "label": "BDDM Make-up"
           }
         ],
         [
           {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
+            "type": "ev",
+            "label": "BDDM Make-up"
           }
         ],
         []
@@ -8676,26 +8672,8 @@
             "label": "Guest Speaker"
           }
         ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
-          }
-        ],
+        [],
+        [],
         []
       ]
     },
@@ -9542,7 +9520,9 @@
     "16-Nov-2026": {
       "day": "Mon",
       "date": "16-Nov-2026",
-      "remarks": [],
+      "remarks": [
+        "Placement Full Day"
+      ],
       "gs": [],
       "quiz": [],
       "slots": [
