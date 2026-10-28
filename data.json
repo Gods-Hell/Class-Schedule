@@ -1,5 +1,5 @@
 {
-  "generated": "28 Oct 2026, 12:00:03 pm",
+  "generated": "28 Oct 2026, 1:00:02 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -8,7 +8,7 @@
     "guestSessions": 45,
     "gsNotices": 7,
     "quizNotices": 25,
-    "events": 185
+    "events": 186
   },
   "subjects": {
     "MMM": [
@@ -8524,7 +8524,12 @@
         "IM Quiz-2 20 Minutes"
       ],
       "slots": [
-        [],
+        [
+          {
+            "type": "exam",
+            "label": "ISDC Quiz"
+          }
+        ],
         [
           {
             "type": "exam",
