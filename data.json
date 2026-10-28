@@ -1,14 +1,14 @@
 {
-  "generated": "28 Oct 2026, 5:00:02 pm",
+  "generated": "28 Oct 2026, 6:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
-    "subjects": 22,
-    "classes": 827,
+    "subjects": 23,
+    "classes": 829,
     "guestSessions": 45,
     "gsNotices": 7,
     "quizNotices": 25,
-    "events": 186
+    "events": 184
   },
   "subjects": {
     "MMM": [
@@ -86,7 +86,8 @@
       1,
       2
     ],
-    "ADPM": []
+    "ADPM": [],
+    "BDDM Make-up": []
   },
   "dates": {
     "07-Sep-2026": {
@@ -8572,14 +8573,26 @@
       "slots": [
         [
           {
-            "type": "ev",
-            "label": "BDDM Make-up CR-015"
+            "type": "cls",
+            "sub": "BDDM Make-up",
+            "grp": 0,
+            "faculty": [
+              "VF"
+            ],
+            "room": "CR-015",
+            "label": "BDDM Make-up [VF] CR-015"
           }
         ],
         [
           {
-            "type": "ev",
-            "label": "BDDM Make-up CR-015"
+            "type": "cls",
+            "sub": "BDDM Make-up",
+            "grp": 0,
+            "faculty": [
+              "VF"
+            ],
+            "room": "CR-015",
+            "label": "BDDM Make-up [VF] CR-015"
           }
         ],
         [
@@ -10399,7 +10412,8 @@
       "day": "Sat",
       "date": "21-Nov-2026",
       "remarks": [
-        "MDPW Make-up Session"
+        "MDPW Make-up Session",
+        "BDDM Cancelled"
       ],
       "gs": [],
       "quiz": [],
