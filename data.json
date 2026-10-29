@@ -1,5 +1,5 @@
 {
-  "generated": "29 Oct 2026, 5:00:02 pm",
+  "generated": "29 Oct 2026, 6:00:01 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -8288,12 +8288,12 @@
       "date": "05-Nov-2026",
       "remarks": [
         "MDPW Cancelled",
-        "BDDM Quiz-1",
+        "BDDM Quiz-1 20 Minutes",
         "CR-015 DPR Class on 3.00PM to 06.30PM"
       ],
       "gs": [],
       "quiz": [
-        "BDDM Quiz-1"
+        "BDDM Quiz-1 20 Minutes"
       ],
       "slots": [
         [
