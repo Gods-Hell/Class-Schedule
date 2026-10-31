@@ -1,12 +1,12 @@
 {
-  "generated": "31 Oct 2026, 12:00:02 pm",
+  "generated": "31 Oct 2026, 1:00:02 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 830,
     "guestSessions": 43,
-    "gsNotices": 7,
+    "gsNotices": 8,
     "quizNotices": 25,
     "events": 185
   },
@@ -9151,9 +9151,12 @@
       "date": "12-Nov-2026",
       "remarks": [
         "Evening Sangaram",
-        "Exam Hall Not Available First Year Mid Term"
+        "Exam Hall Not Available First Year Mid Term",
+        "B2B Guest Speaker Session"
       ],
-      "gs": [],
+      "gs": [
+        "B2B Guest Speaker Session"
+      ],
       "quiz": [],
       "slots": [
         [
