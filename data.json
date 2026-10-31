@@ -1,14 +1,14 @@
 {
-  "generated": "31 Oct 2026, 11:00:01 am",
+  "generated": "31 Oct 2026, 12:00:02 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
-    "subjects": 23,
-    "classes": 835,
+    "subjects": 22,
+    "classes": 830,
     "guestSessions": 43,
     "gsNotices": 7,
     "quizNotices": 25,
-    "events": 180
+    "events": 185
   },
   "subjects": {
     "MMM": [
@@ -86,8 +86,7 @@
       1,
       2
     ],
-    "ADPM": [],
-    "BDDM Make-up": []
+    "ADPM": []
   },
   "dates": {
     "07-Sep-2026": {
@@ -7820,14 +7819,8 @@
             "label": "SR Gr.1 [MKV] CR-014"
           },
           {
-            "type": "cls",
-            "sub": "MACR",
-            "grp": 1,
-            "faculty": [
-              "BKD"
-            ],
-            "room": "CR-015",
-            "label": "MACR Gr.1 [BKD] CR-015"
+            "type": "ev",
+            "label": "MACR Cancelled"
           },
           {
             "type": "cls",
@@ -7852,14 +7845,8 @@
             "label": "SR Gr.2 [MKV] CR-014"
           },
           {
-            "type": "cls",
-            "sub": "MACR",
-            "grp": 2,
-            "faculty": [
-              "BKD"
-            ],
-            "room": "CR-015",
-            "label": "MACR Gr.2 [BKD] CR-015"
+            "type": "ev",
+            "label": "MACR Cancelled"
           },
           {
             "type": "cls",
@@ -8197,14 +8184,8 @@
             "label": "SR Gr.2 [MKV] CR-014"
           },
           {
-            "type": "cls",
-            "sub": "MACR",
-            "grp": 2,
-            "faculty": [
-              "BKD"
-            ],
-            "room": "CR-015",
-            "label": "MACR Gr.2 [BKD] CR-015"
+            "type": "ev",
+            "label": "MACR Cancelled"
           },
           {
             "type": "cls",
@@ -8239,14 +8220,8 @@
             "label": "SR Gr.1 [MKV] CR-014"
           },
           {
-            "type": "cls",
-            "sub": "MACR",
-            "grp": 1,
-            "faculty": [
-              "BKD"
-            ],
-            "room": "CR-015",
-            "label": "MACR Gr.1 [BKD] CR-015"
+            "type": "ev",
+            "label": "MACR Cancelled"
           },
           {
             "type": "cls",
@@ -8530,7 +8505,7 @@
         [
           {
             "type": "exam",
-            "label": "ISDC Quiz"
+            "label": "ISDC Quiz-1"
           }
         ],
         [
@@ -8541,20 +8516,38 @@
         ],
         [
           {
-            "type": "ev",
-            "label": "MMM Make-up sessions"
+            "type": "cls",
+            "sub": "MMM",
+            "grp": 1,
+            "faculty": [
+              "AJS"
+            ],
+            "room": "CR-017",
+            "label": "MMM Gr.1 [AJS] CR-017"
           }
         ],
         [
           {
-            "type": "ev",
-            "label": "MMM Make-up sessions"
+            "type": "cls",
+            "sub": "MMM",
+            "grp": 2,
+            "faculty": [
+              "AJS"
+            ],
+            "room": "CR-017",
+            "label": "MMM Gr.2 [AJS] CR-017"
           }
         ],
         [
           {
-            "type": "ev",
-            "label": "MMM Make-up sessions"
+            "type": "cls",
+            "sub": "MMM",
+            "grp": 3,
+            "faculty": [
+              "AJS"
+            ],
+            "room": "CR-017",
+            "label": "MMM Gr.3 [AJS] CR-017"
           }
         ],
         [],
@@ -8576,25 +8569,27 @@
         [
           {
             "type": "cls",
-            "sub": "BDDM Make-up",
+            "sub": "BDDM",
             "grp": 0,
             "faculty": [
+              "YN",
               "VF"
             ],
             "room": "CR-015",
-            "label": "BDDM Make-up [VF] CR-015"
+            "label": "BDDM [YN,VF] CR-015"
           }
         ],
         [
           {
             "type": "cls",
-            "sub": "BDDM Make-up",
+            "sub": "BDDM",
             "grp": 0,
             "faculty": [
+              "YN",
               "VF"
             ],
             "room": "CR-015",
-            "label": "BDDM Make-up [VF] CR-015"
+            "label": "BDDM [YN,VF] CR-015"
           }
         ],
         [
@@ -8754,14 +8749,8 @@
             "label": "SR Gr.1 [MKV] CR-014"
           },
           {
-            "type": "cls",
-            "sub": "MACR",
-            "grp": 1,
-            "faculty": [
-              "BKD"
-            ],
-            "room": "CR-015",
-            "label": "MACR Gr.1 [BKD] CR-015"
+            "type": "ev",
+            "label": "MACR Cancelled"
           },
           {
             "type": "cls",
@@ -8786,14 +8775,8 @@
             "label": "SR Gr.2 [MKV] CR-014"
           },
           {
-            "type": "cls",
-            "sub": "MACR",
-            "grp": 2,
-            "faculty": [
-              "BKD"
-            ],
-            "room": "CR-015",
-            "label": "MACR Gr.2 [BKD] CR-015"
+            "type": "ev",
+            "label": "MACR Cancelled"
           },
           {
             "type": "cls",
@@ -10486,15 +10469,8 @@
             "label": "FDRM Gr.2 [SV,AV,SK,VF] CR-008"
           },
           {
-            "type": "cls",
-            "sub": "BDDM",
-            "grp": 0,
-            "faculty": [
-              "YN",
-              "VF"
-            ],
-            "room": "CR-015",
-            "label": "BDDM [YN,VF] CR-015"
+            "type": "ev",
+            "label": "BDDM Cancelled"
           }
         ],
         [
@@ -10534,15 +10510,8 @@
             "label": "FDRM Gr.2 [SV,AV,SK,VF] CR-008"
           },
           {
-            "type": "cls",
-            "sub": "BDDM",
-            "grp": 0,
-            "faculty": [
-              "YN",
-              "VF"
-            ],
-            "room": "CR-015",
-            "label": "BDDM [YN,VF] CR-015"
+            "type": "ev",
+            "label": "BDDM Cancelled"
           }
         ],
         [
