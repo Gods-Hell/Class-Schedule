@@ -1,11 +1,11 @@
 {
-  "generated": "31 Oct 2026, 5:00:01 pm",
+  "generated": "31 Oct 2026, 6:00:01 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 832,
-    "guestSessions": 43,
+    "guestSessions": 45,
     "gsNotices": 8,
     "quizNotices": 25,
     "cancelNotices": 13,
@@ -11319,8 +11319,26 @@
             "label": "FDRM Gr.2 [SV,AV,SK,VF] CR-008"
           }
         ],
-        [],
-        [],
+        [
+          {
+            "type": "gs",
+            "sub": "MACR",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "MACR Guest Speaker"
+          }
+        ],
+        [
+          {
+            "type": "gs",
+            "sub": "MACR",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "MACR Guest Speaker"
+          }
+        ],
         [
           {
             "type": "cls",
