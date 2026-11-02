@@ -1,5 +1,5 @@
 {
-  "generated": "2 Nov 2026, 4:00:03 pm",
+  "generated": "2 Nov 2026, 5:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -1119,8 +1119,8 @@
               "BLR",
               "VF"
             ],
-            "room": "CR-008",
-            "label": "CBM Gr.1 [BLR,VF] CR-008"
+            "room": "CR-014",
+            "label": "CBM Gr.1 [BLR,VF] CR-014"
           }
         ],
         [
@@ -9252,10 +9252,10 @@
           {
             "type": "gs",
             "sub": "MMM",
-            "room": "",
+            "room": "CR-009",
             "combined": false,
             "tentative": false,
-            "label": "MMM Guest Speaker"
+            "label": "MMM Guest Speaker CR-009"
           }
         ],
         []
@@ -10781,10 +10781,10 @@
           {
             "type": "gs",
             "sub": "ESNVM",
-            "room": "",
+            "room": "CR-009",
             "combined": false,
             "tentative": false,
-            "label": "ESNVM Guest Speaker"
+            "label": "ESNVM Guest Speaker CR-009"
           }
         ]
       ]
