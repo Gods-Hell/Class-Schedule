@@ -1,15 +1,15 @@
 {
-  "generated": "2 Nov 2026, 10:00:03 am",
+  "generated": "2 Nov 2026, 11:00:03 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
-    "classes": 832,
+    "classes": 830,
     "guestSessions": 45,
     "gsNotices": 8,
     "quizNotices": 25,
     "cancelNotices": 13,
-    "cancelledClasses": 18,
+    "cancelledClasses": 20,
     "tentativeClasses": 10,
     "makeupClasses": 19,
     "events": 171
@@ -7824,14 +7824,14 @@
         "MIT 4.0 Quiz-2 30 Minutes",
         "Placement 08.00 AM to 10.00AM",
         "Placement Full Day",
-        "MACR to be cancelled"
+        "MACR & SR Cancelled"
       ],
       "gs": [],
       "quiz": [
         "MIT 4.0 Quiz-2 30 Minutes"
       ],
       "cancel": [
-        "MACR to be cancelled"
+        "MACR & SR Cancelled"
       ],
       "slots": [
         [
@@ -7890,14 +7890,9 @@
             "label": "MMM Gr.3 [AJS] CR-017"
           },
           {
-            "type": "cls",
+            "type": "cxl",
             "sub": "SR",
-            "grp": 1,
-            "faculty": [
-              "MKV"
-            ],
-            "room": "CR-014",
-            "label": "SR Gr.1 [MKV] CR-014"
+            "label": "SR Gr.1 Cancelled"
           },
           {
             "type": "cxl",
@@ -7917,14 +7912,9 @@
         ],
         [
           {
-            "type": "cls",
+            "type": "cxl",
             "sub": "SR",
-            "grp": 2,
-            "faculty": [
-              "MKV"
-            ],
-            "room": "CR-014",
-            "label": "SR Gr.2 [MKV] CR-014"
+            "label": "SR Gr.2 Cancelled"
           },
           {
             "type": "cxl",
