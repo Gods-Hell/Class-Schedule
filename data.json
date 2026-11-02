@@ -1,13 +1,13 @@
 {
-  "generated": "2 Nov 2026, 12:00:03 pm",
+  "generated": "2 Nov 2026, 1:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 830,
-    "guestSessions": 45,
-    "gsNotices": 8,
-    "quizNotices": 25,
+    "guestSessions": 47,
+    "gsNotices": 9,
+    "quizNotices": 26,
     "cancelNotices": 13,
     "cancelledClasses": 20,
     "tentativeClasses": 10,
@@ -7822,7 +7822,7 @@
       "date": "02-Nov-2026",
       "remarks": [
         "MIT 4.0 Quiz-2 30 Minutes",
-        "Placement 08.00 AM to 10.00AM",
+        "Placement 08.00 AM to 10.00 AM",
         "Placement Full Day",
         "MACR & SR Cancelled"
       ],
@@ -8654,12 +8654,15 @@
       "date": "07-Nov-2026",
       "remarks": [
         "Guest Speaker Tentative",
-        "BDDM Make-up"
+        "BDDM Make-up",
+        "IF Quiz - 1 20 Minute2"
       ],
       "gs": [
         "Guest Speaker Tentative"
       ],
-      "quiz": [],
+      "quiz": [
+        "IF Quiz - 1 20 Minute2"
+      ],
       "cancel": [],
       "slots": [
         [
@@ -9102,9 +9105,12 @@
       "date": "11-Nov-2026",
       "remarks": [
         "Exam Hall Not Available First Year Mid Term",
-        "CR-008 HR Class Booked"
+        "CR-008 HR Class Booked",
+        "MMM Guest Speaker"
       ],
-      "gs": [],
+      "gs": [
+        "MMM Guest Speaker"
+      ],
       "quiz": [],
       "cancel": [],
       "slots": [
@@ -9228,6 +9234,14 @@
         ],
         [
           {
+            "type": "gs",
+            "sub": "MMM",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "MMM Guest Speaker"
+          },
+          {
             "type": "cls",
             "sub": "MIT 4.0",
             "grp": 0,
@@ -9248,7 +9262,16 @@
             "label": "IF [SMA] CR-015"
           }
         ],
-        [],
+        [
+          {
+            "type": "gs",
+            "sub": "MMM",
+            "room": "",
+            "combined": false,
+            "tentative": false,
+            "label": "MMM Guest Speaker"
+          }
+        ],
         []
       ]
     },
