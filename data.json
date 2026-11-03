@@ -1,5 +1,5 @@
 {
-  "generated": "3 Nov 2026, 11:00:02 am",
+  "generated": "3 Nov 2026, 11:22:40 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -9,9 +9,10 @@
     "gsNotices": 8,
     "quizNotices": 26,
     "cancelNotices": 13,
-    "cancelledClasses": 26,
+    "cancelledClasses": 19,
     "tentativeClasses": 7,
     "makeupClasses": 21,
+    "maybeCancelled": 4,
     "events": 171
   },
   "subjects": {
@@ -7892,11 +7893,13 @@
           {
             "type": "cxl",
             "sub": "SR",
+            "grp": 1,
             "label": "SR Gr.1 Cancelled"
           },
           {
             "type": "cxl",
             "sub": "MACR",
+            "grp": 0,
             "label": "MACR Cancelled"
           },
           {
@@ -7914,11 +7917,13 @@
           {
             "type": "cxl",
             "sub": "SR",
+            "grp": 2,
             "label": "SR Gr.2 Cancelled"
           },
           {
             "type": "cxl",
             "sub": "MACR",
+            "grp": 0,
             "label": "MACR Cancelled"
           },
           {
@@ -8106,6 +8111,7 @@
           {
             "type": "cxl",
             "sub": "MDPW",
+            "grp": 0,
             "label": "MDPW Cancelled"
           },
           {
@@ -8153,6 +8159,7 @@
           {
             "type": "cxl",
             "sub": "MDPW",
+            "grp": 0,
             "label": "MDPW Cancelled"
           },
           {
@@ -8264,6 +8271,7 @@
           {
             "type": "cxl",
             "sub": "MACR",
+            "grp": 0,
             "label": "MACR Cancelled"
           },
           {
@@ -8301,6 +8309,7 @@
           {
             "type": "cxl",
             "sub": "MACR",
+            "grp": 0,
             "label": "MACR Cancelled"
           },
           {
@@ -8488,6 +8497,7 @@
           {
             "type": "cxl",
             "sub": "MDPW",
+            "grp": 0,
             "label": "MDPW Cancelled"
           },
           {
@@ -8535,6 +8545,7 @@
           {
             "type": "cxl",
             "sub": "MDPW",
+            "grp": 0,
             "label": "MDPW Cancelled"
           },
           {
@@ -8610,8 +8621,8 @@
             ],
             "room": "CR-017",
             "label": "MMM Gr.1 [AJS] CR-017",
-            "status": "cancelled",
-            "makeup": true
+            "makeup": true,
+            "colourConflict": true
           }
         ],
         [
@@ -8624,8 +8635,8 @@
             ],
             "room": "CR-017",
             "label": "MMM Gr.2 [AJS] CR-017",
-            "status": "cancelled",
-            "makeup": true
+            "makeup": true,
+            "colourConflict": true
           }
         ],
         [
@@ -8638,8 +8649,8 @@
             ],
             "room": "CR-017",
             "label": "MMM Gr.3 [AJS] CR-017",
-            "status": "cancelled",
-            "makeup": true
+            "makeup": true,
+            "colourConflict": true
           }
         ],
         [],
@@ -8757,7 +8768,7 @@
             ],
             "room": "CR-017",
             "label": "MMM Gr.1 [AJS] CR-017",
-            "status": "cancelled"
+            "status": "maybe"
           },
           {
             "type": "cls",
@@ -8780,7 +8791,7 @@
             ],
             "room": "CR-017",
             "label": "MMM Gr.2 [AJS] CR-017",
-            "status": "cancelled"
+            "status": "maybe"
           },
           {
             "type": "cls",
@@ -8803,7 +8814,7 @@
             ],
             "room": "CR-017",
             "label": "MMM Gr.3 [AJS] CR-017",
-            "status": "cancelled"
+            "status": "maybe"
           },
           {
             "type": "cls",
@@ -8818,6 +8829,7 @@
           {
             "type": "cxl",
             "sub": "MACR",
+            "grp": 0,
             "label": "MACR Cancelled"
           },
           {
@@ -8845,6 +8857,7 @@
           {
             "type": "cxl",
             "sub": "MACR",
+            "grp": 0,
             "label": "MACR Cancelled"
           },
           {
@@ -10475,7 +10488,7 @@
             ],
             "room": "CR-010",
             "label": "BS-PPP Gr.1 [AP,VF] CR-010",
-            "status": "cancelled"
+            "status": "maybe"
           }
         ],
         [
@@ -10580,6 +10593,7 @@
           {
             "type": "cxl",
             "sub": "BDDM",
+            "grp": 0,
             "label": "BDDM Cancelled"
           }
         ],
@@ -10622,6 +10636,7 @@
           {
             "type": "cxl",
             "sub": "BDDM",
+            "grp": 0,
             "label": "BDDM Cancelled"
           }
         ],
