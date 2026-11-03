@@ -1,17 +1,17 @@
 {
-  "generated": "3 Nov 2026, 9:00:02 am",
+  "generated": "3 Nov 2026, 10:00:01 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
-    "classes": 830,
+    "classes": 832,
     "guestSessions": 45,
     "gsNotices": 9,
     "quizNotices": 26,
     "cancelNotices": 13,
     "cancelledClasses": 26,
     "tentativeClasses": 7,
-    "makeupClasses": 19,
+    "makeupClasses": 21,
     "events": 171
   },
   "subjects": {
@@ -11376,6 +11376,7 @@
       "date": "30-Nov-2026",
       "remarks": [
         "BS-PPP Quiz-2 10 Minutes",
+        "SR Make-up",
         "MIT 4.0 (GS)",
         "CR-008 Booked for PGPM-HR"
       ],
@@ -11414,6 +11415,15 @@
         [
           {
             "type": "cls",
+            "label": "SR Gr.2 Make-up",
+            "sub": "SR",
+            "grp": 0,
+            "faculty": [],
+            "room": "",
+            "makeup": true
+          },
+          {
+            "type": "cls",
             "sub": "MACR",
             "grp": 1,
             "faculty": [
@@ -11434,6 +11444,15 @@
           }
         ],
         [
+          {
+            "type": "cls",
+            "label": "SR Gr.1 Make-up",
+            "sub": "SR",
+            "grp": 0,
+            "faculty": [],
+            "room": "",
+            "makeup": true
+          },
           {
             "type": "cls",
             "sub": "MACR",
