@@ -1,11 +1,11 @@
 {
-  "generated": "3 Nov 2026, 3:00:02 pm",
+  "generated": "3 Nov 2026, 4:00:01 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 832,
-    "guestSessions": 42,
+    "guestSessions": 40,
     "gsNotices": 8,
     "quizNotices": 26,
     "cancelNotices": 13,
@@ -13,7 +13,7 @@
     "tentativeClasses": 7,
     "makeupClasses": 21,
     "maybeCancelled": 4,
-    "events": 171
+    "events": 173
   },
   "subjects": {
     "MMM": [
@@ -8602,13 +8602,13 @@
         [
           {
             "type": "exam",
-            "label": "ISDC Quiz-1"
+            "label": "ISDC Quiz-1 30 Minutes"
           }
         ],
         [
           {
             "type": "exam",
-            "label": "IM Quiz-2"
+            "label": "IM Quiz-2 20 Minutes"
           }
         ],
         [
@@ -8705,22 +8705,14 @@
         ],
         [
           {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
+            "type": "exam",
+            "label": "GTM Quiz-2 20 Minutes"
           }
         ],
         [
           {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
+            "type": "exam",
+            "label": "IF Quiz-1 20 Minutes"
           }
         ],
         [],
@@ -11398,11 +11390,13 @@
         [
           {
             "type": "cls",
-            "label": "SR Gr.2 Make-up",
             "sub": "SR",
-            "grp": 0,
-            "faculty": [],
-            "room": "",
+            "grp": 1,
+            "faculty": [
+              "MKV"
+            ],
+            "room": "CR-014",
+            "label": "SR Gr.1 [MKV] CR-014",
             "makeup": true
           },
           {
@@ -11429,11 +11423,13 @@
         [
           {
             "type": "cls",
-            "label": "SR Gr.1 Make-up",
             "sub": "SR",
-            "grp": 0,
-            "faculty": [],
-            "room": "",
+            "grp": 2,
+            "faculty": [
+              "MKV"
+            ],
+            "room": "CR-014",
+            "label": "SR Gr.2 [MKV] CR-014",
             "makeup": true
           },
           {
