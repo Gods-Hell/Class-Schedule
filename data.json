@@ -1,12 +1,12 @@
 {
-  "generated": "3 Nov 2026, 10:00:01 am",
+  "generated": "3 Nov 2026, 11:00:02 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 832,
-    "guestSessions": 45,
-    "gsNotices": 9,
+    "guestSessions": 42,
+    "gsNotices": 8,
     "quizNotices": 26,
     "cancelNotices": 13,
     "cancelledClasses": 26,
@@ -8196,15 +8196,12 @@
       "day": "Wed",
       "date": "04-Nov-2026",
       "remarks": [
-        "GTM Quiz-2 30 Minutes",
         "Exam Hall Booked for Placement",
         "Placement Full Day",
         "MACR to be cancelled"
       ],
       "gs": [],
-      "quiz": [
-        "GTM Quiz-2 30 Minutes"
-      ],
+      "quiz": [],
       "cancel": [
         "MACR to be cancelled"
       ],
@@ -8655,13 +8652,15 @@
       "remarks": [
         "Guest Speaker Tentative",
         "BDDM Make-up",
-        "IF Quiz - 1 20 Minute2"
+        "IF Quiz - 1 20 Minute2",
+        "GTM Quiz -2 30 Minutes"
       ],
       "gs": [
         "Guest Speaker Tentative"
       ],
       "quiz": [
-        "IF Quiz - 1 20 Minute2"
+        "IF Quiz - 1 20 Minute2",
+        "GTM Quiz -2 30 Minutes"
       ],
       "cancel": [],
       "slots": [
@@ -8721,46 +8720,15 @@
     "08-Nov-2026": {
       "day": "Sun",
       "date": "08-Nov-2026",
-      "remarks": [
-        "Guest Speaker Tentative"
-      ],
-      "gs": [
-        "Guest Speaker Tentative"
-      ],
+      "remarks": [],
+      "gs": [],
       "quiz": [],
       "cancel": [],
       "slots": [
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
-          }
-        ],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
-          }
-        ],
         [],
-        [
-          {
-            "type": "gs",
-            "sub": null,
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "Guest Speaker"
-          }
-        ],
+        [],
+        [],
+        [],
         [],
         [],
         []
