@@ -1,5 +1,5 @@
 {
-  "generated": "3 Nov 2026, 5:00:01 pm",
+  "generated": "3 Nov 2026, 6:00:01 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -13,7 +13,7 @@
     "tentativeClasses": 7,
     "makeupClasses": 21,
     "maybeCancelled": 4,
-    "events": 173
+    "events": 172
   },
   "subjects": {
     "MMM": [
@@ -8591,11 +8591,13 @@
       "remarks": [
         "IM Quiz-2 20 Minutes",
         "MMM Make-up Session in lieu of (14-09-2026)",
+        "GTM Quiz -2 30 Minutes",
         "Placement Full Day"
       ],
       "gs": [],
       "quiz": [
-        "IM Quiz-2 20 Minutes"
+        "IM Quiz-2 20 Minutes",
+        "GTM Quiz -2 30 Minutes"
       ],
       "cancel": [],
       "slots": [
@@ -8663,15 +8665,13 @@
       "remarks": [
         "Guest Speaker Tentative",
         "BDDM Make-up",
-        "IF Quiz - 1 20 Minute2",
-        "GTM Quiz -2 30 Minutes"
+        "IF Quiz - 1 20 Minute2"
       ],
       "gs": [
         "Guest Speaker Tentative"
       ],
       "quiz": [
-        "IF Quiz - 1 20 Minute2",
-        "GTM Quiz -2 30 Minutes"
+        "IF Quiz - 1 20 Minute2"
       ],
       "cancel": [],
       "slots": [
@@ -8703,12 +8703,7 @@
             "makeup": true
           }
         ],
-        [
-          {
-            "type": "exam",
-            "label": "GTM Quiz-2 20 Minutes"
-          }
-        ],
+        [],
         [
           {
             "type": "exam",
@@ -10032,7 +10027,8 @@
       "date": "18-Nov-2026",
       "remarks": [
         "BSF Quiz-3 30 Minutes",
-        "MACR Make-up"
+        "MACR Make-up",
+        "CR-010 Booked for HR Class 09.00AM to 01.00PM"
       ],
       "gs": [],
       "quiz": [
