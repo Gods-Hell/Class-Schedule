@@ -1,5 +1,5 @@
 {
-  "generated": "4 Nov 2026, 9:00:01 am",
+  "generated": "4 Nov 2026, 10:00:04 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -13,7 +13,7 @@
     "tentativeClasses": 7,
     "makeupClasses": 18,
     "maybeCancelled": 4,
-    "events": 172
+    "events": 173
   },
   "subjects": {
     "MMM": [
@@ -8638,6 +8638,10 @@
             "room": "CR-017",
             "label": "MMM Gr.2 [AJS] CR-017",
             "status": "cancelled"
+          },
+          {
+            "type": "exam",
+            "label": "GTM Quiz-2 30 Minutes"
           }
         ],
         [
