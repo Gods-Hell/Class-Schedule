@@ -1,17 +1,17 @@
 {
-  "generated": "3 Nov 2026, 6:00:01 pm",
+  "generated": "4 Nov 2026, 8:00:04 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 832,
     "guestSessions": 40,
-    "gsNotices": 8,
+    "gsNotices": 7,
     "quizNotices": 26,
-    "cancelNotices": 13,
-    "cancelledClasses": 19,
+    "cancelNotices": 14,
+    "cancelledClasses": 22,
     "tentativeClasses": 7,
-    "makeupClasses": 21,
+    "makeupClasses": 18,
     "maybeCancelled": 4,
     "events": 172
   },
@@ -8205,12 +8205,12 @@
       "remarks": [
         "Exam Hall Booked for Placement",
         "Placement Full Day",
-        "MACR to be cancelled"
+        "MACR cancelled"
       ],
       "gs": [],
       "quiz": [],
       "cancel": [
-        "MACR to be cancelled"
+        "MACR cancelled"
       ],
       "slots": [
         [
@@ -8590,16 +8590,17 @@
       "date": "06-Nov-2026",
       "remarks": [
         "IM Quiz-2 20 Minutes",
-        "MMM Make-up Session in lieu of (14-09-2026)",
         "GTM Quiz -2 30 Minutes",
-        "Placement Full Day"
+        "Placement Full Day MMM Cancel"
       ],
       "gs": [],
       "quiz": [
         "IM Quiz-2 20 Minutes",
         "GTM Quiz -2 30 Minutes"
       ],
-      "cancel": [],
+      "cancel": [
+        "Placement Full Day MMM Cancel"
+      ],
       "slots": [
         [
           {
@@ -8623,8 +8624,7 @@
             ],
             "room": "CR-017",
             "label": "MMM Gr.1 [AJS] CR-017",
-            "makeup": true,
-            "colourConflict": true
+            "status": "cancelled"
           }
         ],
         [
@@ -8637,8 +8637,7 @@
             ],
             "room": "CR-017",
             "label": "MMM Gr.2 [AJS] CR-017",
-            "makeup": true,
-            "colourConflict": true
+            "status": "cancelled"
           }
         ],
         [
@@ -8651,8 +8650,7 @@
             ],
             "room": "CR-017",
             "label": "MMM Gr.3 [AJS] CR-017",
-            "makeup": true,
-            "colourConflict": true
+            "status": "cancelled"
           }
         ],
         [],
@@ -8663,15 +8661,12 @@
       "day": "Sat",
       "date": "07-Nov-2026",
       "remarks": [
-        "Guest Speaker Tentative",
         "BDDM Make-up",
-        "IF Quiz - 1 20 Minute2"
+        "IF Quiz - 2 20 Minutes"
       ],
-      "gs": [
-        "Guest Speaker Tentative"
-      ],
+      "gs": [],
       "quiz": [
-        "IF Quiz - 1 20 Minute2"
+        "IF Quiz - 2 20 Minutes"
       ],
       "cancel": [],
       "slots": [
@@ -8703,13 +8698,13 @@
             "makeup": true
           }
         ],
-        [],
         [
           {
             "type": "exam",
             "label": "IF Quiz-1 20 Minutes"
           }
         ],
+        [],
         [],
         [],
         []
