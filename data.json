@@ -1,18 +1,18 @@
 {
-  "generated": "4 Nov 2026, 2:00:03 pm",
+  "generated": "4 Nov 2026, 3:00:04 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
     "classes": 832,
-    "guestSessions": 40,
+    "guestSessions": 41,
     "gsNotices": 7,
     "quizNotices": 26,
-    "cancelNotices": 14,
-    "cancelledClasses": 22,
+    "cancelNotices": 15,
+    "cancelledClasses": 25,
     "tentativeClasses": 7,
     "makeupClasses": 18,
-    "maybeCancelled": 4,
+    "maybeCancelled": 1,
     "events": 173
   },
   "subjects": {
@@ -8736,11 +8736,13 @@
       "date": "09-Nov-2026",
       "remarks": [
         "Exam Hall Not Available First Year Mid Term",
+        "MMM Cancelled",
         "MACR to be cancelled"
       ],
       "gs": [],
       "quiz": [],
       "cancel": [
+        "MMM Cancelled",
         "MACR to be cancelled"
       ],
       "slots": [
@@ -8754,7 +8756,7 @@
             ],
             "room": "CR-017",
             "label": "MMM Gr.1 [AJS] CR-017",
-            "status": "maybe"
+            "status": "cancelled"
           },
           {
             "type": "cls",
@@ -8777,7 +8779,7 @@
             ],
             "room": "CR-017",
             "label": "MMM Gr.2 [AJS] CR-017",
-            "status": "maybe"
+            "status": "cancelled"
           },
           {
             "type": "cls",
@@ -8800,7 +8802,7 @@
             ],
             "room": "CR-017",
             "label": "MMM Gr.3 [AJS] CR-017",
-            "status": "maybe"
+            "status": "cancelled"
           },
           {
             "type": "cls",
@@ -9057,7 +9059,16 @@
             "label": "EBEC Gr.3 [GPK] CR-017"
           }
         ],
-        [],
+        [
+          {
+            "type": "gs",
+            "sub": "MMM",
+            "room": "CR-009",
+            "combined": false,
+            "tentative": false,
+            "label": "MMM Guest Speaker CR-009"
+          }
+        ],
         []
       ]
     },
