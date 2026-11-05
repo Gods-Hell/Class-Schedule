@@ -1,5 +1,5 @@
 {
-  "generated": "5 Nov 2026, 3:00:03 pm",
+  "generated": "5 Nov 2026, 4:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -8,11 +8,11 @@
     "guestSessions": 41,
     "gsNotices": 7,
     "quizNotices": 26,
-    "cancelNotices": 15,
-    "cancelledClasses": 25,
+    "cancelNotices": 14,
+    "cancelledClasses": 22,
     "tentativeClasses": 7,
     "makeupClasses": 18,
-    "maybeCancelled": 1,
+    "maybeCancelled": 4,
     "events": 173
   },
   "subjects": {
@@ -8592,17 +8592,14 @@
       "date": "06-Nov-2026",
       "remarks": [
         "IM Quiz-2 20 Minutes",
-        "GTM Quiz -2 30 Minutes",
-        "Placement Full Day MMM Cancel"
+        "GTM Quiz -2 30 Minutes"
       ],
       "gs": [],
       "quiz": [
         "IM Quiz-2 20 Minutes",
         "GTM Quiz -2 30 Minutes"
       ],
-      "cancel": [
-        "Placement Full Day MMM Cancel"
-      ],
+      "cancel": [],
       "slots": [
         [
           {
@@ -8626,7 +8623,7 @@
             ],
             "room": "CR-017",
             "label": "MMM Gr.1 [AJS] CR-017",
-            "status": "cancelled"
+            "status": "maybe"
           }
         ],
         [
@@ -8639,7 +8636,7 @@
             ],
             "room": "CR-017",
             "label": "MMM Gr.2 [AJS] CR-017",
-            "status": "cancelled"
+            "status": "maybe"
           },
           {
             "type": "exam",
@@ -8656,7 +8653,7 @@
             ],
             "room": "CR-017",
             "label": "MMM Gr.3 [AJS] CR-017",
-            "status": "cancelled"
+            "status": "maybe"
           }
         ],
         [],
@@ -10215,14 +10212,14 @@
       "remarks": [
         "IM Quiz-3 20 Minutes",
         "MACR Make-up",
-        "SDM Will be Cancelled"
+        "SDM Cancelled"
       ],
       "gs": [],
       "quiz": [
         "IM Quiz-3 20 Minutes"
       ],
       "cancel": [
-        "SDM Will be Cancelled"
+        "SDM Cancelled"
       ],
       "slots": [
         [
