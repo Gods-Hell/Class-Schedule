@@ -1,5 +1,5 @@
 {
-  "generated": "9 Nov 2026, 12:00:03 pm",
+  "generated": "9 Nov 2026, 1:00:10 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -11112,7 +11112,8 @@
       "day": "Sat",
       "date": "28-Nov-2026",
       "remarks": [
-        "MACR Make-up"
+        "MACR Make-up",
+        "HR Class booked CR-017 10.00AM to 12.30PM"
       ],
       "gs": [],
       "quiz": [],
@@ -11204,7 +11205,9 @@
     "29-Nov-2026": {
       "day": "Sun",
       "date": "29-Nov-2026",
-      "remarks": [],
+      "remarks": [
+        "HR Class booked CR-017 10.00AM to 12.30PM"
+      ],
       "gs": [],
       "quiz": [],
       "cancel": [],
