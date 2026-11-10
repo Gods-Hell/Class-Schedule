@@ -1,15 +1,15 @@
 {
-  "generated": "10 Nov 2026, 9:00:03 am",
+  "generated": "10 Nov 2026, 10:00:03 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
-    "classes": 826,
+    "classes": 824,
     "guestSessions": 40,
     "gsNotices": 7,
-    "quizNotices": 26,
-    "cancelNotices": 14,
-    "cancelledClasses": 22,
+    "quizNotices": 27,
+    "cancelNotices": 15,
+    "cancelledClasses": 24,
     "tentativeClasses": 7,
     "makeupClasses": 18,
     "maybeCancelled": 1,
@@ -8828,11 +8828,14 @@
       "day": "Tue",
       "date": "10-Nov-2026",
       "remarks": [
-        "Exam Hall Not Available First Year Mid Term"
+        "Exam Hall Not Available First Year Mid Term",
+        "B2B Cancelled"
       ],
       "gs": [],
       "quiz": [],
-      "cancel": [],
+      "cancel": [
+        "B2B Cancelled"
+      ],
       "slots": [
         [
           {
@@ -8924,14 +8927,10 @@
             "label": "EBEC Gr.1 [GPK] CR-017"
           },
           {
-            "type": "cls",
+            "type": "cxl",
             "sub": "B2B",
             "grp": 1,
-            "faculty": [
-              "ATK"
-            ],
-            "room": "CR-014",
-            "label": "B2B Gr.1 [ATK] CR-014"
+            "label": "B2B Gr.1 Cancelled"
           },
           {
             "type": "cls",
@@ -8966,14 +8965,10 @@
             "label": "EBEC Gr.2 [GPK] CR-017"
           },
           {
-            "type": "cls",
+            "type": "cxl",
             "sub": "B2B",
-            "grp": 2,
-            "faculty": [
-              "ATK"
-            ],
-            "room": "CR-014",
-            "label": "B2B Gr.2 [ATK] CR-014"
+            "grp": 1,
+            "label": "B2B Gr.1 Cancelled"
           },
           {
             "type": "cls",
@@ -10394,13 +10389,15 @@
       "remarks": [
         "MIT 4.0 Quiz-3 60 Minutes",
         "SCM Quiz-2 60 Minutes",
-        "PRS Quiz-2 20 Minutes"
+        "PRS Quiz-2 20 Minutes",
+        "PF Quiz -2 30 Minutes"
       ],
       "gs": [],
       "quiz": [
         "MIT 4.0 Quiz-3 60 Minutes",
         "SCM Quiz-2 60 Minutes",
-        "PRS Quiz-2 20 Minutes"
+        "PRS Quiz-2 20 Minutes",
+        "PF Quiz -2 30 Minutes"
       ],
       "cancel": [],
       "slots": [
