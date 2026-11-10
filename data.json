@@ -1,18 +1,18 @@
 {
-  "generated": "10 Nov 2026, 4:00:03 pm",
+  "generated": "10 Nov 2026, 5:00:01 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
-    "classes": 824,
+    "classes": 825,
     "guestSessions": 40,
     "gsNotices": 7,
     "quizNotices": 27,
     "cancelNotices": 15,
     "cancelledClasses": 24,
     "tentativeClasses": 7,
-    "makeupClasses": 18,
-    "maybeCancelled": 1,
+    "makeupClasses": 19,
+    "maybeCancelled": 2,
     "events": 173
   },
   "subjects": {
@@ -11418,7 +11418,8 @@
               "SMA"
             ],
             "room": "CR-015",
-            "label": "IF [SMA] CR-015"
+            "label": "IF [SMA] CR-015",
+            "status": "maybe"
           }
         ],
         [],
@@ -11648,7 +11649,17 @@
             "status": "cancelled"
           }
         ],
-        [],
+        [
+          {
+            "type": "cls",
+            "label": "IF Make-up",
+            "sub": "IF",
+            "grp": 0,
+            "faculty": [],
+            "room": "",
+            "makeup": true
+          }
+        ],
         []
       ]
     },
