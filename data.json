@@ -1,5 +1,5 @@
 {
-  "generated": "12 Nov 2026, 5:00:03 pm",
+  "generated": "12 Nov 2026, 6:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -10,7 +10,7 @@
     "quizNotices": 27,
     "cancelNotices": 15,
     "cancelledClasses": 24,
-    "tentativeClasses": 7,
+    "tentativeClasses": 3,
     "makeupClasses": 19,
     "maybeCancelled": 2,
     "events": 173
@@ -9699,7 +9699,6 @@
             ],
             "room": "CR-015",
             "label": "MACR Gr.1 [BKD] CR-015",
-            "status": "tentative",
             "makeup": true
           }
         ],
@@ -9957,7 +9956,6 @@
             ],
             "room": "CR-015",
             "label": "MACR Gr.2 [BKD] CR-015",
-            "status": "tentative",
             "makeup": true
           }
         ],
@@ -10132,7 +10130,6 @@
             ],
             "room": "CR-015",
             "label": "MACR Gr.1 [BKD] CR-015",
-            "status": "tentative",
             "makeup": true
           }
         ],
@@ -10373,7 +10370,6 @@
             ],
             "room": "CR-015",
             "label": "MACR Gr.2 [BKD] CR-015",
-            "status": "tentative",
             "makeup": true
           }
         ],
@@ -11429,7 +11425,8 @@
       "remarks": [
         "CIS Presentation",
         "GTM Quiz-3 30 Minutes",
-        "EBEC To be cancelled"
+        "EBEC To be cancelled",
+        "CR-017 Booked for PGPM-HR"
       ],
       "gs": [],
       "quiz": [
