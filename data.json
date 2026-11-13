@@ -1,17 +1,17 @@
 {
-  "generated": "13 Nov 2026, 2:00:03 pm",
+  "generated": "13 Nov 2026, 3:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
-    "classes": 825,
+    "classes": 827,
     "guestSessions": 40,
     "gsNotices": 6,
     "quizNotices": 27,
     "cancelNotices": 15,
     "cancelledClasses": 24,
     "tentativeClasses": 3,
-    "makeupClasses": 19,
+    "makeupClasses": 21,
     "maybeCancelled": 2,
     "events": 173
   },
@@ -10404,7 +10404,17 @@
             "label": "SCM Quiz-2 60 Minutes"
           }
         ],
-        [],
+        [
+          {
+            "type": "cls",
+            "label": "MACR Make-up",
+            "sub": "MACR",
+            "grp": 0,
+            "faculty": [],
+            "room": "",
+            "makeup": true
+          }
+        ],
         [
           {
             "type": "cls",
@@ -10417,6 +10427,15 @@
             "room": "CR-010",
             "label": "BS-PPP Gr.1 [AP,VF] CR-010",
             "status": "maybe"
+          },
+          {
+            "type": "cls",
+            "label": "MACR Make-up",
+            "sub": "MACR",
+            "grp": 0,
+            "faculty": [],
+            "room": "",
+            "makeup": true
           }
         ],
         [
