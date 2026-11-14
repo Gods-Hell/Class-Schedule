@@ -1,17 +1,17 @@
 {
-  "generated": "14 Nov 2026, 9:00:02 am",
+  "generated": "14 Nov 2026, 10:00:01 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
-    "classes": 827,
+    "classes": 829,
     "guestSessions": 40,
     "gsNotices": 6,
     "quizNotices": 27,
     "cancelNotices": 15,
     "cancelledClasses": 24,
-    "tentativeClasses": 3,
-    "makeupClasses": 21,
+    "tentativeClasses": 5,
+    "makeupClasses": 23,
     "maybeCancelled": 2,
     "events": 173
   },
@@ -11764,7 +11764,8 @@
       "day": "Thur",
       "date": "03-Dec-2026",
       "remarks": [
-        "CIS Presentation"
+        "CIS Presentation",
+        "B2B Make-up"
       ],
       "gs": [],
       "quiz": [],
@@ -11831,6 +11832,18 @@
           },
           {
             "type": "cls",
+            "sub": "B2B",
+            "grp": 1,
+            "faculty": [
+              "ATK"
+            ],
+            "room": "CR-014",
+            "label": "B2B Gr.1 [ATK] CR-014",
+            "status": "tentative",
+            "makeup": true
+          },
+          {
+            "type": "cls",
             "sub": "MDPW",
             "grp": 1,
             "faculty": [
@@ -11860,6 +11873,18 @@
             ],
             "room": "CR-010",
             "label": "GTM Gr.1 [VM] CR-010"
+          },
+          {
+            "type": "cls",
+            "sub": "B2B",
+            "grp": 2,
+            "faculty": [
+              "ATK"
+            ],
+            "room": "CR-014",
+            "label": "B2B Gr.2 [ATK] CR-014",
+            "status": "tentative",
+            "makeup": true
           },
           {
             "type": "cls",
