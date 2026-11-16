@@ -1,5 +1,5 @@
 {
-  "generated": "16 Nov 2026, 1:00:01 pm",
+  "generated": "16 Nov 2026, 2:00:01 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -10383,15 +10383,13 @@
       "remarks": [
         "MIT 4.0 Quiz-3 60 Minutes",
         "SCM Quiz-2 60 Minutes",
-        "PRS Quiz-2 20 Minutes",
-        "PF Quiz -2 30 Minutes"
+        "PRS Quiz-2 20 Minutes"
       ],
       "gs": [],
       "quiz": [
         "MIT 4.0 Quiz-3 60 Minutes",
         "SCM Quiz-2 60 Minutes",
-        "PRS Quiz-2 20 Minutes",
-        "PF Quiz -2 30 Minutes"
+        "PRS Quiz-2 20 Minutes"
       ],
       "cancel": [],
       "slots": [
@@ -10494,10 +10492,13 @@
       "date": "21-Nov-2026",
       "remarks": [
         "MDPW Make-up Session",
+        "PF Quiz -2 30 Minutes",
         "BDDM Cancelled"
       ],
       "gs": [],
-      "quiz": [],
+      "quiz": [
+        "PF Quiz -2 30 Minutes"
+      ],
       "cancel": [
         "BDDM Cancelled"
       ],
