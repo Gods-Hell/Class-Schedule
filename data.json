@@ -1,19 +1,19 @@
 {
-  "generated": "17 Nov 2026, 4:00:01 pm",
+  "generated": "17 Nov 2026, 5:00:02 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
-    "classes": 826,
+    "classes": 821,
     "guestSessions": 40,
     "gsNotices": 6,
     "quizNotices": 29,
-    "cancelNotices": 15,
-    "cancelledClasses": 21,
+    "cancelNotices": 17,
+    "cancelledClasses": 27,
     "tentativeClasses": 3,
-    "makeupClasses": 23,
-    "maybeCancelled": 2,
-    "events": 173
+    "makeupClasses": 21,
+    "maybeCancelled": 1,
+    "events": 169
   },
   "subjects": {
     "MMM": [
@@ -9687,10 +9687,6 @@
         ],
         [
           {
-            "type": "ev",
-            "label": "SCM Tentative"
-          },
-          {
             "type": "cls",
             "sub": "MACR",
             "grp": 1,
@@ -9945,10 +9941,6 @@
         ],
         [
           {
-            "type": "ev",
-            "label": "SCM Tentative"
-          },
-          {
             "type": "cls",
             "sub": "MACR",
             "grp": 2,
@@ -10118,10 +10110,6 @@
           }
         ],
         [
-          {
-            "type": "ev",
-            "label": "SCM Tentative"
-          },
           {
             "type": "cls",
             "sub": "MACR",
@@ -10359,10 +10347,6 @@
         ],
         [
           {
-            "type": "ev",
-            "label": "SCM Tentative"
-          },
-          {
             "type": "cls",
             "sub": "MACR",
             "grp": 2,
@@ -10415,18 +10399,6 @@
           }
         ],
         [
-          {
-            "type": "cls",
-            "sub": "BS-PPP",
-            "grp": 1,
-            "faculty": [
-              "AP",
-              "VF"
-            ],
-            "room": "CR-010",
-            "label": "BS-PPP Gr.1 [AP,VF] CR-010",
-            "status": "maybe"
-          },
           {
             "type": "cls",
             "label": "MACR Make-up",
@@ -10801,20 +10773,20 @@
           {
             "type": "gs",
             "sub": "IM",
-            "room": "",
+            "room": "CR-009",
             "combined": false,
             "tentative": false,
-            "label": "IM Guest Speaker"
+            "label": "IM Guest Speaker CR-009"
           }
         ],
         [
           {
             "type": "gs",
             "sub": "IM",
-            "room": "",
+            "room": "CR-009",
             "combined": false,
             "tentative": false,
-            "label": "IM Guest Speaker"
+            "label": "IM Guest Speaker CR-009"
           }
         ],
         [
@@ -11314,7 +11286,7 @@
       "date": "30-Nov-2026",
       "remarks": [
         "BS-PPP Quiz-2 10 Minutes",
-        "SR Make-up",
+        "SR Make-up & IM Cancelled",
         "MIT 4.0 (GS)",
         "CR-008 Booked for PGPM-HR"
       ],
@@ -11324,30 +11296,24 @@
       "quiz": [
         "BS-PPP Quiz-2 10 Minutes"
       ],
-      "cancel": [],
+      "cancel": [
+        "SR Make-up & IM Cancelled"
+      ],
       "slots": [
         [
           {
-            "type": "cls",
+            "type": "cxl",
             "sub": "IM",
-            "grp": 1,
-            "faculty": [
-              "MN"
-            ],
-            "room": "CR-115",
-            "label": "IM Gr.1 [MN] CR-115"
+            "grp": 0,
+            "label": "IM Cancelled"
           }
         ],
         [
           {
-            "type": "cls",
+            "type": "cxl",
             "sub": "IM",
-            "grp": 2,
-            "faculty": [
-              "MN"
-            ],
-            "room": "CR-115",
-            "label": "IM Gr.2 [MN] CR-115"
+            "grp": 0,
+            "label": "IM Cancelled"
           }
         ],
         [
@@ -11360,7 +11326,7 @@
             ],
             "room": "CR-014",
             "label": "SR Gr.1 [MKV] CR-014",
-            "makeup": true
+            "status": "cancelled"
           },
           {
             "type": "cls",
@@ -11393,7 +11359,7 @@
             ],
             "room": "CR-014",
             "label": "SR Gr.2 [MKV] CR-014",
-            "makeup": true
+            "status": "cancelled"
           },
           {
             "type": "cls",
@@ -11449,7 +11415,7 @@
       "remarks": [
         "CIS Presentation",
         "GTM Quiz-3 30 Minutes",
-        "EBEC To be cancelled",
+        "EBEC cancelled",
         "CR-017 Booked for PGPM-HR"
       ],
       "gs": [],
@@ -11457,7 +11423,7 @@
         "GTM Quiz-3 30 Minutes"
       ],
       "cancel": [
-        "EBEC To be cancelled"
+        "EBEC cancelled"
       ],
       "slots": [
         [
@@ -11653,36 +11619,31 @@
       "date": "02-Dec-2026",
       "remarks": [
         "CIS Presentation",
-        "ISDC Quiz - 3"
+        "ISDC Quiz - 3",
+        "IM Cancelled"
       ],
       "gs": [],
       "quiz": [
         "ISDC Quiz - 3"
       ],
-      "cancel": [],
+      "cancel": [
+        "IM Cancelled"
+      ],
       "slots": [
         [
           {
-            "type": "cls",
+            "type": "cxl",
             "sub": "IM",
-            "grp": 2,
-            "faculty": [
-              "MN"
-            ],
-            "room": "CR-115",
-            "label": "IM Gr.2 [MN] CR-115"
+            "grp": 0,
+            "label": "IM Cancelled"
           }
         ],
         [
           {
-            "type": "cls",
+            "type": "cxl",
             "sub": "IM",
-            "grp": 1,
-            "faculty": [
-              "MN"
-            ],
-            "room": "CR-115",
-            "label": "IM Gr.1 [MN] CR-115"
+            "grp": 0,
+            "label": "IM Cancelled"
           }
         ],
         [
