@@ -1,5 +1,5 @@
 {
-  "generated": "17 Nov 2026, 12:00:02 pm",
+  "generated": "17 Nov 2026, 1:00:01 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -7,7 +7,7 @@
     "classes": 829,
     "guestSessions": 40,
     "gsNotices": 6,
-    "quizNotices": 28,
+    "quizNotices": 29,
     "cancelNotices": 15,
     "cancelledClasses": 24,
     "tentativeClasses": 5,
@@ -11124,10 +11124,13 @@
       "date": "28-Nov-2026",
       "remarks": [
         "MACR Make-up",
-        "HR Class booked CR-017 10.00AM to 12.30PM"
+        "HR Class booked CR-017 10.00AM to 12.30PM",
+        "ISDC Quiz-2"
       ],
       "gs": [],
-      "quiz": [],
+      "quiz": [
+        "ISDC Quiz-2"
+      ],
       "cancel": [],
       "slots": [
         [
@@ -11683,11 +11686,11 @@
       "date": "02-Dec-2026",
       "remarks": [
         "CIS Presentation",
-        "ISDC Quiz - 2"
+        "ISDC Quiz - 3"
       ],
       "gs": [],
       "quiz": [
-        "ISDC Quiz - 2"
+        "ISDC Quiz - 3"
       ],
       "cancel": [],
       "slots": [
