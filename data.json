@@ -1,16 +1,16 @@
 {
-  "generated": "17 Nov 2026, 3:00:02 pm",
+  "generated": "17 Nov 2026, 4:00:01 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
-    "classes": 829,
+    "classes": 826,
     "guestSessions": 40,
     "gsNotices": 6,
     "quizNotices": 29,
     "cancelNotices": 15,
-    "cancelledClasses": 24,
-    "tentativeClasses": 5,
+    "cancelledClasses": 21,
+    "tentativeClasses": 3,
     "makeupClasses": 23,
     "maybeCancelled": 2,
     "events": 173
@@ -11551,17 +11551,6 @@
           },
           {
             "type": "cls",
-            "sub": "EBEC",
-            "grp": 1,
-            "faculty": [
-              "GPK"
-            ],
-            "room": "CR-017",
-            "label": "EBEC Gr.1 [GPK] CR-017",
-            "status": "cancelled"
-          },
-          {
-            "type": "cls",
             "sub": "B2B",
             "grp": 1,
             "faculty": [
@@ -11604,17 +11593,6 @@
           },
           {
             "type": "cls",
-            "sub": "EBEC",
-            "grp": 2,
-            "faculty": [
-              "GPK"
-            ],
-            "room": "CR-017",
-            "label": "EBEC Gr.2 [GPK] CR-017",
-            "status": "cancelled"
-          },
-          {
-            "type": "cls",
             "sub": "B2B",
             "grp": 2,
             "faculty": [
@@ -11654,17 +11632,6 @@
             ],
             "room": "CR-010",
             "label": "GTM Gr.2 [VM] CR-010"
-          },
-          {
-            "type": "cls",
-            "sub": "EBEC",
-            "grp": 3,
-            "faculty": [
-              "GPK"
-            ],
-            "room": "CR-017",
-            "label": "EBEC Gr.3 [GPK] CR-017",
-            "status": "cancelled"
           }
         ],
         [
@@ -11847,7 +11814,6 @@
             ],
             "room": "CR-014",
             "label": "B2B Gr.1 [ATK] CR-014",
-            "status": "tentative",
             "makeup": true
           },
           {
@@ -11891,7 +11857,6 @@
             ],
             "room": "CR-014",
             "label": "B2B Gr.2 [ATK] CR-014",
-            "status": "tentative",
             "makeup": true
           },
           {
