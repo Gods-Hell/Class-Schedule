@@ -1,17 +1,17 @@
 {
-  "generated": "17 Nov 2026, 5:00:02 pm",
+  "generated": "17 Nov 2026, 6:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
-    "classes": 821,
-    "guestSessions": 40,
+    "classes": 820,
+    "guestSessions": 38,
     "gsNotices": 6,
     "quizNotices": 29,
     "cancelNotices": 17,
-    "cancelledClasses": 27,
-    "tentativeClasses": 3,
-    "makeupClasses": 21,
+    "cancelledClasses": 26,
+    "tentativeClasses": 7,
+    "makeupClasses": 19,
     "maybeCancelled": 1,
     "events": 169
   },
@@ -56,10 +56,6 @@
       1,
       2
     ],
-    "MDPW": [
-      1,
-      2
-    ],
     "BSF": [],
     "EBEC": [
       1,
@@ -67,6 +63,10 @@
       3
     ],
     "PF": [
+      1,
+      2
+    ],
+    "MDPW": [
       1,
       2
     ],
@@ -362,17 +362,6 @@
             ],
             "room": "CR-014",
             "label": "B2B Gr.1 [ATK] CR-014"
-          },
-          {
-            "type": "cls",
-            "sub": "MDPW",
-            "grp": 1,
-            "faculty": [
-              "PN"
-            ],
-            "room": "CR-015",
-            "label": "MDPW Gr.1 [PN] CR-015",
-            "status": "cancelled"
           }
         ],
         [
@@ -395,17 +384,6 @@
             ],
             "room": "CR-014",
             "label": "B2B Gr.2 [ATK] CR-014"
-          },
-          {
-            "type": "cls",
-            "sub": "MDPW",
-            "grp": 2,
-            "faculty": [
-              "PN"
-            ],
-            "room": "CR-015",
-            "label": "MDPW Gr.2 [PN] CR-015",
-            "status": "cancelled"
           }
         ],
         [
@@ -487,8 +465,8 @@
             "faculty": [
               "SKG"
             ],
-            "room": "CR-008",
-            "label": "SCM Gr.2 [SKG] CR-008"
+            "room": "CR-010",
+            "label": "SCM Gr.2 [SKG] CR-010"
           }
         ],
         [
@@ -529,8 +507,8 @@
             "faculty": [
               "SKG"
             ],
-            "room": "CR-008",
-            "label": "SCM Gr.1 [SKG] CR-008"
+            "room": "CR-010",
+            "label": "SCM Gr.1 [SKG] CR-010"
           }
         ],
         [
@@ -9961,6 +9939,7 @@
       "remarks": [
         "BSF Quiz-3 30 Minutes",
         "MACR Make-up",
+        "MMM & IM Final Feedback",
         "CR-010 Booked for HR Class 09.00AM to 01.00PM"
       ],
       "gs": [],
@@ -10390,37 +10369,36 @@
         [
           {
             "type": "cls",
-            "label": "MACR Make-up",
             "sub": "MACR",
-            "grp": 0,
-            "faculty": [],
-            "room": "",
-            "makeup": true
+            "grp": 1,
+            "faculty": [
+              "BKD"
+            ],
+            "room": "CR-015",
+            "label": "MACR Gr.1 [BKD] CR-015",
+            "status": "tentative"
           }
         ],
         [
           {
-            "type": "cls",
-            "label": "MACR Make-up",
-            "sub": "MACR",
-            "grp": 0,
-            "faculty": [],
-            "room": "",
-            "makeup": true
-          }
-        ],
-        [
-          {
-            "type": "cls",
+            "type": "cxl",
             "sub": "BS-PPP",
+            "grp": 1,
+            "label": "BS-PPP Gr.1 Cancelled"
+          },
+          {
+            "type": "cls",
+            "sub": "MACR",
             "grp": 2,
             "faculty": [
-              "AP",
-              "VF"
+              "BKD"
             ],
-            "room": "CR-010",
-            "label": "BS-PPP Gr.2 [AP,VF] CR-010"
-          },
+            "room": "CR-015",
+            "label": "MACR Gr.2 [BKD] CR-015",
+            "status": "tentative"
+          }
+        ],
+        [
           {
             "type": "gs",
             "sub": null,
@@ -10564,22 +10542,26 @@
         [
           {
             "type": "cls",
-            "label": "MDPW Make-up Session",
             "sub": "MDPW",
-            "grp": 0,
-            "faculty": [],
-            "room": "",
+            "grp": 1,
+            "faculty": [
+              "PN"
+            ],
+            "room": "CR-015",
+            "label": "MDPW Gr.1 [PN] CR-015",
             "makeup": true
           }
         ],
         [
           {
             "type": "cls",
-            "label": "MDPW Make-up Session",
             "sub": "MDPW",
-            "grp": 0,
-            "faculty": [],
-            "room": "",
+            "grp": 2,
+            "faculty": [
+              "PN"
+            ],
+            "room": "CR-015",
+            "label": "MDPW Gr.2 [PN] CR-015",
             "makeup": true
           }
         ],
@@ -11230,22 +11212,28 @@
         ],
         [
           {
-            "type": "gs",
+            "type": "cls",
             "sub": "MACR",
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "MACR Guest Speaker"
+            "grp": 1,
+            "faculty": [
+              "BKD"
+            ],
+            "room": "CR-015",
+            "label": "MACR Gr.1 [BKD] CR-015",
+            "status": "tentative"
           }
         ],
         [
           {
-            "type": "gs",
+            "type": "cls",
             "sub": "MACR",
-            "room": "",
-            "combined": false,
-            "tentative": false,
-            "label": "MACR Guest Speaker"
+            "grp": 2,
+            "faculty": [
+              "BKD"
+            ],
+            "room": "CR-015",
+            "label": "MACR Gr.2 [BKD] CR-015",
+            "status": "tentative"
           }
         ],
         [
