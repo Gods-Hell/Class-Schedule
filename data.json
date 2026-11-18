@@ -1,5 +1,5 @@
 {
-  "generated": "18 Nov 2026, 11:00:17 am",
+  "generated": "18 Nov 2026, 12:00:01 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -10,7 +10,7 @@
     "quizNotices": 29,
     "cancelNotices": 17,
     "cancelledClasses": 26,
-    "tentativeClasses": 7,
+    "tentativeClasses": 1,
     "makeupClasses": 19,
     "maybeCancelled": 1,
     "events": 169
@@ -10011,7 +10011,8 @@
               "BKD"
             ],
             "room": "CR-015",
-            "label": "MACR Gr.2 [BKD] CR-015"
+            "label": "MACR Gr.2 [BKD] CR-015",
+            "makeup": true
           },
           {
             "type": "cls",
@@ -10053,7 +10054,8 @@
               "BKD"
             ],
             "room": "CR-015",
-            "label": "MACR Gr.1 [BKD] CR-015"
+            "label": "MACR Gr.1 [BKD] CR-015",
+            "makeup": true
           },
           {
             "type": "cls",
@@ -10088,19 +10090,7 @@
             "label": "IF [SMA] CR-015"
           }
         ],
-        [
-          {
-            "type": "cls",
-            "sub": "MACR",
-            "grp": 1,
-            "faculty": [
-              "BKD"
-            ],
-            "room": "CR-015",
-            "label": "MACR Gr.1 [BKD] CR-015",
-            "makeup": true
-          }
-        ],
+        [],
         []
       ]
     },
@@ -10324,19 +10314,7 @@
             "label": "EBEC Gr.3 [GPK] CR-017"
           }
         ],
-        [
-          {
-            "type": "cls",
-            "sub": "MACR",
-            "grp": 2,
-            "faculty": [
-              "BKD"
-            ],
-            "room": "CR-015",
-            "label": "MACR Gr.2 [BKD] CR-015",
-            "makeup": true
-          }
-        ],
+        [],
         []
       ]
     },
@@ -10375,8 +10353,7 @@
               "BKD"
             ],
             "room": "CR-015",
-            "label": "MACR Gr.1 [BKD] CR-015",
-            "status": "tentative"
+            "label": "MACR Gr.1 [BKD] CR-015"
           }
         ],
         [
@@ -10394,8 +10371,7 @@
               "BKD"
             ],
             "room": "CR-015",
-            "label": "MACR Gr.2 [BKD] CR-015",
-            "status": "tentative"
+            "label": "MACR Gr.2 [BKD] CR-015"
           }
         ],
         [
@@ -11123,7 +11099,6 @@
             ],
             "room": "CR-015",
             "label": "MACR Gr.1 [BKD] CR-015",
-            "status": "tentative",
             "makeup": true
           }
         ],
@@ -11137,7 +11112,6 @@
             ],
             "room": "CR-015",
             "label": "MACR Gr.2 [BKD] CR-015",
-            "status": "tentative",
             "makeup": true
           }
         ],
@@ -11214,13 +11188,12 @@
           {
             "type": "cls",
             "sub": "MACR",
-            "grp": 1,
+            "grp": 2,
             "faculty": [
               "BKD"
             ],
             "room": "CR-015",
-            "label": "MACR Gr.1 [BKD] CR-015",
-            "status": "tentative"
+            "label": "MACR Gr.2 [BKD] CR-015"
           }
         ],
         [
@@ -11232,8 +11205,7 @@
               "BKD"
             ],
             "room": "CR-015",
-            "label": "MACR Gr.1 [BKD] CR-015",
-            "status": "tentative"
+            "label": "MACR Gr.1 [BKD] CR-015"
           }
         ],
         [
@@ -11290,6 +11262,16 @@
       "slots": [
         [
           {
+            "type": "cls",
+            "sub": "MACR",
+            "grp": 2,
+            "faculty": [
+              "BKD"
+            ],
+            "room": "CR-015",
+            "label": "MACR Gr.2 [BKD] CR-015"
+          },
+          {
             "type": "cxl",
             "sub": "IM",
             "grp": 0,
@@ -11297,6 +11279,16 @@
           }
         ],
         [
+          {
+            "type": "cls",
+            "sub": "MACR",
+            "grp": 1,
+            "faculty": [
+              "BKD"
+            ],
+            "room": "CR-015",
+            "label": "MACR Gr.1 [BKD] CR-015"
+          },
           {
             "type": "cxl",
             "sub": "IM",
