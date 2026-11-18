@@ -1,5 +1,5 @@
 {
-  "generated": "18 Nov 2026, 10:00:02 am",
+  "generated": "18 Nov 2026, 11:00:17 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -11227,12 +11227,12 @@
           {
             "type": "cls",
             "sub": "MACR",
-            "grp": 2,
+            "grp": 1,
             "faculty": [
               "BKD"
             ],
             "room": "CR-015",
-            "label": "MACR Gr.2 [BKD] CR-015",
+            "label": "MACR Gr.1 [BKD] CR-015",
             "status": "tentative"
           }
         ],
