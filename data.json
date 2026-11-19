@@ -1,18 +1,18 @@
 {
-  "generated": "19 Nov 2026, 10:00:03 am",
+  "generated": "19 Nov 2026, 11:00:03 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
-    "classes": 822,
+    "classes": 821,
     "guestSessions": 38,
     "gsNotices": 6,
     "quizNotices": 29,
     "cancelNotices": 18,
-    "cancelledClasses": 28,
+    "cancelledClasses": 29,
     "tentativeClasses": 2,
     "makeupClasses": 20,
-    "maybeCancelled": 1,
+    "maybeCancelled": 0,
     "events": 171
   },
   "subjects": {
@@ -11378,15 +11378,10 @@
             "label": "MIT 4.0 [SKS] CR-014"
           },
           {
-            "type": "cls",
+            "type": "cxl",
             "sub": "IF",
             "grp": 0,
-            "faculty": [
-              "SMA"
-            ],
-            "room": "CR-015",
-            "label": "IF [SMA] CR-015",
-            "status": "maybe"
+            "label": "IF [SMA] CR-015 - cancelled"
           }
         ],
         [],
