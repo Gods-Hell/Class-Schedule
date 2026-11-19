@@ -1,19 +1,19 @@
 {
-  "generated": "19 Nov 2026, 9:00:03 am",
+  "generated": "19 Nov 2026, 10:00:03 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
     "subjects": 22,
-    "classes": 820,
+    "classes": 822,
     "guestSessions": 38,
     "gsNotices": 6,
     "quizNotices": 29,
-    "cancelNotices": 17,
-    "cancelledClasses": 26,
-    "tentativeClasses": 1,
-    "makeupClasses": 19,
+    "cancelNotices": 18,
+    "cancelledClasses": 28,
+    "tentativeClasses": 2,
+    "makeupClasses": 20,
     "maybeCancelled": 1,
-    "events": 169
+    "events": 171
   },
   "subjects": {
     "MMM": [
@@ -10100,14 +10100,16 @@
       "remarks": [
         "IM Quiz-3 20 Minutes",
         "MACR Make-up",
-        "SDM Cancelled"
+        "SDM Cancelled",
+        "MDPW Cancelled"
       ],
       "gs": [],
       "quiz": [
         "IM Quiz-3 20 Minutes"
       ],
       "cancel": [
-        "SDM Cancelled"
+        "SDM Cancelled",
+        "MDPW Cancelled"
       ],
       "slots": [
         [
@@ -10227,7 +10229,8 @@
               "PN"
             ],
             "room": "CR-015",
-            "label": "MDPW Gr.1 [PN] CR-015"
+            "label": "MDPW Gr.1 [PN] CR-015",
+            "status": "cancelled"
           },
           {
             "type": "cls",
@@ -10279,7 +10282,8 @@
               "PN"
             ],
             "room": "CR-015",
-            "label": "MDPW Gr.2 [PN] CR-015"
+            "label": "MDPW Gr.2 [PN] CR-015",
+            "status": "cancelled"
           },
           {
             "type": "cls",
@@ -11583,8 +11587,8 @@
         [
           {
             "type": "cls",
-            "label": "IF Make-up",
-            "sub": "IF",
+            "label": "MDPW Make-up",
+            "sub": "MDPW",
             "grp": 0,
             "faculty": [],
             "room": "",
@@ -11612,6 +11616,10 @@
       "slots": [
         [
           {
+            "type": "ev",
+            "label": "CIS Presentation"
+          },
+          {
             "type": "cxl",
             "sub": "IM",
             "grp": 0,
@@ -11619,6 +11627,10 @@
           }
         ],
         [
+          {
+            "type": "ev",
+            "label": "CIS Presentation"
+          },
           {
             "type": "cxl",
             "sub": "IM",
@@ -11672,7 +11684,17 @@
             "label": "IF [SMA] CR-015"
           }
         ],
-        [],
+        [
+          {
+            "type": "cls",
+            "label": "MDPW Make-up",
+            "sub": "MDPW",
+            "grp": 0,
+            "faculty": [],
+            "room": "",
+            "makeup": true
+          }
+        ],
         []
       ]
     },
@@ -11833,7 +11855,19 @@
             "label": "GTM Gr.2 [VM] CR-010"
           }
         ],
-        [],
+        [
+          {
+            "type": "cls",
+            "sub": "IF",
+            "grp": 0,
+            "faculty": [
+              "SMA"
+            ],
+            "room": "CR-015",
+            "label": "IF [SMA] CR-015",
+            "status": "tentative"
+          }
+        ],
         []
       ]
     },
