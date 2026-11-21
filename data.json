@@ -1,5 +1,5 @@
 {
-  "generated": "21 Nov 2026, 10:00:03 am",
+  "generated": "21 Nov 2026, 11:00:03 am",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -7,7 +7,7 @@
     "classes": 821,
     "guestSessions": 38,
     "gsNotices": 6,
-    "quizNotices": 29,
+    "quizNotices": 30,
     "cancelNotices": 18,
     "cancelledClasses": 29,
     "tentativeClasses": 2,
@@ -11599,11 +11599,13 @@
       "remarks": [
         "CIS Presentation",
         "ISDC Quiz - 3",
-        "IM Cancelled"
+        "IM Cancelled",
+        "MDPW Quiz-2"
       ],
       "gs": [],
       "quiz": [
-        "ISDC Quiz - 3"
+        "ISDC Quiz - 3",
+        "MDPW Quiz-2"
       ],
       "cancel": [
         "IM Cancelled"
