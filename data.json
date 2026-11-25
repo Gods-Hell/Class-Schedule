@@ -1,5 +1,5 @@
 {
-  "generated": "25 Nov 2026, 4:00:03 pm",
+  "generated": "25 Nov 2026, 5:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -10962,7 +10962,9 @@
     "26-Nov-2026": {
       "day": "Thur",
       "date": "26-Nov-2026",
-      "remarks": [],
+      "remarks": [
+        "Placement Booked class room CR-014 from 08.30Am to 10.30AM"
+      ],
       "gs": [],
       "quiz": [],
       "cancel": [],
