@@ -1,5 +1,5 @@
 {
-  "generated": "26 Nov 2026, 3:00:01 pm",
+  "generated": "26 Nov 2026, 4:00:03 pm",
   "term": "Term V",
   "stats": {
     "dates": 97,
@@ -11154,7 +11154,8 @@
       "day": "Sun",
       "date": "29-Nov-2026",
       "remarks": [
-        "HR Class booked CR-017 10.00AM to 12.30PM"
+        "HR Class booked CR-017 10.00AM to 1.45 PM",
+        "First Year class booked in CR-014 from 06.00PM to 10.00PM"
       ],
       "gs": [],
       "quiz": [],
@@ -11397,7 +11398,7 @@
         "CIS Presentation",
         "GTM Quiz-3 30 Minutes",
         "EBEC cancelled",
-        "CR-017 Booked for PGPM-HR"
+        "CR-017 Booked for PGPM-HRfrom 03.00Pm to 04.30PM"
       ],
       "gs": [],
       "quiz": [
